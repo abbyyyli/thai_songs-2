@@ -1,0 +1,2501 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เค้ารักเธอที่สุด (ily) — MEYOU | Thai Song Lab</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+Thai:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+:root{--bg:#111018;--text:#fff8ef;--muted:#c9c0b7;--soft:#a9a2b5;--line:rgba(255,255,255,.13);--card:rgba(255,255,255,.075);--card2:rgba(255,255,255,.105);--accent:#f2bb6b;--accent2:#9fd7c7;--blue:#91a8d8;--purple:#b69ad8;--rose:#edb4a3;--shadow:0 18px 46px rgba(0,0,0,.28);--radius:22px;--thai:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif;--ui:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--zh:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;--en:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;color:var(--text);font-family:var(--ui);line-height:1.65;background:radial-gradient(circle at 8% -8%,rgba(242,187,107,.22),transparent 33%),radial-gradient(circle at 92% 6%,rgba(145,168,216,.20),transparent 34%),radial-gradient(circle at 40% 58%,rgba(182,154,216,.14),transparent 42%),linear-gradient(145deg,#14121c 0%,#181724 44%,#101018 100%);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}button,input{font-family:inherit}.thai,.th{font-family:var(--thai)}.roman,.rom{font-family:var(--mono)}.top{position:sticky;top:0;z-index:50;background:rgba(15,15,22,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.top-inner{max-width:1120px;margin:auto;padding:13px 18px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}.brand{font-weight:800;color:var(--accent);letter-spacing:.02em}.nav{display:flex;gap:8px;flex-wrap:wrap}.btn{font-family:var(--ui);border:1px solid var(--line);background:rgba(255,255,255,.055);color:var(--muted);border-radius:999px;padding:8px 13px;font-size:13px;cursor:pointer;transition:.15s ease}.btn:hover,.btn.active-tab,.mode-on{border-color:rgba(242,187,107,.85);color:var(--accent);background:rgba(242,187,107,.12)}.wrap{max-width:1120px;margin:0 auto;padding:26px 18px 74px}.hero{padding:18px 0 22px}.kicker{font-family:var(--ui);color:var(--accent);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800}.hero-main{display:flex;gap:18px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap}.song-name{font-family:var(--thai);font-size:44px;line-height:1.12;margin:6px 0 5px}.subtitle{color:var(--muted);font-size:15px}.quick-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.meta-pill{font-family:var(--ui);border:1px solid rgba(242,187,107,.38);background:rgba(242,187,107,.10);color:#f5d6a3;border-radius:999px;padding:5px 10px;font-size:12.5px}.page{display:none;animation:fade .18s ease}.page.active{display:block}@keyframes fade{from{opacity:.55;transform:translateY(4px)}to{opacity:1;transform:none}}.glass{background:linear-gradient(145deg,rgba(255,255,255,.095),rgba(255,255,255,.045));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);backdrop-filter:blur(14px)}.overview-layout{display:grid;grid-template-columns:1fr;gap:18px}.overview-card{padding:22px}.overview-title{font-family:var(--ui);font-size:13px;letter-spacing:.16em;color:var(--accent);font-weight:800;text-transform:uppercase;margin-bottom:14px}.statement{font-family:var(--zh);font-size:20px;line-height:1.8;margin-bottom:18px;color:#fff7ee;letter-spacing:.01em}.focus-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.focus{border:1px solid rgba(159,215,199,.32);background:rgba(159,215,199,.075);border-radius:16px;padding:12px}.focus b{display:block;font-size:13px;color:#e9fff8;margin-bottom:4px}.focus span{font-family:var(--zh);font-size:12px;color:var(--muted);line-height:1.72}.progress-wrap{margin-top:18px}.progress-row{display:flex;align-items:center;gap:10px;margin:9px 0}.progress-row .lbl{width:86px;color:var(--muted);font-size:12px}.bar{height:10px;flex:1;border-radius:999px;background:rgba(255,255,255,.10);overflow:hidden;border:1px solid var(--line)}.bar>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:999px}.pct{width:42px;text-align:right;color:#f5d6a3;font-size:12px}.study{padding:18px;margin-top:18px}.toolbar{display:flex;gap:8px;flex-wrap:wrap}.hint{font-family:var(--zh);color:var(--muted);font-size:13px;line-height:1.75;margin-top:12px}.lyrics-tools{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.search{width:100%;border:1px solid var(--line);background:rgba(255,255,255,.07);color:var(--text);border-radius:999px;padding:10px 14px;font-size:14px;margin-bottom:14px}.search::placeholder{color:var(--soft)}.song-section{margin:16px 0;overflow:hidden}.sec-head{width:100%;border:none;background:linear-gradient(135deg,rgba(242,187,107,.16),rgba(255,255,255,.035));color:var(--text);padding:15px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;text-align:left}.sec-title{display:block;font-size:15px;font-weight:800}.sec-sub{display:block;color:var(--muted);font-size:12px;margin-top:2px}.sec-body{display:none;padding:13px}.song-section.open .sec-body{display:block}.arrow{color:var(--muted);transition:.15s}.song-section.open .arrow{transform:rotate(180deg)}.line{position:relative;border:1px solid rgba(255,255,255,.105);background:linear-gradient(145deg,rgba(255,255,255,.078),rgba(255,255,255,.035));border-radius:20px;padding:17px 16px;margin:11px 0;box-shadow:0 10px 28px rgba(0,0,0,.16)}.line.hidden,.study-card.hidden{display:none}.th{font-size:27px;line-height:1.45;font-weight:800;color:#fffaf4}.rom{font-size:13px;color:#e6c58e;margin-top:6px;letter-spacing:.01em}.zh{font-family:var(--ui);font-size:15px;color:#ded7d0;margin-top:4px;line-height:1.72}.en{font-family:var(--en);color:#b9c7e8;font-size:13.5px;margin-top:4px;line-height:1.55}.vocab{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}.chip{display:inline-flex;gap:7px;align-items:center;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.07);border-radius:999px;padding:5px 10px;font-size:12px;color:var(--muted);cursor:pointer;transition:.14s ease}.chip:hover,.chip.active{border-color:rgba(242,187,107,.75);background:rgba(242,187,107,.12);color:var(--accent)}.chip b{font-family:var(--thai);font-size:13.5px;color:#fff8ef}.chip-en{font-family:var(--en);font-size:11.5px;color:#bcb3ad}.note{font-family:var(--zh);margin-top:12px;color:#c7beb7;font-size:13px;line-height:1.85;border-left:4px solid var(--accent2);padding:9px 0 9px 12px;background:linear-gradient(90deg,rgba(159,215,199,.08),transparent);border-radius:0 12px 12px 0}.line-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:13px}.round{border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.06);color:var(--muted);border-radius:99px;width:36px;height:36px;cursor:pointer;transition:.14s ease}.round:hover,.round.active{border-color:rgba(242,187,107,.82);color:var(--accent);background:rgba(242,187,107,.13)}.round.learned.active{border-color:var(--accent2);color:var(--accent2);background:rgba(159,215,199,.12)}.study-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:12px;margin-top:14px}.study-card{position:relative;padding:15px 88px 15px 15px;cursor:pointer}.study-card:hover{border-color:rgba(242,187,107,.55);background:linear-gradient(145deg,rgba(242,187,107,.11),rgba(255,255,255,.04))}.study-card .th{font-size:25px}.study-card .rom{font-size:12.5px}.study-card .zh{font-size:13px}.mini-actions{position:absolute;right:12px;top:50%;transform:translateY(-50%);display:flex;gap:6px}.mini-actions .round{width:31px;height:31px;font-size:12px}.level{display:inline-flex;margin-top:8px;border:1px solid rgba(145,168,216,.28);background:rgba(145,168,216,.09);border-radius:999px;padding:3px 8px;color:#c8d5f3;font-size:11px}.fav-block{margin:18px 0}.fav-block h3{font-size:14px;color:var(--accent);margin:0 0 10px;letter-spacing:.06em}
+.collapsible-group{margin:16px 0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(255,255,255,.035)}
+.group-head{width:100%;border:0;background:linear-gradient(135deg,rgba(242,187,107,.12),rgba(255,255,255,.025));color:var(--text);padding:13px 15px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left}
+.group-title{font-family:var(--ui);font-weight:800;color:var(--accent);letter-spacing:.04em}
+.group-count{font-family:var(--ui);font-size:12px;color:var(--muted);margin-left:8px}
+.group-body{display:block;padding:13px}
+.collapsible-group.closed .group-body{display:none}
+.collapsible-group.closed .arrow{transform:rotate(-90deg)}
+.storage-tools{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.import-file{display:none}
+.empty{padding:18px;color:var(--muted);border:1px dashed var(--line);border-radius:18px;text-align:center}.hide-roman .rom{display:none}.hide-zh .zh{display:none}.thai-only .rom,.thai-only .zh,.thai-only .en,.thai-only .note,.thai-only .vocab{display:none}.shadow .note,.shadow .vocab,.shadow .en{display:none}.shadow .line{background:linear-gradient(145deg,rgba(242,187,107,.105),rgba(255,255,255,.035))}footer{font-family:var(--ui);text-align:center;color:var(--muted);font-size:12px;padding:32px}
+.brand-home{
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+.brand-home:hover::after{
+  content:"Back to Library";
+  font-size:11px;
+  color:var(--muted);
+  font-weight:500;
+  letter-spacing:0;
+  margin-left:4px;
+}
+@media(max-width:680px){
+  .brand-home:hover::after{content:"";}
+}
+
+@media(max-width:680px){.wrap{padding:20px 16px 64px}.top-inner{align-items:flex-start}.nav{gap:7px}.btn{padding:7px 11px;font-size:12.5px}.song-name{font-size:36px}.quick-meta{margin-top:12px}.focus-grid{grid-template-columns:1fr}.overview-card{padding:18px}.statement{font-size:17px}.th{font-size:24px}.line{padding:15px 14px}.sec-body{padding:10px}.study-list{grid-template-columns:1fr}.study-card{padding-right:86px}.progress-row .lbl{width:76px}}
+
+/* v4 visual reset: use the clean v1 reading-note design + latest v2.6 functions */
+:root{
+  --bg:#111318;
+  --card:#1b1f2a;
+  --card2:#232838;
+  --text:#f7efe8;
+  --muted:#b8aea6;
+  --line:#343948;
+  --accent:#e9a84c;
+  --accent2:#8dc6b5;
+  --rose:#efb0a1;
+  --soft:rgba(233,168,76,.10);
+  --shadow:0 14px 36px rgba(0,0,0,.25);
+  --radius:18px;
+  --thai:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif;
+  --ui:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;
+  --zh:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;
+  --en:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;
+  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+body{
+  background:radial-gradient(circle at top left,#2b2234 0,#111318 45%,#0e0f12 100%) !important;
+  color:var(--text);
+  font-family:var(--zh);
+  font-size:14px;
+  line-height:1.75;
+}
+.top{
+  background:rgba(17,19,24,.88);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(12px);
+}
+.top-inner{
+  max-width:1100px;
+  padding:12px 18px;
+}
+.brand{
+  color:var(--accent);
+  font-family:var(--zh);
+  font-size:14px;
+  font-weight:700;
+}
+.btn{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--muted);
+  border-radius:999px;
+  padding:7px 12px;
+  font-size:12px;
+  font-family:var(--zh);
+}
+.btn:hover,.btn.active-tab,.mode-on{
+  border-color:var(--accent);
+  color:var(--accent);
+  background:rgba(233,168,76,.08);
+}
+.wrap{
+  max-width:1100px;
+  padding:24px 18px 60px;
+}
+.hero{
+  padding:34px 0 22px;
+}
+.kicker{
+  color:var(--accent);
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  font-weight:700;
+  font-family:var(--zh);
+}
+.song-name{
+  font-family:var(--thai);
+  font-size:42px;
+  line-height:1.2;
+  margin:7px 0;
+}
+.subtitle{
+  color:var(--muted);
+  max-width:760px;
+  font-size:14px;
+}
+.quick-meta{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:16px;
+}
+.meta-pill{
+  border:1px solid rgba(233,168,76,.35);
+  background:var(--soft);
+  color:#f2d4a1;
+  border-radius:999px;
+  padding:4px 10px;
+  font-size:12px;
+  font-family:var(--zh);
+}
+.glass,.overview-card,.study,.song-section,.section,.collapsible-group{
+  background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025)) !important;
+  border:1px solid var(--line) !important;
+  border-radius:var(--radius) !important;
+  box-shadow:var(--shadow);
+  backdrop-filter:none;
+}
+.overview-layout{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:16px;
+  align-items:stretch;
+}
+.overview-card,.study{
+  padding:18px;
+  margin-top:0;
+}
+.overview-title{
+  font-family:var(--zh);
+  font-size:15px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin-bottom:10px;
+  font-weight:700;
+}
+.statement{
+  font-family:var(--zh);
+  color:var(--text);
+  font-size:14px;
+  line-height:1.8;
+  margin-bottom:10px;
+}
+.focus-grid{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+.focus{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  border-radius:999px;
+  padding:5px 9px;
+}
+.focus b{
+  display:inline;
+  color:var(--muted);
+  font-family:var(--zh);
+  font-size:12px;
+  font-weight:400;
+}
+.focus span{
+  display:none;
+}
+.toolbar{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin:18px 0;
+}
+.hint{
+  color:var(--muted);
+  font-family:var(--zh);
+  font-size:13px;
+  line-height:1.75;
+}
+.progress-wrap{display:none}
+.search{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--text);
+  border-radius:999px;
+  padding:9px 13px;
+  font-size:13px;
+  font-family:var(--zh);
+}
+.song-section{
+  margin:16px 0;
+  overflow:hidden;
+  scroll-margin-top:82px;
+}
+.sec-head{
+  background:linear-gradient(135deg,rgba(233,168,76,.12),rgba(255,255,255,.025));
+  color:var(--text);
+  padding:14px 16px;
+}
+.sec-title{
+  font-weight:700;
+  font-size:14px;
+}
+.sec-sub{
+  color:var(--muted);
+  font-size:12px;
+}
+.sec-body{
+  padding:14px;
+}
+.line{
+  border:1px solid rgba(255,255,255,.06);
+  background:rgba(255,255,255,.025);
+  border-radius:14px;
+  padding:12px 64px 12px 12px;
+  margin:10px 0;
+  box-shadow:none;
+}
+.th{
+  font-family:var(--thai);
+  font-size:18px;
+  font-weight:600;
+  line-height:1.55;
+}
+.rom{
+  font-family:var(--mono);
+  color:#d0b79a;
+  font-size:12px;
+  margin-top:4px;
+}
+.zh{
+  font-family:var(--zh);
+  color:var(--text);
+  font-size:13px;
+  line-height:1.7;
+}
+.en{
+  font-family:var(--en);
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.6;
+}
+.note{
+  margin-top:7px;
+  color:var(--muted);
+  font-family:var(--zh);
+  font-size:12.5px;
+  border-left:3px solid var(--accent2);
+  padding:0 0 0 9px;
+  background:transparent;
+  border-radius:0;
+}
+.vocab{
+  gap:6px;
+  margin-top:8px;
+}
+.chip{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  border-radius:999px;
+  padding:4px 9px;
+  font-size:11.5px;
+  color:var(--muted);
+}
+.chip b{
+  font-family:var(--thai);
+  color:var(--text);
+  font-size:12.5px;
+}
+.chip-en{
+  font-family:var(--zh);
+  color:var(--muted);
+  font-size:11.5px;
+}
+.round{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--muted);
+  border-radius:99px;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+.round:hover,.round.active{
+  border-color:var(--accent);
+  color:var(--accent);
+  background:rgba(233,168,76,.08);
+}
+.round.learned.active{
+  border-color:var(--accent2);
+  color:var(--accent2);
+  background:rgba(141,198,181,.09);
+}
+.line-actions,.mini-actions{
+  position:absolute !important;
+  right:12px !important;
+  top:50% !important;
+  bottom:auto !important;
+  transform:translateY(-50%) !important;
+  display:flex;
+  gap:6px;
+  margin:0 !important;
+}
+.study-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:8px;
+  margin-top:12px;
+}
+.study-card{
+  border:1px solid var(--line) !important;
+  border-radius:12px !important;
+  padding:10px 76px 10px 10px !important;
+  background:rgba(255,255,255,.025) !important;
+  box-shadow:none !important;
+}
+.study-card:hover,.line:hover{
+  border-color:var(--accent) !important;
+  background:rgba(233,168,76,.06) !important;
+}
+.study-card .th{
+  font-size:18px;
+}
+.study-card .rom{
+  font-size:12px;
+}
+.study-card .zh,.study-card .en{
+  font-size:12px;
+}
+.level:empty{display:none!important}
+.line.playing,.study-card.playing{
+  border-color:var(--accent)!important;
+  background:rgba(233,168,76,.08)!important;
+  box-shadow:none!important;
+}
+.line.playing::after,.study-card.playing::after{
+  content:"▶";
+  position:absolute;
+  right:13px;
+  top:10px;
+  font-size:11px;
+  color:var(--accent);
+  border:0;
+  background:transparent;
+  padding:0;
+}
+.group-head{
+  background:linear-gradient(135deg,rgba(233,168,76,.12),rgba(255,255,255,.025));
+}
+.group-title{
+  color:var(--accent);
+  font-family:var(--zh);
+}
+footer{
+  color:var(--muted);
+  font-size:12px;
+  padding:30px;
+  font-family:var(--zh);
+}
+
+/* Desktop */
+@media(min-width:1024px){
+  .overview-layout{grid-template-columns:1.2fr .8fr}
+}
+
+/* iPad */
+@media(max-width:1023px){
+  .wrap{max-width:820px}
+  .overview-layout{grid-template-columns:1fr}
+  .study-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .song-name{font-size:38px}
+}
+
+/* Phone */
+@media(max-width:680px){
+  .top-inner{align-items:flex-start}
+  .nav{gap:7px}
+  .btn{padding:7px 11px;font-size:12px}
+  .wrap{padding:20px 16px 64px}
+  .song-name{font-size:34px}
+  .overview-card,.study{padding:16px}
+  .study-list{grid-template-columns:1fr}
+  .th{font-size:18px}
+  .study-card .th{font-size:18px}
+  .line{padding:12px 62px 12px 12px}
+}
+
+
+
+/* v4.2: sans-serif typography + real long-term progress + separate review round */
+:root{
+  --ui:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --zh:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --en:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+body,
+.btn,
+.brand,
+.kicker,
+.overview-title,
+.statement,
+.hint,
+.focus b,
+.meta-pill,
+.search,
+.zh,
+.en,
+.note,
+.chip-en,
+.group-title,
+footer{
+  font-family:var(--ui) !important;
+}
+
+/* Restore the real learned-progress panel from v2.4 */
+.progress-wrap{
+  display:block !important;
+  margin-top:18px !important;
+}
+.progress-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:9px 0;
+}
+.progress-row .lbl{
+  width:86px;
+  color:var(--muted);
+  font-size:12px;
+}
+.bar{
+  height:10px;
+  flex:1;
+  border-radius:999px;
+  background:rgba(255,255,255,.10);
+  overflow:hidden;
+  border:1px solid var(--line);
+}
+.bar>span{
+  display:block;
+  height:100%;
+  width:0;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  border-radius:999px;
+}
+.pct{
+  width:42px;
+  text-align:right;
+  color:#f5d6a3;
+  font-size:12px;
+}
+
+/* Compact controls that do not cover card text */
+.line,
+.study-card{
+  cursor:pointer;
+}
+.line{
+  position:relative;
+  padding-right:72px !important;
+}
+.study-card{
+  position:relative;
+  padding-right:76px !important;
+}
+.line-actions,
+.mini-actions{
+  position:absolute !important;
+  right:12px !important;
+  top:50% !important;
+  bottom:auto !important;
+  transform:translateY(-50%) !important;
+  display:flex;
+  gap:6px;
+  margin:0 !important;
+}
+.line-actions .round,
+.mini-actions .round{
+  width:30px !important;
+  height:30px !important;
+  font-size:12px !important;
+  opacity:.82;
+}
+.line-actions .round:hover,
+.line-actions .round.active,
+.mini-actions .round:hover,
+.mini-actions .round.active{
+  opacity:1;
+}
+.round.reviewed.active{
+  border-color:var(--accent2);
+  color:var(--accent2);
+  background:rgba(141,198,181,.10);
+}
+
+/* Review reset stays intentionally quiet */
+.review-reset{
+  margin-left:auto;
+  padding:5px 9px !important;
+  font-size:11px !important;
+  opacity:.72;
+}
+.review-reset:hover{
+  opacity:1;
+}
+
+@media(max-width:1023px){
+  .progress-row .lbl{width:76px;}
+}
+@media(max-width:680px){
+  .progress-row .lbl{width:64px;}
+  .line{padding-right:68px !important;}
+  .study-card{padding-right:74px !important;}
+  .line-actions,.mini-actions{right:11px !important;}
+  .review-reset{margin-left:0;}
+}
+
+
+/* v4.3: restore Overview card descriptions */
+.focus-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:10px !important;
+  margin-top:12px !important;
+}
+.focus{
+  border:1px solid rgba(141,198,181,.32) !important;
+  background:rgba(141,198,181,.07) !important;
+  border-radius:16px !important;
+  padding:12px !important;
+}
+.focus b{
+  display:block !important;
+  font-size:13px !important;
+  color:#e9fff8 !important;
+  margin-bottom:4px !important;
+  font-weight:700 !important;
+}
+.focus span{
+  display:block !important;
+  font-family:var(--ui) !important;
+  color:var(--muted) !important;
+  font-size:12px !important;
+  line-height:1.72 !important;
+}
+@media(max-width:680px){
+  .focus-grid{grid-template-columns:1fr !important;}
+}
+
+
+/* v4.4: Overview lesson-summary pills below the two cards */
+.overview-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:14px;
+}
+.overview-pill{
+  display:inline-flex;
+  align-items:baseline;
+  gap:7px;
+  max-width:100%;
+  border:1px solid rgba(141,198,181,.30);
+  background:rgba(141,198,181,.065);
+  border-radius:999px;
+  padding:7px 11px;
+  color:var(--muted);
+  font-family:var(--ui);
+  font-size:12px;
+  line-height:1.45;
+}
+.overview-pill b{
+  color:#e9fff8;
+  font-size:12px;
+  font-weight:700;
+  white-space:nowrap;
+}
+.overview-pill span{
+  color:var(--muted);
+}
+@media(max-width:680px){
+  .overview-pills{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:7px;
+    margin-top:12px;
+  }
+  .overview-pill{
+    border-radius:14px;
+    padding:9px 11px;
+  }
+}
+
+
+/* v4.5: Thai typography — Noto Sans Thai */
+.thai,.th,.song-name,.chip b{
+  font-family:var(--thai) !important;
+}
+.song-name{font-weight:700;}
+.th{font-weight:600;}
+
+
+/* v4.6 Hybrid reading mode:
+   deep violet page mood + brighter warm-gray cards + clearer text hierarchy */
+:root{
+  --bg:#14131b;
+  --text:#fbf7f1;
+  --muted:#c9c0bb;
+  --line:rgba(229,224,221,.19);
+  --accent:#f0bb6a;
+  --accent2:#9bd8c7;
+  --card-reading:linear-gradient(145deg,rgba(104,100,111,.88),rgba(79,77,88,.94));
+  --card-reading-soft:linear-gradient(145deg,rgba(117,111,117,.80),rgba(83,81,93,.88));
+  --thai-ink:#fffaf4;
+  --roman-ink:#e9c889;
+  --english-ink:#c9d7f1;
+  --chinese-ink:#f0ece6;
+}
+
+/* Keep the outer site moody but lift the reading surfaces */
+body{
+  background:
+    radial-gradient(circle at 4% 0%,rgba(112,78,92,.26),transparent 34%),
+    radial-gradient(circle at 92% 12%,rgba(83,89,135,.19),transparent 38%),
+    linear-gradient(145deg,#17151e 0%,#13131b 47%,#0e1016 100%) !important;
+}
+
+/* Lyrics section headers */
+.song-section{
+  background:rgba(255,255,255,.032) !important;
+  border-color:rgba(239,233,226,.16) !important;
+}
+.sec-head{
+  background:
+    linear-gradient(90deg,rgba(231,190,121,.26),rgba(144,128,143,.20) 48%,rgba(91,90,111,.18)) !important;
+  border-bottom:1px solid rgba(255,255,255,.07);
+}
+.sec-title{
+  color:#fffaf4 !important;
+  font-size:15px !important;
+}
+.sec-sub{
+  color:#ded5ce !important;
+}
+
+/* Main lyric cards: brighter, more readable, but still not white */
+.line{
+  background:var(--card-reading) !important;
+  border-color:rgba(255,255,255,.16) !important;
+  box-shadow:0 10px 24px rgba(0,0,0,.16) !important;
+  border-radius:20px !important;
+  padding:18px 74px 18px 16px !important;
+}
+.line:hover{
+  background:linear-gradient(145deg,rgba(122,115,121,.94),rgba(91,87,101,.98)) !important;
+  border-color:rgba(240,187,106,.70) !important;
+}
+.th{
+  color:var(--thai-ink) !important;
+  font-size:27px !important;
+  line-height:1.42 !important;
+  font-weight:700 !important;
+}
+.rom{
+  color:var(--roman-ink) !important;
+  font-size:13px !important;
+  line-height:1.55 !important;
+}
+.en{
+  color:var(--english-ink) !important;
+  font-size:13.5px !important;
+  line-height:1.62 !important;
+}
+.zh{
+  color:var(--chinese-ink) !important;
+  font-size:14px !important;
+  line-height:1.72 !important;
+}
+.note{
+  color:#e6e1db !important;
+  border-left-color:var(--accent2) !important;
+  background:linear-gradient(90deg,rgba(155,216,199,.08),transparent 72%) !important;
+}
+.chip{
+  background:rgba(255,255,255,.08) !important;
+  border-color:rgba(255,255,255,.16) !important;
+  color:#d8d0cb !important;
+}
+.chip b{color:#fffaf4 !important;}
+.chip-en{color:#d8d0cb !important;}
+
+/* Stronger but quiet action icons */
+.line-actions .round,
+.mini-actions .round{
+  background:rgba(26,26,35,.20) !important;
+  border-color:rgba(255,255,255,.18) !important;
+}
+.line-actions .round.active,
+.mini-actions .round.active{
+  background:rgba(240,187,106,.16) !important;
+}
+
+/* Study cards inherit the same readable material */
+.study-card{
+  background:var(--card-reading-soft) !important;
+  border-color:rgba(255,255,255,.15) !important;
+}
+.study-card:hover{
+  background:linear-gradient(145deg,rgba(127,119,124,.92),rgba(92,88,102,.97)) !important;
+}
+
+/* retain compact song page feeling on desktop */
+@media(min-width:1024px){
+  .line{margin:12px 0 !important;}
+}
+/* Tablet */
+@media(max-width:1023px){
+  .th{font-size:25px !important;}
+  .line{padding:17px 70px 17px 15px !important;}
+}
+/* Phone */
+@media(max-width:680px){
+  .line{
+    padding:16px 66px 16px 14px !important;
+    border-radius:18px !important;
+  }
+  .th{font-size:23px !important;}
+  .rom{font-size:12.5px !important;}
+  .en,.zh{font-size:13px !important;}
+}
+
+
+/* v4.7: calmer hybrid — smaller reading type, unified warm neutral palette */
+:root{
+  --card-reading:linear-gradient(145deg,rgba(92,89,99,.86),rgba(68,67,77,.93));
+  --card-reading-soft:linear-gradient(145deg,rgba(99,94,102,.78),rgba(74,71,82,.86));
+  --thai-ink:#f8f1e9;
+  --roman-ink:#d8b77b;
+  --english-ink:#ddd5ce;
+  --chinese-ink:#eee7e0;
+}
+
+/* Keep contrast, remove cool blue cast */
+.line{
+  background:var(--card-reading) !important;
+  border-color:rgba(246,238,230,.14) !important;
+  box-shadow:0 8px 20px rgba(0,0,0,.14) !important;
+  padding:15px 72px 15px 15px !important;
+}
+.line:hover{
+  background:linear-gradient(145deg,rgba(105,100,108,.92),rgba(79,75,87,.97)) !important;
+}
+.th{
+  font-size:22px !important;
+  line-height:1.48 !important;
+  font-weight:650 !important;
+}
+.rom{
+  font-size:12px !important;
+  line-height:1.5 !important;
+  color:var(--roman-ink) !important;
+}
+.en{
+  font-size:12.5px !important;
+  line-height:1.58 !important;
+  color:var(--english-ink) !important;
+}
+.zh{
+  font-size:13px !important;
+  line-height:1.68 !important;
+  color:var(--chinese-ink) !important;
+}
+.note{
+  color:#d8d0c9 !important;
+  background:linear-gradient(90deg,rgba(155,216,199,.055),transparent 72%) !important;
+}
+.study-card{
+  background:var(--card-reading-soft) !important;
+}
+.study-card .th{
+  font-size:20px !important;
+}
+.study-card .rom{
+  font-size:11.5px !important;
+}
+.study-card .en,
+.study-card .zh{
+  font-size:12px !important;
+}
+
+/* Fold blue-ish tones into neutral warm gray */
+.chip{
+  color:#d5ccc5 !important;
+}
+.chip-en{
+  color:#c9c0ba !important;
+}
+.line-actions .round,
+.mini-actions .round{
+  background:rgba(20,20,28,.22) !important;
+}
+
+/* iPad */
+@media(max-width:1023px){
+  .th{font-size:21px !important;}
+  .line{padding:15px 69px 15px 14px !important;}
+}
+/* Phone */
+@media(max-width:680px){
+  .line{
+    padding:14px 64px 14px 14px !important;
+    border-radius:18px !important;
+  }
+  .th{font-size:20px !important;}
+  .rom{font-size:11.5px !important;}
+  .en,.zh{font-size:12.5px !important;}
+  .study-card .th{font-size:19px !important;}
+}
+
+
+/* Header Thai typography: restore the original Noto Sans Thai for the song title only */
+.song-name{
+  font-family:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif !important;
+}
+
+
+.quick-meta{display:none!important;}
+
+/* Index-tone background: align the outer page with the Library without changing card readability */
+body{
+  background:
+    radial-gradient(circle at 8% -8%,rgba(242,187,107,.20),transparent 34%),
+    radial-gradient(circle at 88% 0%,rgba(145,168,216,.13),transparent 36%),
+    linear-gradient(145deg,#14121c 0%,#101018 100%) !important;
+}
+
+</style>
+</head>
+<body>
+<div class="top"><div class="top-inner"><a class="brand btn brand-home" href="../index.html" title="Back to Song Library">♪ Thai Song Lab</a><div class="nav"><button class="btn active-tab" onclick="showPage('overview',this)">Overview</button><button class="btn" onclick="showPage('lyrics',this)">Lyrics</button><button class="btn" onclick="showPage('patterns',this)">Patterns</button><button class="btn" onclick="showPage('vocab',this)">Vocab</button><button class="btn" onclick="showPage('favorites',this)">Favorites <span id="favBadge">0</span></button><button class="btn" onclick="showPage('review',this)">Review</button><button class="btn" onclick="speakAll()">全文播放</button></div></div></div>
+<div class="wrap" id="app"><input class="import-file" id="globalStateImportFile" type="file" accept=".json,application/json" onchange="importState(event)">
+<section class="hero"><div class="kicker">Song Lesson 001 · <span id="artist"></span></div><div class="hero-main"><div><h1 class="song-name" id="title"></h1><div class="subtitle roman" id="subtitle"></div></div></div></section>
+<section class="page active" id="overview"><div class="overview-layout"><div class="glass overview-card"><div class="overview-title">Overview</div><p class="statement">一首非常口語、可愛又直接的告白歌。重點不是複雜文法，而是把「我最愛你」「你也有一樣感覺嗎」「我想讓你知道」這些 A2 的高頻情緒句型唱到很熟。</p><div class="progress-wrap" id="progressBox"></div></div><div class="glass study"><div class="overview-title">Study Mode</div><div class="toolbar"><button class="btn" onclick="setMode('normal',this)">全部</button><button class="btn" onclick="setMode('hide-zh',this)">隱藏中文</button><button class="btn" onclick="setMode('hide-roman',this)">隱藏拼音</button><button class="btn" onclick="setMode('shadow',this)">Shadow</button><button class="btn" onclick="setMode('thai-only',this)">只看泰文</button></div><p class="hint">Learned 會保留並計入 Overview 進度；跨裝置請使用匯出 / 匯入 JSON。</p></div></div>
+<div class="overview-pills" aria-label="Lesson summary">
+  <span class="overview-pill"><b>核心主題</b><span>告白、心跳、想念、猜測對方心意</span></span>
+  <span class="overview-pill"><b>學習難度</b><span>A2 可完整學習，適合建立口語語感</span></span>
+  <span class="overview-pill"><b>優先句型</b><span>รัก...ที่สุด / ไม่รู้ว่า...ไหม / อยากให้...</span></span>
+</div></section>
+<main class="page" id="lyrics"><div class="lyrics-tools"><button class="btn" onclick="expandAll()">全部展開</button><button class="btn" onclick="collapseAll()">全部收合</button><button class="btn" onclick="playVisibleLyrics()">播放目前歌詞</button></div><input class="search" id="lyricsSearch" placeholder="搜尋 Lyrics：Thai / Romanization / English / 中文" oninput="filterLyrics(this.value)"><div id="lyricsList"></div></main>
+<section class="page" id="patterns"><div class="glass overview-card"><div class="overview-title">Patterns / 可直接拿去用的句型</div><input class="search" id="patternSearch" placeholder="搜尋 Patterns" oninput="filterStudy('patternList',this.value)"><div class="study-list" id="patternList"></div></div></section>
+<section class="page" id="vocab"><div class="glass overview-card"><div class="overview-title">Vocabulary & Chunks</div><input class="search" id="vocabSearch" placeholder="搜尋 Vocabulary" oninput="filterStudy('vocabList',this.value)"><div class="study-list" id="vocabList"></div></div></section>
+<section class="page" id="favorites"><div class="glass overview-card"><div class="overview-title">Favorites</div><div class="storage-tools"><button class="btn" onclick="exportState()">匯出 JSON</button><button class="btn" onclick="document.getElementById('globalStateImportFile').click()">匯入 JSON</button></div><input class="search" id="favSearch" placeholder="搜尋收藏" oninput="renderFavorites(this.value)"><div id="favoriteList"></div></div></section>
+<section class="page" id="review"><div class="glass overview-card"><div class="overview-title">Review</div><div class="storage-tools"><button class="btn" onclick="exportState()">匯出 JSON</button><button class="btn" onclick="document.getElementById('globalStateImportFile').click()">匯入 JSON</button><input class="import-file" id="stateImportFile" type="file" accept=".json,application/json" onchange="importState(event)"></div><div class="lyrics-tools"><button class="btn" onclick="renderReview('all')">All Learned</button><button class="btn" onclick="renderReview('fav')">Only Favorites</button><button class="btn" onclick="shuffleReview()">Shuffle</button><button class="btn review-reset" onclick="resetReview()">Reset Review</button></div><p class="hint">Review 只收錄已學會的項目；按 ✓ 只會完成本輪複習，不會影響 Overview 的 Learned 進度。</p><div id="reviewList"></div></div></section>
+</div><footer>Thai Song Lab v4.7 · Calm warm reading</footer>
+<script>
+const SONG = {
+  "slug": "khao-rak-thoe-thii-sut-ily",
+  "title": "เค้ารักเธอที่สุด (ily)",
+  "artist": "MEYOU",
+  "romanTitle": "kháo rák thəə thîi-sùt (ily)",
+  "englishTitle": "I Love You the Most (ily)",
+  "level": "A2",
+  "storageKey": "thai-song-lab-v2-khao-rak-thoe-thii-sut-ily",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Intro / Spoken Opening",
+      "sub": "Spotify 開場口白",
+      "lines": [
+        {
+          "thai": "เฮ้ยเธอเออ",
+          "roman": "hə́əi thəə əə",
+          "english": "Hey, you... yeah.",
+          "chinese": "欸你，對，就是你。",
+          "note": "เฮ้ย 是很口語的叫人注意；เออ 在這裡像「嗯、對啦」，讓語氣很自然。",
+          "chips": [
+            "เฮ้ย",
+            "เธอ",
+            "เออ"
+          ]
+        },
+        {
+          "thai": "เออ เธอแหละ",
+          "roman": "əə thəə lɛ̀",
+          "english": "Yeah, you.",
+          "chinese": "對，就是你啦。",
+          "note": "แหละ 用來強調「就是這個／就是你」，很口語也帶一點可愛的確認感。",
+          "chips": [
+            "เออ",
+            "เธอแหละ",
+            "แหละ"
+          ]
+        },
+        {
+          "thai": "คือเค้ามีไรจะบอกอะ",
+          "roman": "khʉʉ kháo mii rai jà bɔ̀ɔk à",
+          "english": "It’s just... I have something to tell you.",
+          "chinese": "就是……我有事情想跟你說。",
+          "note": "คือ 是口語起句，像「就是、那個」。มีไร 是 มีอะไร 的口語縮短；อะ 讓句尾更軟、更像聊天。",
+          "chips": [
+            "คือ",
+            "เค้า",
+            "มีไร",
+            "จะบอก",
+            "อะ"
+          ]
+        },
+        {
+          "thai": "คืองี้ ตั้งใจฟังนะ",
+          "roman": "khʉʉ ngíi dtâng-jai fang ná",
+          "english": "It’s like this—listen carefully, okay?",
+          "chinese": "是這樣啦，你要認真聽喔。",
+          "note": "คืองี้ = คืออย่างนี้ 的口語縮短，很像「是這樣」。ตั้งใจฟังนะ 是很可愛但直接的提醒：認真聽喔。",
+          "chips": [
+            "คืองี้",
+            "ตั้งใจฟัง",
+            "นะ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hook1",
+      "title": "Hook 1",
+      "sub": "核心告白句第一次出現",
+      "lines": [
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "title": "Verse 1",
+      "sub": "靠近、心跳、想念與祈願",
+      "lines": [
+        {
+          "thai": "ก็แบบว่ารักรักเธอที่สุด",
+          "roman": "gɔ̂ɔ bɛ̀ɛp wâa rák rák thəə thîi-sùt",
+          "english": "It’s just... I love you. I love you the most.",
+          "chinese": "就是啊……我真的很愛你，最愛你。",
+          "note": "ก็แบบว่า... 是年輕人口語起句，像英文 like... / it’s just...，很適合拿來開啟有點害羞的說明。",
+          "chips": [
+            "ก็แบบว่า",
+            "รักเธอที่สุด"
+          ]
+        },
+        {
+          "thai": "หัวใจดวงนี้แม่งเต้นไม่หยุด",
+          "roman": "hǔa-jai duang níi mɛ̂ɛng dtên mâi yùt",
+          "english": "This heart just won’t stop beating.",
+          "chinese": "我的這顆心一直狂跳，停都停不下來。",
+          "note": "หัวใจดวงนี้ 字面是「這一顆心」，ดวง 是心、星星、眼睛等常見量詞。แม่ง 是粗口感的加強詞，朋友間可聽到，正式場合不要用。",
+          "chips": [
+            "หัวใจดวงนี้",
+            "ดวง",
+            "แม่ง",
+            "เต้นไม่หยุด"
+          ]
+        },
+        {
+          "thai": "เวลาเธอเข้ามาใกล้ฉันแทบสะดุดนะเธอ",
+          "roman": "wee-laa thəə khâo maa glâi chǎn thɛ̂ɛp sà-dùt ná thəə",
+          "english": "When you come close to me, I almost stumble.",
+          "chinese": "每次你靠近我，我都快要站不穩了。",
+          "note": "เวลา + 句子 = 當……的時候。แทบ + V 表示幾乎、差點就……，常用來形容情緒或身體反應很強。",
+          "chips": [
+            "เวลา...",
+            "เข้ามาใกล้",
+            "แทบสะดุด",
+            "นะเธอ"
+          ]
+        },
+        {
+          "thai": "ไม่ว่ากี่ครั้งก็เก็บไปฝันละเมอ",
+          "roman": "mâi wâa gìi khráng gɔ̂ɔ gèp bpai fǎn lá-məə",
+          "english": "No matter how many times, I keep taking it into my dreams.",
+          "chinese": "不管多少次，我都會把那些瞬間帶進夢裡。",
+          "note": "ไม่ว่า...ก็... = 不管……都……。เก็บไปฝัน 很歌詞感，像是把某個畫面收進夢裡。",
+          "chips": [
+            "ไม่ว่ากี่ครั้ง",
+            "ก็",
+            "เก็บไปฝัน",
+            "ฝันละเมอ"
+          ]
+        },
+        {
+          "thai": "ต้องเป็นอย่างนี้มันทรมาน",
+          "roman": "dtɔ̂ng bpen yàang níi man thɔɔ-rá-maan",
+          "english": "Having to be like this is torture.",
+          "chinese": "一直這樣下去真的很折磨。",
+          "note": "ต้องเป็นอย่างนี้ 在這裡不是命令，而是「事情只能變成這樣」的無奈。ทรมาน 可指身體痛，也可指心理上的折磨。",
+          "chips": [
+            "ต้องเป็นอย่างนี้",
+            "อย่างนี้",
+            "ทรมาน"
+          ]
+        },
+        {
+          "thai": "แต่ทำไงได้ก็คงต้องพยายาม",
+          "roman": "dtɛ̀ɛ tham ngai dâai gɔ̂ɔ khong dtɔ̂ng phá-yaa-yaam",
+          "english": "But what can I do? I guess I just have to keep trying.",
+          "chinese": "可是能怎麼辦呢？大概也只能繼續努力了。",
+          "note": "ทำไงได้ 是很自然的口語：能怎麼辦？คงต้อง... 有「大概只能、恐怕必須」的無奈感。",
+          "chips": [
+            "ทำไงได้",
+            "คงต้อง",
+            "พยายาม"
+          ]
+        },
+        {
+          "thai": "เธอรู้บ้างไหมฉันยังคงภาวนาถึงเธออยู่",
+          "roman": "thəə rúu bâang mǎi chǎn yang khong phaa-wá-naa thʉ̌ng thəə yùu",
+          "english": "Do you even know that I’m still praying and wishing for you?",
+          "chinese": "你知道嗎？我到現在仍然一直默默地為你祈禱、想著你。",
+          "note": "รู้บ้างไหม 比 รู้ไหม 多了「你多少有察覺一點嗎」的語氣。ยังคง...อยู่ 讓狀態變成一直持續到現在。",
+          "chips": [
+            "รู้บ้างไหม",
+            "ยังคง",
+            "ภาวนาถึง...",
+            "...อยู่"
+          ]
+        },
+        {
+          "thai": "ขอให้วันเวลาและฟ้าช่วยฉันที",
+          "roman": "khɔ̌ɔ hâi wan-wee-laa lɛ́ɛ fáa chûai chǎn thii",
+          "english": "I hope that time and the sky will help me.",
+          "chinese": "希望時間與上天能幫幫我。",
+          "note": "ขอให้... 是希望／祝願的高頻句型。ฟ้า 在歌詞裡常不只是天空，也有老天、命運、上天的意象。",
+          "chips": [
+            "ขอให้",
+            "วันเวลา",
+            "ฟ้า",
+            "ช่วยฉันที"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre1",
+      "title": "Pre-Chorus 1",
+      "sub": "Spotify 拆成呼吸單位",
+      "lines": [
+        {
+          "thai": "คิดแต่ไม่ถึง",
+          "roman": "khít dtɛ̀ɛ mâi thʉ̌ng",
+          "english": "I think about it, but it never quite reaches you.",
+          "chinese": "我一直想著，卻始終傳不到你那裡。",
+          "note": "這句很歌詞化，字面是「想，但不到」。可以理解成心裡有話，卻還沒有真正傳達出去。",
+          "chips": [
+            "คิดแต่ไม่ถึง",
+            "คิด",
+            "ไม่ถึง"
+          ]
+        },
+        {
+          "thai": "อยากให้รู้ว่ากำลังบอก",
+          "roman": "yàak hâi rúu wâa gam-lang bɔ̀ɔk",
+          "english": "I want you to know what I’m trying to say.",
+          "chinese": "我想讓你知道，我正在說出口。",
+          "note": "อยากให้... = 想讓／希望……。กำลัง + V 表示正在做某事，這裡是正在把心意說出來。",
+          "chips": [
+            "อยากให้",
+            "อยากให้รู้",
+            "กำลัง",
+            "กำลังบอก"
+          ]
+        },
+        {
+          "thai": "รู้บ้างไหมจ๊ะสุดที่รัก",
+          "roman": "rúu bâang mǎi já sùt thîi-rák",
+          "english": "Do you know, my dearest?",
+          "chinese": "你知道嗎？我最親愛的。",
+          "note": "จ๊ะ 是柔和、可愛的語氣詞；สุดที่รัก 是 my dearest / darling，比 ที่รัก 更深情、更歌詞感。",
+          "chips": [
+            "รู้บ้างไหม",
+            "จ๊ะ",
+            "สุดที่รัก"
+          ]
+        },
+        {
+          "thai": "ว่า...",
+          "roman": "wâa...",
+          "english": "That...",
+          "chinese": "就是……",
+          "note": "ว่า 在這裡引出後面的告白內容；Spotify 把它單獨拆開，剛好形成告白前的停頓。",
+          "chips": [
+            "ว่า"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hook2",
+      "title": "Hook 2",
+      "sub": "Review：核心告白句重複",
+      "lines": [
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "title": "Verse 2",
+      "sub": "猜測對方是否也有一樣的心意",
+      "lines": [
+        {
+          "thai": "Oh เค้ารักเธอที่สุดเลย",
+          "roman": "Oh kháo rák thəə thîi-sùt ləəy",
+          "english": "Oh, I really love you the most.",
+          "chinese": "Oh……我真的最愛你了。",
+          "note": "這裡的 เลย 放在句尾加強語氣，不是「所以」。รักที่สุดเลย 比 รักที่สุด 更有「真的超愛」的感覺。",
+          "chips": [
+            "ที่สุดเลย",
+            "...เลย"
+          ]
+        },
+        {
+          "thai": "แต่ก็ไม่รู้ว่าเธอคิดเหมือนกันบ้างไหม",
+          "roman": "dtɛ̀ɛ gɔ̂ɔ mâi rúu wâa thəə khít mʉ̌an gan bâang mǎi",
+          "english": "But I don’t know if you feel the same way at all.",
+          "chinese": "可是我不知道，你是不是也多少有一樣的感覺。",
+          "note": "คิดเหมือนกัน 不是「一起想」，而是有相同想法／感覺。บ้างไหม 讓問題更柔和，帶有「哪怕一點點也好」的期待。",
+          "chips": [
+            "ไม่รู้ว่า",
+            "คิดเหมือนกัน",
+            "บ้างไหม"
+          ]
+        },
+        {
+          "thai": "Oh คิดถึงเธอแทบสุดใจ",
+          "roman": "Oh khít-thʉ̌ng thəə thɛ̂ɛp sùt jai",
+          "english": "Oh, I miss you with all my heart.",
+          "chinese": "Oh……我真的好想你，想你想到心都快滿出來了。",
+          "note": "คิดถึง 是想念、掛念。แทบ 表示幾乎到某個極限；สุดใจ 是全心全意、打從心底。",
+          "chips": [
+            "คิดถึง",
+            "แทบ",
+            "สุดใจ",
+            "คิดถึงเธอ"
+          ]
+        },
+        {
+          "thai": "แต่ก็ไม่รู้ว่าเธอคิดเหมือนกันหรือเปล่า",
+          "roman": "dtɛ̀ɛ gɔ̂ɔ mâi rúu wâa thəə khít mʉ̌an gan rʉ̌ʉ bplào",
+          "english": "But I still don’t know whether you feel the same way.",
+          "chinese": "可是我還是不知道，你是不是也和我有同樣的心意。",
+          "note": "หรือเปล่า 是很高頻的「是不是／……嗎」。比 บ้างไหม 更直接，是在確認對方到底是不是同樣想法。",
+          "chips": [
+            "หรือเปล่า",
+            "คิดเหมือนกัน",
+            "ไม่รู้ว่า"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre2",
+      "title": "Pre-Chorus 2",
+      "sub": "Review：告白前停頓重複",
+      "lines": [
+        {
+          "thai": "คิดแต่ไม่ถึง",
+          "roman": "khít dtɛ̀ɛ mâi thʉ̌ng",
+          "english": "I think about it, but it never quite reaches you.",
+          "chinese": "我一直想著，卻始終傳不到你那裡。",
+          "note": "Review：這句重複前面的歌詞化表達，重點是心意還沒真正傳達出去。",
+          "chips": [
+            "คิดแต่ไม่ถึง",
+            "คิด",
+            "ไม่ถึง"
+          ]
+        },
+        {
+          "thai": "อยากให้รู้ว่ากำลังบอก",
+          "roman": "yàak hâi rúu wâa gam-lang bɔ̀ɔk",
+          "english": "I want you to know what I’m trying to say.",
+          "chinese": "我想讓你知道，我正在說出口。",
+          "note": "Review：อยากให้... 和 กำลัง + V 都是可直接拿去日常使用的句型。",
+          "chips": [
+            "อยากให้",
+            "อยากให้รู้",
+            "กำลัง",
+            "กำลังบอก"
+          ]
+        },
+        {
+          "thai": "รู้บ้างไหมจ๊ะสุดที่รัก",
+          "roman": "rúu bâang mǎi já sùt thîi-rák",
+          "english": "Do you know, my dearest?",
+          "chinese": "你知道嗎？我最親愛的。",
+          "note": "Review：จ๊ะ 讓語氣變柔和、撒嬌；สุดที่รัก 是很深情的稱呼。",
+          "chips": [
+            "รู้บ้างไหม",
+            "จ๊ะ",
+            "สุดที่รัก"
+          ]
+        },
+        {
+          "thai": "ว่า...",
+          "roman": "wâa...",
+          "english": "That...",
+          "chinese": "就是……",
+          "note": "Review：ว่า 引出後面的告白內容。",
+          "chips": [
+            "ว่า"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hook3",
+      "title": "Hook 3",
+      "sub": "Review：副歌重複",
+      "lines": [
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "Outro",
+      "sub": "Spotify 結尾：副歌後加可愛收尾",
+      "lines": [
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "Review：重複核心句型 รัก...ที่สุด，用 ที่สุด 和 เลย 把情緒推到最高。",
+          "chips": [
+            "รัก...ที่สุด",
+            "ที่สุดเลย"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด เค้ารักเธอที่สุด",
+          "roman": "kháo rák thəə thîi-sùt, kháo rák thəə thîi-sùt",
+          "english": "I love you the most. I love you the most.",
+          "chinese": "我最愛你了，我最愛你了。",
+          "note": "เค้า 是親密口語裡的「我」，不是這裡的「他」。ที่สุด 放在後面表示最高程度：最……。",
+          "chips": [
+            "เค้า",
+            "รักเธอที่สุด",
+            "ที่สุด"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุด ที่สุด ที่สุด ที่สุดเลย",
+          "roman": "kháo rák thəə thîi-sùt, thîi-sùt, thîi-sùt, thîi-sùt ləəy",
+          "english": "I love you the most—the very, very most.",
+          "chinese": "我最愛你了，真的最最最愛你。",
+          "note": "重複 ที่สุด 是歌詞裡的強調；เลย 放句尾不是「所以」，而是加強語氣：真的、超級。",
+          "chips": [
+            "ที่สุดเลย",
+            "รัก...ที่สุด",
+            "...เลย"
+          ]
+        },
+        {
+          "thai": "อะไรประมาณนั้น",
+          "roman": "à-rai bprà-maan nán",
+          "english": "Something like that.",
+          "chinese": "大概就是這樣。",
+          "note": "อะไรประมาณนั้น 是非常口語的收尾，像「差不多就是那樣」。告白後用它，反而顯得害羞可愛。",
+          "chips": [
+            "อะไร",
+            "ประมาณนั้น",
+            "อะไรประมาณนั้น"
+          ]
+        },
+        {
+          "thai": "เค้ารักเธอที่สุดเลยนะ",
+          "roman": "kháo rák thəə thîi-sùt ləəy ná",
+          "english": "I really love you the most, okay?",
+          "chinese": "我真的最愛你喔。",
+          "note": "นะ 放句尾讓告白更柔和、更像在確認對方有聽見。ที่สุดเลยนะ 是很親密、撒嬌感的語氣。",
+          "chips": [
+            "ที่สุดเลยนะ",
+            "เลยนะ",
+            "นะ"
+          ]
+        },
+        {
+          "thai": "Mwah",
+          "roman": "Mwah",
+          "english": "Mwah.",
+          "chinese": "啾。",
+          "note": "英文擬聲詞，像親吻聲。保留原貌，不需要做泰文拼音。",
+          "chips": []
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pat-love-most",
+      "thai": "รัก...ที่สุด",
+      "roman": "rák...thîi-sùt",
+      "english": "love... the most",
+      "chinese": "最愛……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-thii-sut-loei",
+      "thai": "...ที่สุดเลย",
+      "roman": "...thîi-sùt ləəy",
+      "english": "the very most / extremely...",
+      "chinese": "最最……／真的超……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-kor-baep-waa",
+      "thai": "ก็แบบว่า...",
+      "roman": "gɔ̂ɔ bɛ̀ɛp wâa...",
+      "english": "it’s just... / like...",
+      "chinese": "就是……／那個……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-welaa",
+      "thai": "เวลา...",
+      "roman": "wee-laa...",
+      "english": "when...",
+      "chinese": "當……的時候",
+      "level": "Core"
+    },
+    {
+      "id": "pat-thaep",
+      "thai": "แทบ + V",
+      "roman": "thɛ̂ɛp + V",
+      "english": "almost / nearly...",
+      "chinese": "幾乎／差點……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-mai-waa-gor",
+      "thai": "ไม่ว่า...ก็...",
+      "roman": "mâi wâa...gɔ̂ɔ...",
+      "english": "no matter... still...",
+      "chinese": "不管……都……",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-tham-ngai-dai",
+      "thai": "ทำไงได้",
+      "roman": "tham ngai dâai",
+      "english": "what can I do?",
+      "chinese": "能怎麼辦？",
+      "level": "Core"
+    },
+    {
+      "id": "pat-khong-dtong",
+      "thai": "คงต้อง...",
+      "roman": "khong dtɔ̂ng...",
+      "english": "probably have to...",
+      "chinese": "大概只能／恐怕必須……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-ruu-baang-mai",
+      "thai": "รู้บ้างไหม",
+      "roman": "rúu bâang mǎi",
+      "english": "do you know at all?",
+      "chinese": "你多少知道嗎？",
+      "level": "Core"
+    },
+    {
+      "id": "pat-yang-khong-yuu",
+      "thai": "ยังคง...อยู่",
+      "roman": "yang khong...yùu",
+      "english": "still be...ing / still...",
+      "chinese": "仍然一直……",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-khor-hai",
+      "thai": "ขอให้...",
+      "roman": "khɔ̌ɔ hâi...",
+      "english": "may... / I hope...",
+      "chinese": "希望／祝願……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-yaak-hai",
+      "thai": "อยากให้...",
+      "roman": "yàak hâi...",
+      "english": "want someone/something to...",
+      "chinese": "想讓／希望……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-gamlang",
+      "thai": "กำลัง + V",
+      "roman": "gam-lang + V",
+      "english": "be doing...",
+      "chinese": "正在……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-mai-ruu-waa",
+      "thai": "ไม่รู้ว่า...",
+      "roman": "mâi rúu wâa...",
+      "english": "don’t know whether / that...",
+      "chinese": "不知道是否／不知道……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-khit-muean-gan",
+      "thai": "คิดเหมือนกัน",
+      "roman": "khít mʉ̌an gan",
+      "english": "think/feel the same way",
+      "chinese": "想法／感覺一樣",
+      "level": "Core"
+    },
+    {
+      "id": "pat-baang-mai",
+      "thai": "...บ้างไหม",
+      "roman": "...bâang mǎi",
+      "english": "...at all? / even a little?",
+      "chinese": "多少有……嗎？",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-rue-bplao",
+      "thai": "...หรือเปล่า",
+      "roman": "...rʉ̌ʉ bplào",
+      "english": "whether / or not?",
+      "chinese": "是不是……？",
+      "level": "Core"
+    },
+    {
+      "id": "pat-loei-na",
+      "thai": "...เลยนะ",
+      "roman": "...ləəy ná",
+      "english": "really..., okay?",
+      "chinese": "真的很……喔",
+      "level": "Useful"
+    }
+  ],
+  "vocab": [
+    {
+      "id": "voc-khao",
+      "thai": "เค้า",
+      "roman": "kháo",
+      "english": "I / me (cute intimate speech)",
+      "chinese": "我（親密口語）",
+      "level": "Core"
+    },
+    {
+      "id": "voc-rak",
+      "thai": "รัก",
+      "roman": "rák",
+      "english": "love",
+      "chinese": "愛",
+      "level": "Core"
+    },
+    {
+      "id": "voc-thoe",
+      "thai": "เธอ",
+      "roman": "thəə",
+      "english": "you",
+      "chinese": "你",
+      "level": "Core"
+    },
+    {
+      "id": "voc-thii-sut",
+      "thai": "ที่สุด",
+      "roman": "thîi-sùt",
+      "english": "the most",
+      "chinese": "最",
+      "level": "Core"
+    },
+    {
+      "id": "voc-loei",
+      "thai": "เลย",
+      "roman": "ləəy",
+      "english": "very / totally / emphasis",
+      "chinese": "真的／超級（句尾加強）",
+      "level": "Core"
+    },
+    {
+      "id": "voc-kor-baep-waa",
+      "thai": "ก็แบบว่า",
+      "roman": "gɔ̂ɔ bɛ̀ɛp wâa",
+      "english": "it’s just / like",
+      "chinese": "就是／那個",
+      "level": "Core"
+    },
+    {
+      "id": "voc-hua-jai",
+      "thai": "หัวใจ",
+      "roman": "hǔa-jai",
+      "english": "heart",
+      "chinese": "心",
+      "level": "Core"
+    },
+    {
+      "id": "voc-duang",
+      "thai": "ดวง",
+      "roman": "duang",
+      "english": "classifier for heart, star, eye",
+      "chinese": "心／星星／眼睛等的量詞",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-maeng",
+      "thai": "แม่ง",
+      "roman": "mɛ̂ɛng",
+      "english": "damn / freaking",
+      "chinese": "粗口感加強詞",
+      "level": "Extension"
+    },
+    {
+      "id": "voc-dten",
+      "thai": "เต้น",
+      "roman": "dtên",
+      "english": "beat / dance",
+      "chinese": "跳動／跳舞",
+      "level": "Core"
+    },
+    {
+      "id": "voc-mai-yut",
+      "thai": "ไม่หยุด",
+      "roman": "mâi yùt",
+      "english": "not stop",
+      "chinese": "不停",
+      "level": "Core"
+    },
+    {
+      "id": "voc-khao-maa-glai",
+      "thai": "เข้ามาใกล้",
+      "roman": "khâo maa glâi",
+      "english": "come close",
+      "chinese": "靠近過來",
+      "level": "Core"
+    },
+    {
+      "id": "voc-thaep",
+      "thai": "แทบ",
+      "roman": "thɛ̂ɛp",
+      "english": "almost / nearly",
+      "chinese": "幾乎／差點",
+      "level": "Core"
+    },
+    {
+      "id": "voc-sadut",
+      "thai": "สะดุด",
+      "roman": "sà-dùt",
+      "english": "stumble",
+      "chinese": "絆倒／卡住",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-fan-lamoe",
+      "thai": "ฝันละเมอ",
+      "roman": "fǎn lá-məə",
+      "english": "dream / sleep-talk dreamily",
+      "chinese": "夢見／夢囈",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-thoraman",
+      "thai": "ทรมาน",
+      "roman": "thɔɔ-rá-maan",
+      "english": "torture / suffer",
+      "chinese": "折磨／痛苦",
+      "level": "Core"
+    },
+    {
+      "id": "voc-tham-ngai-dai",
+      "thai": "ทำไงได้",
+      "roman": "tham ngai dâai",
+      "english": "what can I do?",
+      "chinese": "能怎麼辦？",
+      "level": "Core"
+    },
+    {
+      "id": "voc-phayayam",
+      "thai": "พยายาม",
+      "roman": "phá-yaa-yaam",
+      "english": "try / make an effort",
+      "chinese": "努力／嘗試",
+      "level": "Core"
+    },
+    {
+      "id": "voc-ruu-baang-mai",
+      "thai": "รู้บ้างไหม",
+      "roman": "rúu bâang mǎi",
+      "english": "do you know at all?",
+      "chinese": "你多少知道嗎？",
+      "level": "Core"
+    },
+    {
+      "id": "voc-yang-khong",
+      "thai": "ยังคง",
+      "roman": "yang khong",
+      "english": "still / continue to",
+      "chinese": "仍然／依然",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-phawanaa",
+      "thai": "ภาวนา",
+      "roman": "phaa-wá-naa",
+      "english": "pray / wish deeply",
+      "chinese": "祈禱／默默盼望",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-wan-weelaa",
+      "thai": "วันเวลา",
+      "roman": "wan-wee-laa",
+      "english": "time / days and time",
+      "chinese": "時光／歲月",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-faa",
+      "thai": "ฟ้า",
+      "roman": "fáa",
+      "english": "sky / heaven",
+      "chinese": "天空／上天",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-chuai-thii",
+      "thai": "ช่วยฉันที",
+      "roman": "chûai chǎn thii",
+      "english": "please help me",
+      "chinese": "幫幫我吧",
+      "level": "Core"
+    },
+    {
+      "id": "voc-yaak-hai",
+      "thai": "อยากให้",
+      "roman": "yàak hâi",
+      "english": "want someone/something to",
+      "chinese": "想讓／希望",
+      "level": "Core"
+    },
+    {
+      "id": "voc-gamlang",
+      "thai": "กำลัง",
+      "roman": "gam-lang",
+      "english": "currently / be -ing",
+      "chinese": "正在",
+      "level": "Core"
+    },
+    {
+      "id": "voc-ja",
+      "thai": "จ๊ะ",
+      "roman": "já",
+      "english": "soft/cute sentence particle",
+      "chinese": "柔和可愛語氣詞",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-sut-thii-rak",
+      "thai": "สุดที่รัก",
+      "roman": "sùt thîi-rák",
+      "english": "my dearest / darling",
+      "chinese": "最親愛的",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-khit-thueng",
+      "thai": "คิดถึง",
+      "roman": "khít-thʉ̌ng",
+      "english": "miss / think of",
+      "chinese": "想念／掛念",
+      "level": "Core"
+    },
+    {
+      "id": "voc-sut-jai",
+      "thai": "สุดใจ",
+      "roman": "sùt jai",
+      "english": "with all one’s heart",
+      "chinese": "全心全意",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-muean-gan",
+      "thai": "เหมือนกัน",
+      "roman": "mʉ̌an gan",
+      "english": "same / too",
+      "chinese": "一樣／也一樣",
+      "level": "Core"
+    },
+    {
+      "id": "voc-rue-bplao",
+      "thai": "หรือเปล่า",
+      "roman": "rʉ̌ʉ bplào",
+      "english": "or not / whether",
+      "chinese": "是不是／嗎",
+      "level": "Core"
+    },
+    {
+      "id": "voc-pra-maan-nan",
+      "thai": "ประมาณนั้น",
+      "roman": "bprà-maan nán",
+      "english": "something like that",
+      "chinese": "大概那樣",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-mwah",
+      "thai": "Mwah",
+      "roman": "Mwah",
+      "english": "kiss sound",
+      "chinese": "親吻聲／啾",
+      "level": "Extension"
+    }
+  ],
+  "vocabDefs": {
+    "เค้า": [
+      "kháo",
+      "I / me (cute intimate speech)",
+      "我（親密口語）"
+    ],
+    "รัก": [
+      "rák",
+      "love",
+      "愛"
+    ],
+    "เธอ": [
+      "thəə",
+      "you",
+      "你"
+    ],
+    "ที่สุด": [
+      "thîi-sùt",
+      "the most",
+      "最"
+    ],
+    "เลย": [
+      "ləəy",
+      "very / totally / emphasis",
+      "真的／超級（句尾加強）"
+    ],
+    "ก็แบบว่า": [
+      "gɔ̂ɔ bɛ̀ɛp wâa",
+      "it’s just / like",
+      "就是／那個"
+    ],
+    "หัวใจ": [
+      "hǔa-jai",
+      "heart",
+      "心"
+    ],
+    "ดวง": [
+      "duang",
+      "classifier for heart, star, eye",
+      "心／星星／眼睛等的量詞"
+    ],
+    "แม่ง": [
+      "mɛ̂ɛng",
+      "damn / freaking",
+      "粗口感加強詞"
+    ],
+    "เต้น": [
+      "dtên",
+      "beat / dance",
+      "跳動／跳舞"
+    ],
+    "ไม่หยุด": [
+      "mâi yùt",
+      "not stop",
+      "不停"
+    ],
+    "เข้ามาใกล้": [
+      "khâo maa glâi",
+      "come close",
+      "靠近過來"
+    ],
+    "แทบ": [
+      "thɛ̂ɛp",
+      "almost / nearly",
+      "幾乎／差點"
+    ],
+    "สะดุด": [
+      "sà-dùt",
+      "stumble",
+      "絆倒／卡住"
+    ],
+    "ฝันละเมอ": [
+      "fǎn lá-məə",
+      "dream / sleep-talk dreamily",
+      "夢見／夢囈"
+    ],
+    "ทรมาน": [
+      "thɔɔ-rá-maan",
+      "torture / suffer",
+      "折磨／痛苦"
+    ],
+    "ทำไงได้": [
+      "tham ngai dâai",
+      "what can I do?",
+      "能怎麼辦？"
+    ],
+    "พยายาม": [
+      "phá-yaa-yaam",
+      "try / make an effort",
+      "努力／嘗試"
+    ],
+    "รู้บ้างไหม": [
+      "rúu bâang mǎi",
+      "do you know at all?",
+      "你多少知道嗎？"
+    ],
+    "ยังคง": [
+      "yang khong",
+      "still / continue to",
+      "仍然／依然"
+    ],
+    "ภาวนา": [
+      "phaa-wá-naa",
+      "pray / wish deeply",
+      "祈禱／默默盼望"
+    ],
+    "วันเวลา": [
+      "wan-wee-laa",
+      "time / days and time",
+      "時光／歲月"
+    ],
+    "ฟ้า": [
+      "fáa",
+      "sky / heaven",
+      "天空／上天"
+    ],
+    "ช่วยฉันที": [
+      "chûai chǎn thii",
+      "please help me",
+      "幫幫我吧"
+    ],
+    "อยากให้": [
+      "yàak hâi",
+      "want someone/something to",
+      "想讓／希望"
+    ],
+    "กำลัง": [
+      "gam-lang",
+      "currently / be -ing",
+      "正在"
+    ],
+    "จ๊ะ": [
+      "já",
+      "soft/cute sentence particle",
+      "柔和可愛語氣詞"
+    ],
+    "สุดที่รัก": [
+      "sùt thîi-rák",
+      "my dearest / darling",
+      "最親愛的"
+    ],
+    "คิดถึง": [
+      "khít-thʉ̌ng",
+      "miss / think of",
+      "想念／掛念"
+    ],
+    "สุดใจ": [
+      "sùt jai",
+      "with all one’s heart",
+      "全心全意"
+    ],
+    "เหมือนกัน": [
+      "mʉ̌an gan",
+      "same / too",
+      "一樣／也一樣"
+    ],
+    "หรือเปล่า": [
+      "rʉ̌ʉ bplào",
+      "or not / whether",
+      "是不是／嗎"
+    ],
+    "ประมาณนั้น": [
+      "bprà-maan nán",
+      "something like that",
+      "大概那樣"
+    ],
+    "Mwah": [
+      "Mwah",
+      "kiss sound",
+      "親吻聲／啾"
+    ],
+    "เฮ้ย": [
+      "hə́əi",
+      "hey",
+      "欸"
+    ],
+    "เออ": [
+      "əə",
+      "yeah / uh-huh",
+      "嗯／對啦"
+    ],
+    "เธอแหละ": [
+      "thəə lɛ̀",
+      "you exactly",
+      "就是你"
+    ],
+    "แหละ": [
+      "lɛ̀",
+      "exactly / indeed",
+      "就是／正是"
+    ],
+    "คือ": [
+      "khʉʉ",
+      "it is / well",
+      "是／就是"
+    ],
+    "มีไร": [
+      "mii rai",
+      "have something / what’s up",
+      "有什麼事"
+    ],
+    "จะบอก": [
+      "jà bɔ̀ɔk",
+      "will tell",
+      "要說"
+    ],
+    "อะ": [
+      "à",
+      "soft casual particle",
+      "口語柔化語氣詞"
+    ],
+    "คืองี้": [
+      "khʉʉ ngíi",
+      "it’s like this",
+      "是這樣"
+    ],
+    "ตั้งใจฟัง": [
+      "dtâng-jai fang",
+      "listen carefully",
+      "專心聽"
+    ],
+    "นะ": [
+      "ná",
+      "softening particle",
+      "喔／啦"
+    ],
+    "รักเธอที่สุด": [
+      "rák thəə thîi-sùt",
+      "love you the most",
+      "最愛你"
+    ],
+    "ที่สุดเลย": [
+      "thîi-sùt ləəy",
+      "the very most",
+      "最最／超級"
+    ],
+    "รัก...ที่สุด": [
+      "rák...thîi-sùt",
+      "love...the most",
+      "最愛……"
+    ],
+    "...เลย": [
+      "...ləəy",
+      "really / totally",
+      "真的／超級"
+    ],
+    "หัวใจดวงนี้": [
+      "hǔa-jai duang níi",
+      "this heart",
+      "這一顆心"
+    ],
+    "เต้นไม่หยุด": [
+      "dtên mâi yùt",
+      "beat nonstop",
+      "不停跳動"
+    ],
+    "เวลา...": [
+      "wee-laa...",
+      "when...",
+      "當……時"
+    ],
+    "แทบสะดุด": [
+      "thɛ̂ɛp sà-dùt",
+      "almost stumble",
+      "差點絆倒"
+    ],
+    "นะเธอ": [
+      "ná thəə",
+      "you know, dear",
+      "你知道嗎／喔你"
+    ],
+    "ไม่ว่ากี่ครั้ง": [
+      "mâi wâa gìi khráng",
+      "no matter how many times",
+      "不管幾次"
+    ],
+    "ก็": [
+      "gɔ̂ɔ",
+      "then / also",
+      "就／也"
+    ],
+    "เก็บไปฝัน": [
+      "gèp bpai fǎn",
+      "keep it and dream of it",
+      "收進夢裡"
+    ],
+    "ต้องเป็นอย่างนี้": [
+      "dtɔ̂ng bpen yàang níi",
+      "have to be like this",
+      "只能這樣"
+    ],
+    "อย่างนี้": [
+      "yàang níi",
+      "like this",
+      "這樣"
+    ],
+    "คงต้อง": [
+      "khong dtɔ̂ng",
+      "probably have to",
+      "大概只能"
+    ],
+    "ภาวนาถึง...": [
+      "phaa-wá-naa thʉ̌ng...",
+      "pray/wish for...",
+      "為……祈願"
+    ],
+    "...อยู่": [
+      "...yùu",
+      "still doing / ongoing",
+      "正在／仍然持續"
+    ],
+    "ขอให้": [
+      "khɔ̌ɔ hâi",
+      "may / wish that",
+      "願／希望"
+    ],
+    "คิดแต่ไม่ถึง": [
+      "khít dtɛ̀ɛ mâi thʉ̌ng",
+      "think but cannot reach",
+      "想著卻傳不到"
+    ],
+    "คิด": [
+      "khít",
+      "think",
+      "想"
+    ],
+    "ไม่ถึง": [
+      "mâi thʉ̌ng",
+      "not reach",
+      "不到／沒達到"
+    ],
+    "อยากให้รู้": [
+      "yàak hâi rúu",
+      "want you to know",
+      "想讓你知道"
+    ],
+    "กำลังบอก": [
+      "gam-lang bɔ̀ɔk",
+      "am telling",
+      "正在說"
+    ],
+    "ว่า": [
+      "wâa",
+      "that / saying that",
+      "說／……的是"
+    ],
+    "คิดเหมือนกัน": [
+      "khít mʉ̌an gan",
+      "think/feel the same",
+      "想法／感覺一樣"
+    ],
+    "บ้างไหม": [
+      "bâang mǎi",
+      "at all? / even a little?",
+      "多少有……嗎"
+    ],
+    "ไม่รู้ว่า": [
+      "mâi rúu wâa",
+      "don’t know whether/that",
+      "不知道是否／不知道……"
+    ],
+    "อะไร": [
+      "à-rai",
+      "what / something",
+      "什麼"
+    ],
+    "อะไรประมาณนั้น": [
+      "à-rai bprà-maan nán",
+      "something like that",
+      "大概就是那樣"
+    ],
+    "ที่สุดเลยนะ": [
+      "thîi-sùt ləəy ná",
+      "the very most, okay?",
+      "最最……喔"
+    ],
+    "เลยนะ": [
+      "ləəy ná",
+      "really..., okay?",
+      "真的……喔"
+    ]
+  }
+};
+const STORE_KEY = SONG.storageKey;
+let state = {favorite:{}, learned:{}, reviewed:{}, mode:'normal'};
+let reviewPool = [];
+let currentReviewMode = 'all';
+
+function load(){
+  try{
+    state=Object.assign(state,JSON.parse(localStorage.getItem(STORE_KEY)||'{}'));
+  }catch(e){}
+  state.favorite=state.favorite||{};
+  state.learned=state.learned||{};
+  state.reviewed=state.reviewed||{};
+}
+function save(){
+  localStorage.setItem(STORE_KEY,JSON.stringify(state));
+  updateAllStatus();
+}
+function allLines(){return SONG.sections.flatMap(sec=>sec.lines.map((l,i)=>({type:'line',id:`line-${sec.id}-${i}`,section:sec.title,...l})));}
+function allPatterns(){return SONG.patterns.map(x=>({type:'pattern',id:x.id,...x}));}
+function allVocab(){return SONG.vocab.map(x=>({type:'vocab',id:x.id,...x}));}
+function itemKey(type, thai){return `${type}:${thai}`}
+function isFav(type,thai){return !!state.favorite[itemKey(type,thai)]}
+function isLearned(type,thai){return !!state.learned[itemKey(type,thai)]}
+function isReviewed(type,thai){return !!state.reviewed[itemKey(type,thai)]}
+function toggleFav(type,thai){
+  const k=itemKey(type,thai);
+  state.favorite[k]=!state.favorite[k];
+  if(!state.favorite[k]) delete state.favorite[k];
+  save();
+}
+function toggleLearned(type,thai){
+  const k=itemKey(type,thai);
+  state.learned[k]=!state.learned[k];
+  if(!state.learned[k]) delete state.learned[k];
+  save();
+}
+function toggleReviewed(type,thai){
+  const k=itemKey(type,thai);
+  state.reviewed[k]=!state.reviewed[k];
+  if(!state.reviewed[k]) delete state.reviewed[k];
+  save();
+}
+function resetReview(){
+  state.reviewed={};
+  save();
+  renderReview(currentReviewMode);
+}
+function esc(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function js(s){return String(s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,' ')}
+function defFor(chip){const direct=SONG.vocabDefs[chip]; if(direct)return {roman:direct[0],english:direct[1],chinese:direct[2]}; const pat=SONG.patterns.find(p=>p.thai===chip); if(pat)return pat; return {english:'',chinese:''}}
+function chipHtml(c){const d=defFor(c);return `<span class="chip" data-thai="${esc(c)}" onclick="event.stopPropagation();speak('${js(c)}',this)"><b>${esc(c)}</b>${d.english?`<span class="chip-en">${esc(d.english)}</span>`:''}</span>`}
+function lineHtml(l,i,secId,secTitle){const id=`line-${secId}-${i}`;return `<div class="line" data-search="${esc([l.thai,l.roman,l.english,l.chinese,l.note,...(l.chips||[])].join(' ').toLowerCase())}" data-id="${id}" data-thai="${esc(l.thai)}" onclick="speak('${js(l.thai)}',this)"><div class="th">${esc(l.thai)}</div><div class="rom">${esc(l.roman)}</div><div class="en">${esc(l.english)}</div><div class="zh">${esc(l.chinese)}</div><div class="vocab">${(l.chips||[]).map(chipHtml).join('')}</div><div class="note">${esc(l.note)}</div><div class="line-actions"><button class="round fav" onclick="event.stopPropagation();toggleFav('line','${js(l.thai)}')" data-type="line" data-thai="${esc(l.thai)}" title="收藏">♥</button><button class="round learned" onclick="event.stopPropagation();toggleLearned('line','${js(l.thai)}')" data-type="line" data-thai="${esc(l.thai)}" title="已學會">✓</button></div></div>`}
+function renderLyrics(){document.getElementById('lyricsList').innerHTML=SONG.sections.map((s,idx)=>`<section class="song-section glass ${idx<2?'open':''}" id="${s.id}"><button class="sec-head" onclick="this.parentElement.classList.toggle('open')"><span><span class="sec-title">${esc(s.title)}</span><span class="sec-sub">${esc(s.sub)}</span></span><span class="arrow">⌄</span></button><div class="sec-body">${s.lines.map((l,i)=>lineHtml(l,i,s.id,s.title)).join('')}</div></section>`).join('')}
+function studyCard(x,type,isReview=false){
+  const secondAction=isReview
+    ? `<button class="round reviewed" onclick="event.stopPropagation();toggleReviewed('${type}','${js(x.thai)}')" data-type="${type}" data-thai="${esc(x.thai)}" title="本輪已複習">✓</button>`
+    : `<button class="round learned" onclick="event.stopPropagation();toggleLearned('${type}','${js(x.thai)}')" data-type="${type}" data-thai="${esc(x.thai)}" title="已學會">✓</button>`;
+  return `<div class="glass study-card" data-search="${esc([x.thai,x.roman,x.english,x.chinese,x.level].join(' ').toLowerCase())}" onclick="speak('${js(x.thai)}',this)"><div class="th">${esc(x.thai)}</div><div class="rom">${esc(x.roman)}</div><div class="en">${esc(x.english)}</div><div class="zh">${esc(x.chinese)}</div><span class="level">${esc(x.level||'')}</span><div class="mini-actions"><button class="round fav" onclick="event.stopPropagation();toggleFav('${type}','${js(x.thai)}')" data-type="${type}" data-thai="${esc(x.thai)}" title="收藏">♥</button>${secondAction}</div></div>`;
+}
+function renderStudy(){document.getElementById('patternList').innerHTML=SONG.patterns.map(x=>studyCard(x,'pattern')).join('');document.getElementById('vocabList').innerHTML=SONG.vocab.map(x=>studyCard(x,'vocab')).join('')}
+function updateAllStatus(){document.querySelectorAll('.fav').forEach(b=>b.classList.toggle('active',isFav(b.dataset.type,b.dataset.thai)));document.querySelectorAll('.learned').forEach(b=>b.classList.toggle('active',isLearned(b.dataset.type,b.dataset.thai))); const favCount=Object.keys(state.favorite).length; document.getElementById('favBadge').textContent=favCount; renderProgress(); if(document.getElementById('favorites').classList.contains('active'))renderFavorites(document.getElementById('favSearch').value||''); if(document.getElementById('review').classList.contains('active'))renderReview(currentReviewMode);}
+function countLearned(items,type){let total=items.length;let learned=items.filter(x=>isLearned(type,x.thai)).length;return {total,learned,pct:total?Math.round(learned/total*100):0}}
+function progressRow(lbl,obj){return `<div class="progress-row"><span class="lbl">${lbl}</span><div class="bar"><span style="width:${obj.pct}%"></span></div><span class="pct">${obj.pct}%</span></div>`}
+function renderProgress(){const l=countLearned(uniqueByThai(allLines()),'line'), p=countLearned(SONG.patterns,'pattern'), v=countLearned(SONG.vocab,'vocab');const all={total:l.total+p.total+v.total,learned:l.learned+p.learned+v.learned};all.pct=all.total?Math.round(all.learned/all.total*100):0;document.getElementById('progressBox').innerHTML=progressRow('Song',all)+progressRow('Lyrics',l)+progressRow('Patterns',p)+progressRow('Vocab',v)}
+function uniqueByThai(items){const m=new Map();items.forEach(x=>{if(!m.has(x.thai))m.set(x.thai,x)});return [...m.values()]}
+function renderFavorites(q=''){q=(q||'').toLowerCase();const groups=[['Favorite Lyrics',uniqueByThai(allLines()),'line'],['Favorite Patterns',SONG.patterns,'pattern'],['Favorite Vocabulary',SONG.vocab,'vocab']];let html='';groups.forEach(([title,items,type])=>{let arr=items.filter(x=>isFav(type,x.thai)).filter(x=>[x.thai,x.roman,x.english,x.chinese,x.note].join(' ').toLowerCase().includes(q));html+=`<div class="fav-block"><h3>${title}</h3>${arr.length?`<div class="study-list">${arr.map(x=>studyCard(x,type)).join('')}</div>`:'<div class="empty">目前沒有收藏</div>'}</div>`});document.getElementById('favoriteList').innerHTML=html;updateAllStatusNoRender()}
+function updateAllStatusNoRender(){
+  document.querySelectorAll('.fav').forEach(b=>b.classList.toggle('active',isFav(b.dataset.type,b.dataset.thai)));
+  document.querySelectorAll('.learned').forEach(b=>b.classList.toggle('active',isLearned(b.dataset.type,b.dataset.thai)));
+  document.querySelectorAll('.reviewed').forEach(b=>b.classList.toggle('active',isReviewed(b.dataset.type,b.dataset.thai)));
+}
+function groupBlock(title,items,type,open=true,isReview=false){
+  return `<div class="collapsible-group ${open?'':'closed'}"><button class="group-head" onclick="this.parentElement.classList.toggle('closed')"><span><span class="group-title">${title}</span><span class="group-count">${items.length}</span></span><span class="arrow">⌄</span></button><div class="group-body">${items.length?`<div class="study-list">${items.map(x=>studyCard(x,type||x.type,isReview)).join('')}</div>`:'<div class="empty">目前沒有項目</div>'}</div></div>`;
+}
+function reviewEligible(x){
+  return isLearned(x.type,x.thai) && !isReviewed(x.type,x.thai);
+}
+function renderReview(mode='all'){
+  currentReviewMode=mode;
+  let lines=uniqueByThai(allLines()).map(x=>({...x,type:'line'})).filter(reviewEligible);
+  let patterns=SONG.patterns.map(x=>({...x,type:'pattern'})).filter(reviewEligible);
+  let vocab=SONG.vocab.map(x=>({...x,type:'vocab'})).filter(reviewEligible);
+
+  if(mode==='fav'){
+    lines=lines.filter(x=>isFav(x.type,x.thai));
+    patterns=patterns.filter(x=>isFav(x.type,x.thai));
+    vocab=vocab.filter(x=>isFav(x.type,x.thai));
+  }
+
+  reviewPool=[...lines,...patterns,...vocab];
+  document.getElementById('reviewList').innerHTML=reviewPool.length
+    ? groupBlock('Lyrics',lines,'line',true,true)
+      + groupBlock('Patterns',patterns,'pattern',false,true)
+      + groupBlock('Vocabulary',vocab,'vocab',false,true)
+    : '<div class="empty">目前沒有可複習的已學會項目</div>';
+  updateAllStatusNoRender();
+}
+function shuffleReview(){
+  currentReviewMode='all';
+  let items=[
+    ...uniqueByThai(allLines()).map(x=>({...x,type:'line'})),
+    ...SONG.patterns.map(x=>({...x,type:'pattern'})),
+    ...SONG.vocab.map(x=>({...x,type:'vocab'}))
+  ].filter(reviewEligible).sort(()=>Math.random()-.5);
+  reviewPool=items;
+  document.getElementById('reviewList').innerHTML=items.length
+    ? groupBlock('Shuffle Review',items,null,true,true)
+    : '<div class="empty">目前沒有可複習的已學會項目</div>';
+  updateAllStatusNoRender();
+}
+function getProgressSnapshot(){
+  const uniqueLines=uniqueByThai(allLines());
+  const countLearned=(type,items)=>items.filter(x=>isLearned(type,x.thai)).length;
+  const lineLearned=countLearned('line',uniqueLines);
+  const patternLearned=countLearned('pattern',SONG.patterns);
+  const vocabLearned=countLearned('vocab',SONG.vocab);
+  const total=uniqueLines.length+SONG.patterns.length+SONG.vocab.length;
+  const learned=lineLearned+patternLearned+vocabLearned;
+  return {
+    song:{learned,total,percent:total?Math.round(learned/total*100):0},
+    lyrics:{learned:lineLearned,total:uniqueLines.length,percent:uniqueLines.length?Math.round(lineLearned/uniqueLines.length*100):0},
+    patterns:{learned:patternLearned,total:SONG.patterns.length,percent:SONG.patterns.length?Math.round(patternLearned/SONG.patterns.length*100):0},
+    vocab:{learned:vocabLearned,total:SONG.vocab.length,percent:SONG.vocab.length?Math.round(vocabLearned/SONG.vocab.length*100):0}
+  };
+}
+function exportState(){
+  const payload={
+    schema:'thai-song-lab-song-state',
+    version:3,
+    exportedAt:new Date().toISOString(),
+    song:{
+      slug:SONG.slug,
+      title:SONG.title,
+      artist:SONG.artist,
+      level:SONG.level
+    },
+    progress:getProgressSnapshot(),
+    state:{
+      favorite:{...(state.favorite||{})},
+      learned:{...(state.learned||{})},
+      reviewed:{...(state.reviewed||{})},
+      mode:state.mode||'normal'
+    }
+  };
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`${SONG.slug}-progress.json`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),0);
+  a.remove();
+}
+function importState(event){
+  const file=event.target.files && event.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      const incoming=data.state||data;
+      const incomingSlug=data.song?.slug||data.song;
+      if(data.schema && data.schema!=='thai-song-lab-song-state')throw new Error('Invalid schema');
+      if(incomingSlug && incomingSlug!==SONG.slug)throw new Error('Different song');
+      if(!incoming.favorite && !incoming.learned && !incoming.reviewed)throw new Error('Invalid state file');
+
+      state.favorite={...(state.favorite||{}),...(incoming.favorite||{})};
+      state.learned={...(state.learned||{}),...(incoming.learned||{})};
+      state.reviewed={...(state.reviewed||{}),...(incoming.reviewed||{})};
+      if(incoming.mode)state.mode=incoming.mode;
+
+      save();
+      renderLyrics();
+      renderStudy();
+      renderFavorites(document.getElementById('favSearch')?.value||'');
+      renderReview(currentReviewMode);
+      alert('已匯入此首歌的 Favorites、Learned、Review 與學習進度。');
+    }catch(e){
+      const message=e.message==='Different song'
+        ? '匯入失敗：這份 JSON 屬於另一首歌。'
+        : '匯入失敗：請選擇有效的 Thai Song Lab JSON 檔。';
+      alert(message);
+    }
+    event.target.value='';
+    const legacyInput=document.getElementById('stateImportFile');
+    if(legacyInput)legacyInput.value='';
+  };
+  reader.readAsText(file);
+}
+function filterLyrics(q){q=(q||'').toLowerCase();document.querySelectorAll('#lyricsList .line').forEach(el=>el.classList.toggle('hidden',q && !el.dataset.search.includes(q)))}
+function filterStudy(id,q){q=(q||'').toLowerCase();document.querySelectorAll(`#${id} .study-card`).forEach(el=>el.classList.toggle('hidden',q && !el.dataset.search.includes(q)))}
+function showPage(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('.top .btn').forEach(b=>b.classList.remove('active-tab'));if(btn)btn.classList.add('active-tab');if(id==='favorites')renderFavorites(document.getElementById('favSearch').value||'');if(id==='review')renderReview('all');window.scrollTo({top:0,behavior:'smooth'})}
+function setMode(mode,btn){const app=document.getElementById('app');app.className='wrap';if(mode!=='normal')app.classList.add(mode);state.mode=mode;document.querySelectorAll('.toolbar .btn').forEach(b=>b.classList.remove('mode-on'));if(btn)btn.classList.add('mode-on');save()}
+function expandAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.add('open'))}function collapseAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.remove('open'))}
+let queueToken=0;function speak(text,btn){
+  if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');
+  queueToken++;
+  speechSynthesis.cancel();
+  document.querySelectorAll('.playing').forEach(el=>el.classList.remove('playing'));
+  const card = btn && btn.classList ? (btn.classList.contains('line')||btn.classList.contains('study-card') ? btn : btn.closest('.line,.study-card')) : null;
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='th-TH';
+  u.rate=.86;
+  if(card)card.classList.add('playing');
+  if(btn && btn.classList)btn.classList.add('active');
+  const clear=()=>{if(card)card.classList.remove('playing'); if(btn && btn.classList)btn.classList.remove('active')};
+  u.onend=clear;
+  u.onerror=clear;
+  speechSynthesis.speak(u);
+}
+function speakQueue(lines){if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');queueToken++;const token=queueToken;speechSynthesis.cancel();let i=0;function next(){if(token!==queueToken||i>=lines.length)return;const u=new SpeechSynthesisUtterance(lines[i++]);u.lang='th-TH';u.rate=.84;u.onend=()=>setTimeout(next,420);speechSynthesis.speak(u)}next()}
+function playVisibleLyrics(){const lines=[...document.querySelectorAll('#lyricsList .line:not(.hidden)')].map(el=>el.dataset.thai).filter(t=>!t.startsWith('Every night')&&!t.startsWith('Tryna')&&!t.startsWith('And I'));speakQueue(lines)}
+function speakAll(){showPage('lyrics');expandAll();const lines=SONG.sections.flatMap(s=>s.lines.map(l=>l.thai).filter(t=>!t.startsWith('Every night')&&!t.startsWith('Tryna')&&!t.startsWith('And I')));speakQueue(lines)}
+function init(){document.getElementById('artist').textContent=SONG.artist;document.getElementById('title').textContent=SONG.title;document.getElementById('subtitle').textContent=`${SONG.romanTitle} · ${SONG.englishTitle}`;load();renderLyrics();renderStudy();setMode(state.mode||'normal');updateAllStatus()}
+init();
+</script>
+</body>
+</html>
