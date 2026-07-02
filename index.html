@@ -391,9 +391,6 @@ h1{
   .tools:has(.search){
     max-width:100%;
   }
-  .grid{
-    grid-template-columns:minmax(0,1fr);
-  }
 }
 
 /* phone */
@@ -511,6 +508,23 @@ h1{
 .footer-action:hover{color:var(--accent)}
 .footer-dot{margin:0 4px;color:rgba(201,192,183,.45)}
 
+
+/* v3.3: responsive card grid — Desktop 2 / iPad 2 / Phone 1 */
+.grid{
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:16px;
+}
+@media(max-width:1023px){
+  .grid{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  }
+}
+@media(max-width:640px){
+  .grid{
+    grid-template-columns:1fr !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -543,26 +557,51 @@ h1{
     <span class="footer-dot">·</span>
     <button class="footer-action" type="button" onclick="document.getElementById('indexStateImportFile').click()">import JSON</button>
     <span class="footer-dot">·</span>
-    Thai Song Lab Index v3.2
+    Thai Song Lab Index v3.5
     <span class="footer-dot">·</span>
-    <a class="footer-link" href="https://github.com/abbyyyli/thai_songs" target="_blank" rel="noopener">github</a>
+    <a class="footer-link" href="https://github.com/abbyyyli/thai_songs-2" target="_blank" rel="noopener">github</a>
   </footer>
 </div>
 
 <script>
 const SONGS = [
   {
-    slug:"wan-níi bpii thîi-lɛ́ɛw",
+    slug:"wan-nii-bpii-thii-laew",
     title:"วันนี้ปีที่แล้ว",
     roman:"wan-níi bpii thîi-lɛ́ɛw",
     artist:"MEYOU",
     english:"This Day Last Year",
-    href:"songs/wan-nii-bpii-thii-lɛɛw.html",
+    href:"songs/wan-nii-bpii-thii-laew.html",
     level:"A2 → B1",
-    tags:["A2","B1","Breakup","Shadowing","Spotify Order","Favorites"],
+    topics:["Breakup","Regret"],
+    tags:["A2","B1","Breakup","Regret","Shadowing","Spotify Order","Favorites"],
     storageKey:"thai-song-lab-v2-wan-nii-bpii-thii-laew",
     totals:{lyrics:30,patterns:12,vocab:29},
     search:"วันนี้ปีที่แล้ว wan nii bpii thii lɛɛw meyou this day last year breakup regret เสียใจ คง ขอร้อง กว่าจะ ต่อให้"
+  },
+  {
+      "slug": "khao-rak-thoe-thii-sut-ily",
+      "title": "เค้ารักเธอที่สุด (ily)",
+      "roman": "kháo rák thəə thîi-sùt (ily)",
+      "artist": "MEYOU",
+      "english": "I Love You the Most (ily)",
+      "href": "songs/khao-rak-thoe-thii-sut-ily.html",
+      "level": "A2",
+      "topics": ["Love", "Confession"],
+      "tags": [
+          "A2",
+          "Love",
+          "Confession",
+          "Shadowing",
+          "Spotify Order"
+      ],
+      "storageKey": "thai-song-lab-v2-khao-rak-thoe-thii-sut-ily",
+      "totals": {
+          "lyrics": 44,
+          "patterns": 18,
+          "vocab": 34
+      },
+      "search": "เค้ารักเธอที่สุด ily khao rak thoe thii sut meyou love confession คิดถึง ที่สุด รัก อยากให้ ไม่รู้ว่า คิดเหมือนกัน บ้างไหม หรือเปล่า"
   }
 ];
 
@@ -599,7 +638,7 @@ function renderSongs(){
       <div class="meta">${esc(song.artist)} · ${esc(song.english)}</div>
       <div class="card-pills">
         <span class="tag">${esc(song.level)}</span>
-        <span class="tag">Spotify Order</span>
+        ${(song.topics||[]).map(topic=>`<span class="tag">${esc(topic)}</span>`).join("")}
         <span class="tag">Favorites ${st.fav}</span>
       </div>
       <div class="progress">
