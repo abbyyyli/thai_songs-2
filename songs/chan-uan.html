@@ -1,0 +1,2542 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ฉันอ้วน — TimeTime | Thai Song Lab</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+Thai:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+:root{--bg:#111018;--text:#fff8ef;--muted:#c9c0b7;--soft:#a9a2b5;--line:rgba(255,255,255,.13);--card:rgba(255,255,255,.075);--card2:rgba(255,255,255,.105);--accent:#f2bb6b;--accent2:#9fd7c7;--blue:#91a8d8;--purple:#b69ad8;--rose:#edb4a3;--shadow:0 18px 46px rgba(0,0,0,.28);--radius:22px;--thai:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif;--ui:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--zh:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;--en:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;color:var(--text);font-family:var(--ui);line-height:1.65;background:radial-gradient(circle at 8% -8%,rgba(242,187,107,.22),transparent 33%),radial-gradient(circle at 92% 6%,rgba(145,168,216,.20),transparent 34%),radial-gradient(circle at 40% 58%,rgba(182,154,216,.14),transparent 42%),linear-gradient(145deg,#14121c 0%,#181724 44%,#101018 100%);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}button,input{font-family:inherit}.thai,.th{font-family:var(--thai)}.roman,.rom{font-family:var(--mono)}.top{position:sticky;top:0;z-index:50;background:rgba(15,15,22,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.top-inner{max-width:1120px;margin:auto;padding:13px 18px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}.brand{font-weight:800;color:var(--accent);letter-spacing:.02em}.nav{display:flex;gap:8px;flex-wrap:wrap}.btn{font-family:var(--ui);border:1px solid var(--line);background:rgba(255,255,255,.055);color:var(--muted);border-radius:999px;padding:8px 13px;font-size:13px;cursor:pointer;transition:.15s ease}.btn:hover,.btn.active-tab,.mode-on{border-color:rgba(242,187,107,.85);color:var(--accent);background:rgba(242,187,107,.12)}.wrap{max-width:1120px;margin:0 auto;padding:26px 18px 74px}.hero{padding:18px 0 22px}.kicker{font-family:var(--ui);color:var(--accent);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800}.hero-main{display:flex;gap:18px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap}.song-name{font-family:var(--thai);font-size:44px;line-height:1.12;margin:6px 0 5px}.subtitle{color:var(--muted);font-size:15px}.quick-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.meta-pill{font-family:var(--ui);border:1px solid rgba(242,187,107,.38);background:rgba(242,187,107,.10);color:#f5d6a3;border-radius:999px;padding:5px 10px;font-size:12.5px}.page{display:none;animation:fade .18s ease}.page.active{display:block}@keyframes fade{from{opacity:.55;transform:translateY(4px)}to{opacity:1;transform:none}}.glass{background:linear-gradient(145deg,rgba(255,255,255,.095),rgba(255,255,255,.045));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);backdrop-filter:blur(14px)}.overview-layout{display:grid;grid-template-columns:1fr;gap:18px}.overview-card{padding:22px}.overview-title{font-family:var(--ui);font-size:13px;letter-spacing:.16em;color:var(--accent);font-weight:800;text-transform:uppercase;margin-bottom:14px}.statement{font-family:var(--zh);font-size:20px;line-height:1.8;margin-bottom:18px;color:#fff7ee;letter-spacing:.01em}.focus-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.focus{border:1px solid rgba(159,215,199,.32);background:rgba(159,215,199,.075);border-radius:16px;padding:12px}.focus b{display:block;font-size:13px;color:#e9fff8;margin-bottom:4px}.focus span{font-family:var(--zh);font-size:12px;color:var(--muted);line-height:1.72}.progress-wrap{margin-top:18px}.progress-row{display:flex;align-items:center;gap:10px;margin:9px 0}.progress-row .lbl{width:86px;color:var(--muted);font-size:12px}.bar{height:10px;flex:1;border-radius:999px;background:rgba(255,255,255,.10);overflow:hidden;border:1px solid var(--line)}.bar>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:999px}.pct{width:42px;text-align:right;color:#f5d6a3;font-size:12px}.study{padding:18px;margin-top:18px}.toolbar{display:flex;gap:8px;flex-wrap:wrap}.hint{font-family:var(--zh);color:var(--muted);font-size:13px;line-height:1.75;margin-top:12px}.lyrics-tools{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.search{width:100%;border:1px solid var(--line);background:rgba(255,255,255,.07);color:var(--text);border-radius:999px;padding:10px 14px;font-size:14px;margin-bottom:14px}.search::placeholder{color:var(--soft)}.song-section{margin:16px 0;overflow:hidden}.sec-head{width:100%;border:none;background:linear-gradient(135deg,rgba(242,187,107,.16),rgba(255,255,255,.035));color:var(--text);padding:15px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;text-align:left}.sec-title{display:block;font-size:15px;font-weight:800}.sec-sub{display:block;color:var(--muted);font-size:12px;margin-top:2px}.sec-body{display:none;padding:13px}.song-section.open .sec-body{display:block}.arrow{color:var(--muted);transition:.15s}.song-section.open .arrow{transform:rotate(180deg)}.line{position:relative;border:1px solid rgba(255,255,255,.105);background:linear-gradient(145deg,rgba(255,255,255,.078),rgba(255,255,255,.035));border-radius:20px;padding:17px 16px;margin:11px 0;box-shadow:0 10px 28px rgba(0,0,0,.16)}.line.hidden,.study-card.hidden{display:none}.th{font-size:27px;line-height:1.45;font-weight:800;color:#fffaf4}.rom{font-size:13px;color:#e6c58e;margin-top:6px;letter-spacing:.01em}.zh{font-family:var(--ui);font-size:15px;color:#ded7d0;margin-top:4px;line-height:1.72}.en{font-family:var(--en);color:#b9c7e8;font-size:13.5px;margin-top:4px;line-height:1.55}.vocab{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}.chip{display:inline-flex;gap:7px;align-items:center;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.07);border-radius:999px;padding:5px 10px;font-size:12px;color:var(--muted);cursor:pointer;transition:.14s ease}.chip:hover,.chip.active{border-color:rgba(242,187,107,.75);background:rgba(242,187,107,.12);color:var(--accent)}.chip b{font-family:var(--thai);font-size:13.5px;color:#fff8ef}.chip-en{font-family:var(--en);font-size:11.5px;color:#bcb3ad}.note{font-family:var(--zh);margin-top:12px;color:#c7beb7;font-size:13px;line-height:1.85;border-left:4px solid var(--accent2);padding:9px 0 9px 12px;background:linear-gradient(90deg,rgba(159,215,199,.08),transparent);border-radius:0 12px 12px 0}.line-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:13px}.round{border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.06);color:var(--muted);border-radius:99px;width:36px;height:36px;cursor:pointer;transition:.14s ease}.round:hover,.round.active{border-color:rgba(242,187,107,.82);color:var(--accent);background:rgba(242,187,107,.13)}.round.learned.active{border-color:var(--accent2);color:var(--accent2);background:rgba(159,215,199,.12)}.study-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:12px;margin-top:14px}.study-card{position:relative;padding:15px 88px 15px 15px;cursor:pointer}.study-card:hover{border-color:rgba(242,187,107,.55);background:linear-gradient(145deg,rgba(242,187,107,.11),rgba(255,255,255,.04))}.study-card .th{font-size:25px}.study-card .rom{font-size:12.5px}.study-card .zh{font-size:13px}.mini-actions{position:absolute;right:12px;top:50%;transform:translateY(-50%);display:flex;gap:6px}.mini-actions .round{width:31px;height:31px;font-size:12px}.level{display:inline-flex;margin-top:8px;border:1px solid rgba(145,168,216,.28);background:rgba(145,168,216,.09);border-radius:999px;padding:3px 8px;color:#c8d5f3;font-size:11px}.fav-block{margin:18px 0}.fav-block h3{font-size:14px;color:var(--accent);margin:0 0 10px;letter-spacing:.06em}
+.collapsible-group{margin:16px 0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(255,255,255,.035)}
+.group-head{width:100%;border:0;background:linear-gradient(135deg,rgba(242,187,107,.12),rgba(255,255,255,.025));color:var(--text);padding:13px 15px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left}
+.group-title{font-family:var(--ui);font-weight:800;color:var(--accent);letter-spacing:.04em}
+.group-count{font-family:var(--ui);font-size:12px;color:var(--muted);margin-left:8px}
+.group-body{display:block;padding:13px}
+.collapsible-group.closed .group-body{display:none}
+.collapsible-group.closed .arrow{transform:rotate(-90deg)}
+.storage-tools{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.import-file{display:none}
+.empty{padding:18px;color:var(--muted);border:1px dashed var(--line);border-radius:18px;text-align:center}.hide-roman .rom{display:none}.hide-zh .zh{display:none}.thai-only .rom,.thai-only .zh,.thai-only .en,.thai-only .note,.thai-only .vocab{display:none}.shadow .note,.shadow .vocab,.shadow .en{display:none}.shadow .line{background:linear-gradient(145deg,rgba(242,187,107,.105),rgba(255,255,255,.035))}footer{font-family:var(--ui);text-align:center;color:var(--muted);font-size:12px;padding:32px}
+.brand-home{
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+.brand-home:hover::after{
+  content:"Back to Library";
+  font-size:11px;
+  color:var(--muted);
+  font-weight:500;
+  letter-spacing:0;
+  margin-left:4px;
+}
+@media(max-width:680px){
+  .brand-home:hover::after{content:"";}
+}
+
+@media(max-width:680px){.wrap{padding:20px 16px 64px}.top-inner{align-items:flex-start}.nav{gap:7px}.btn{padding:7px 11px;font-size:12.5px}.song-name{font-size:36px}.quick-meta{margin-top:12px}.focus-grid{grid-template-columns:1fr}.overview-card{padding:18px}.statement{font-size:17px}.th{font-size:24px}.line{padding:15px 14px}.sec-body{padding:10px}.study-list{grid-template-columns:1fr}.study-card{padding-right:86px}.progress-row .lbl{width:76px}}
+
+/* v4 visual reset: use the clean v1 reading-note design + latest v2.6 functions */
+:root{
+  --bg:#111318;
+  --card:#1b1f2a;
+  --card2:#232838;
+  --text:#f7efe8;
+  --muted:#b8aea6;
+  --line:#343948;
+  --accent:#e9a84c;
+  --accent2:#8dc6b5;
+  --rose:#efb0a1;
+  --soft:rgba(233,168,76,.10);
+  --shadow:0 14px 36px rgba(0,0,0,.25);
+  --radius:18px;
+  --thai:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif;
+  --ui:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;
+  --zh:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;
+  --en:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;
+  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+body{
+  background:radial-gradient(circle at top left,#2b2234 0,#111318 45%,#0e0f12 100%) !important;
+  color:var(--text);
+  font-family:var(--zh);
+  font-size:14px;
+  line-height:1.75;
+}
+.top{
+  background:rgba(17,19,24,.88);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(12px);
+}
+.top-inner{
+  max-width:1100px;
+  padding:12px 18px;
+}
+.brand{
+  color:var(--accent);
+  font-family:var(--zh);
+  font-size:14px;
+  font-weight:700;
+}
+.btn{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--muted);
+  border-radius:999px;
+  padding:7px 12px;
+  font-size:12px;
+  font-family:var(--zh);
+}
+.btn:hover,.btn.active-tab,.mode-on{
+  border-color:var(--accent);
+  color:var(--accent);
+  background:rgba(233,168,76,.08);
+}
+.wrap{
+  max-width:1100px;
+  padding:24px 18px 60px;
+}
+.hero{
+  padding:34px 0 22px;
+}
+.kicker{
+  color:var(--accent);
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  font-weight:700;
+  font-family:var(--zh);
+}
+.song-name{
+  font-family:var(--thai);
+  font-size:42px;
+  line-height:1.2;
+  margin:7px 0;
+}
+.subtitle{
+  color:var(--muted);
+  max-width:760px;
+  font-size:14px;
+}
+.quick-meta{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:16px;
+}
+.meta-pill{
+  border:1px solid rgba(233,168,76,.35);
+  background:var(--soft);
+  color:#f2d4a1;
+  border-radius:999px;
+  padding:4px 10px;
+  font-size:12px;
+  font-family:var(--zh);
+}
+.glass,.overview-card,.study,.song-section,.section,.collapsible-group{
+  background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025)) !important;
+  border:1px solid var(--line) !important;
+  border-radius:var(--radius) !important;
+  box-shadow:var(--shadow);
+  backdrop-filter:none;
+}
+.overview-layout{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:16px;
+  align-items:stretch;
+}
+.overview-card,.study{
+  padding:18px;
+  margin-top:0;
+}
+.overview-title{
+  font-family:var(--zh);
+  font-size:15px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin-bottom:10px;
+  font-weight:700;
+}
+.statement{
+  font-family:var(--zh);
+  color:var(--text);
+  font-size:14px;
+  line-height:1.8;
+  margin-bottom:10px;
+}
+.focus-grid{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+.focus{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  border-radius:999px;
+  padding:5px 9px;
+}
+.focus b{
+  display:inline;
+  color:var(--muted);
+  font-family:var(--zh);
+  font-size:12px;
+  font-weight:400;
+}
+.focus span{
+  display:none;
+}
+.toolbar{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin:18px 0;
+}
+.hint{
+  color:var(--muted);
+  font-family:var(--zh);
+  font-size:13px;
+  line-height:1.75;
+}
+.progress-wrap{display:none}
+.search{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--text);
+  border-radius:999px;
+  padding:9px 13px;
+  font-size:13px;
+  font-family:var(--zh);
+}
+.song-section{
+  margin:16px 0;
+  overflow:hidden;
+  scroll-margin-top:82px;
+}
+.sec-head{
+  background:linear-gradient(135deg,rgba(233,168,76,.12),rgba(255,255,255,.025));
+  color:var(--text);
+  padding:14px 16px;
+}
+.sec-title{
+  font-weight:700;
+  font-size:14px;
+}
+.sec-sub{
+  color:var(--muted);
+  font-size:12px;
+}
+.sec-body{
+  padding:14px;
+}
+.line{
+  border:1px solid rgba(255,255,255,.06);
+  background:rgba(255,255,255,.025);
+  border-radius:14px;
+  padding:12px 64px 12px 12px;
+  margin:10px 0;
+  box-shadow:none;
+}
+.th{
+  font-family:var(--thai);
+  font-size:18px;
+  font-weight:600;
+  line-height:1.55;
+}
+.rom{
+  font-family:var(--mono);
+  color:#d0b79a;
+  font-size:12px;
+  margin-top:4px;
+}
+.zh{
+  font-family:var(--zh);
+  color:var(--text);
+  font-size:13px;
+  line-height:1.7;
+}
+.en{
+  font-family:var(--en);
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.6;
+}
+.note{
+  margin-top:7px;
+  color:var(--muted);
+  font-family:var(--zh);
+  font-size:12.5px;
+  border-left:3px solid var(--accent2);
+  padding:0 0 0 9px;
+  background:transparent;
+  border-radius:0;
+}
+.vocab{
+  gap:6px;
+  margin-top:8px;
+}
+.chip{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  border-radius:999px;
+  padding:4px 9px;
+  font-size:11.5px;
+  color:var(--muted);
+}
+.chip b{
+  font-family:var(--thai);
+  color:var(--text);
+  font-size:12.5px;
+}
+.chip-en{
+  font-family:var(--zh);
+  color:var(--muted);
+  font-size:11.5px;
+}
+.round{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  color:var(--muted);
+  border-radius:99px;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+.round:hover,.round.active{
+  border-color:var(--accent);
+  color:var(--accent);
+  background:rgba(233,168,76,.08);
+}
+.round.learned.active{
+  border-color:var(--accent2);
+  color:var(--accent2);
+  background:rgba(141,198,181,.09);
+}
+.line-actions,.mini-actions{
+  position:absolute !important;
+  right:12px !important;
+  top:50% !important;
+  bottom:auto !important;
+  transform:translateY(-50%) !important;
+  display:flex;
+  gap:6px;
+  margin:0 !important;
+}
+.study-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:8px;
+  margin-top:12px;
+}
+.study-card{
+  border:1px solid var(--line) !important;
+  border-radius:12px !important;
+  padding:10px 76px 10px 10px !important;
+  background:rgba(255,255,255,.025) !important;
+  box-shadow:none !important;
+}
+.study-card:hover,.line:hover{
+  border-color:var(--accent) !important;
+  background:rgba(233,168,76,.06) !important;
+}
+.study-card .th{
+  font-size:18px;
+}
+.study-card .rom{
+  font-size:12px;
+}
+.study-card .zh,.study-card .en{
+  font-size:12px;
+}
+.level:empty{display:none!important}
+.line.playing,.study-card.playing{
+  border-color:var(--accent)!important;
+  background:rgba(233,168,76,.08)!important;
+  box-shadow:none!important;
+}
+.line.playing::after,.study-card.playing::after{
+  content:"▶";
+  position:absolute;
+  right:13px;
+  top:10px;
+  font-size:11px;
+  color:var(--accent);
+  border:0;
+  background:transparent;
+  padding:0;
+}
+.group-head{
+  background:linear-gradient(135deg,rgba(233,168,76,.12),rgba(255,255,255,.025));
+}
+.group-title{
+  color:var(--accent);
+  font-family:var(--zh);
+}
+footer{
+  color:var(--muted);
+  font-size:12px;
+  padding:30px;
+  font-family:var(--zh);
+}
+
+/* Desktop */
+@media(min-width:1024px){
+  .overview-layout{grid-template-columns:1.2fr .8fr}
+}
+
+/* iPad */
+@media(max-width:1023px){
+  .wrap{max-width:820px}
+  .overview-layout{grid-template-columns:1fr}
+  .study-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .song-name{font-size:38px}
+}
+
+/* Phone */
+@media(max-width:680px){
+  .top-inner{align-items:flex-start}
+  .nav{gap:7px}
+  .btn{padding:7px 11px;font-size:12px}
+  .wrap{padding:20px 16px 64px}
+  .song-name{font-size:34px}
+  .overview-card,.study{padding:16px}
+  .study-list{grid-template-columns:1fr}
+  .th{font-size:18px}
+  .study-card .th{font-size:18px}
+  .line{padding:12px 62px 12px 12px}
+}
+
+
+
+/* v4.2: sans-serif typography + real long-term progress + separate review round */
+:root{
+  --ui:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --zh:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --en:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+body,
+.btn,
+.brand,
+.kicker,
+.overview-title,
+.statement,
+.hint,
+.focus b,
+.meta-pill,
+.search,
+.zh,
+.en,
+.note,
+.chip-en,
+.group-title,
+footer{
+  font-family:var(--ui) !important;
+}
+
+/* Restore the real learned-progress panel from v2.4 */
+.progress-wrap{
+  display:block !important;
+  margin-top:18px !important;
+}
+.progress-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:9px 0;
+}
+.progress-row .lbl{
+  width:86px;
+  color:var(--muted);
+  font-size:12px;
+}
+.bar{
+  height:10px;
+  flex:1;
+  border-radius:999px;
+  background:rgba(255,255,255,.10);
+  overflow:hidden;
+  border:1px solid var(--line);
+}
+.bar>span{
+  display:block;
+  height:100%;
+  width:0;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  border-radius:999px;
+}
+.pct{
+  width:42px;
+  text-align:right;
+  color:#f5d6a3;
+  font-size:12px;
+}
+
+/* Compact controls that do not cover card text */
+.line,
+.study-card{
+  cursor:pointer;
+}
+.line{
+  position:relative;
+  padding-right:72px !important;
+}
+.study-card{
+  position:relative;
+  padding-right:76px !important;
+}
+.line-actions,
+.mini-actions{
+  position:absolute !important;
+  right:12px !important;
+  top:50% !important;
+  bottom:auto !important;
+  transform:translateY(-50%) !important;
+  display:flex;
+  gap:6px;
+  margin:0 !important;
+}
+.line-actions .round,
+.mini-actions .round{
+  width:30px !important;
+  height:30px !important;
+  font-size:12px !important;
+  opacity:.82;
+}
+.line-actions .round:hover,
+.line-actions .round.active,
+.mini-actions .round:hover,
+.mini-actions .round.active{
+  opacity:1;
+}
+.round.reviewed.active{
+  border-color:var(--accent2);
+  color:var(--accent2);
+  background:rgba(141,198,181,.10);
+}
+
+/* Review reset stays intentionally quiet */
+.review-reset{
+  margin-left:auto;
+  padding:5px 9px !important;
+  font-size:11px !important;
+  opacity:.72;
+}
+.review-reset:hover{
+  opacity:1;
+}
+
+@media(max-width:1023px){
+  .progress-row .lbl{width:76px;}
+}
+@media(max-width:680px){
+  .progress-row .lbl{width:64px;}
+  .line{padding-right:68px !important;}
+  .study-card{padding-right:74px !important;}
+  .line-actions,.mini-actions{right:11px !important;}
+  .review-reset{margin-left:0;}
+}
+
+
+/* v4.3: restore Overview card descriptions */
+.focus-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:10px !important;
+  margin-top:12px !important;
+}
+.focus{
+  border:1px solid rgba(141,198,181,.32) !important;
+  background:rgba(141,198,181,.07) !important;
+  border-radius:16px !important;
+  padding:12px !important;
+}
+.focus b{
+  display:block !important;
+  font-size:13px !important;
+  color:#e9fff8 !important;
+  margin-bottom:4px !important;
+  font-weight:700 !important;
+}
+.focus span{
+  display:block !important;
+  font-family:var(--ui) !important;
+  color:var(--muted) !important;
+  font-size:12px !important;
+  line-height:1.72 !important;
+}
+@media(max-width:680px){
+  .focus-grid{grid-template-columns:1fr !important;}
+}
+
+
+/* v4.4: Overview lesson-summary pills below the two cards */
+.overview-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:14px;
+}
+.overview-pill{
+  display:inline-flex;
+  align-items:baseline;
+  gap:7px;
+  max-width:100%;
+  border:1px solid rgba(141,198,181,.30);
+  background:rgba(141,198,181,.065);
+  border-radius:999px;
+  padding:7px 11px;
+  color:var(--muted);
+  font-family:var(--ui);
+  font-size:12px;
+  line-height:1.45;
+}
+.overview-pill b{
+  color:#e9fff8;
+  font-size:12px;
+  font-weight:700;
+  white-space:nowrap;
+}
+.overview-pill span{
+  color:var(--muted);
+}
+@media(max-width:680px){
+  .overview-pills{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:7px;
+    margin-top:12px;
+  }
+  .overview-pill{
+    border-radius:14px;
+    padding:9px 11px;
+  }
+}
+
+
+/* v4.5: Thai typography — Noto Sans Thai */
+.thai,.th,.song-name,.chip b{
+  font-family:var(--thai) !important;
+}
+.song-name{font-weight:700;}
+.th{font-weight:600;}
+
+
+/* v4.6 Hybrid reading mode:
+   deep violet page mood + brighter warm-gray cards + clearer text hierarchy */
+:root{
+  --bg:#14131b;
+  --text:#fbf7f1;
+  --muted:#c9c0bb;
+  --line:rgba(229,224,221,.19);
+  --accent:#f0bb6a;
+  --accent2:#9bd8c7;
+  --card-reading:linear-gradient(145deg,rgba(104,100,111,.88),rgba(79,77,88,.94));
+  --card-reading-soft:linear-gradient(145deg,rgba(117,111,117,.80),rgba(83,81,93,.88));
+  --thai-ink:#fffaf4;
+  --roman-ink:#e9c889;
+  --english-ink:#c9d7f1;
+  --chinese-ink:#f0ece6;
+}
+
+/* Keep the outer site moody but lift the reading surfaces */
+body{
+  background:
+    radial-gradient(circle at 4% 0%,rgba(112,78,92,.26),transparent 34%),
+    radial-gradient(circle at 92% 12%,rgba(83,89,135,.19),transparent 38%),
+    linear-gradient(145deg,#17151e 0%,#13131b 47%,#0e1016 100%) !important;
+}
+
+/* Lyrics section headers */
+.song-section{
+  background:rgba(255,255,255,.032) !important;
+  border-color:rgba(239,233,226,.16) !important;
+}
+.sec-head{
+  background:
+    linear-gradient(90deg,rgba(231,190,121,.26),rgba(144,128,143,.20) 48%,rgba(91,90,111,.18)) !important;
+  border-bottom:1px solid rgba(255,255,255,.07);
+}
+.sec-title{
+  color:#fffaf4 !important;
+  font-size:15px !important;
+}
+.sec-sub{
+  color:#ded5ce !important;
+}
+
+/* Main lyric cards: brighter, more readable, but still not white */
+.line{
+  background:var(--card-reading) !important;
+  border-color:rgba(255,255,255,.16) !important;
+  box-shadow:0 10px 24px rgba(0,0,0,.16) !important;
+  border-radius:20px !important;
+  padding:18px 74px 18px 16px !important;
+}
+.line:hover{
+  background:linear-gradient(145deg,rgba(122,115,121,.94),rgba(91,87,101,.98)) !important;
+  border-color:rgba(240,187,106,.70) !important;
+}
+.th{
+  color:var(--thai-ink) !important;
+  font-size:27px !important;
+  line-height:1.42 !important;
+  font-weight:700 !important;
+}
+.rom{
+  color:var(--roman-ink) !important;
+  font-size:13px !important;
+  line-height:1.55 !important;
+}
+.en{
+  color:var(--english-ink) !important;
+  font-size:13.5px !important;
+  line-height:1.62 !important;
+}
+.zh{
+  color:var(--chinese-ink) !important;
+  font-size:14px !important;
+  line-height:1.72 !important;
+}
+.note{
+  color:#e6e1db !important;
+  border-left-color:var(--accent2) !important;
+  background:linear-gradient(90deg,rgba(155,216,199,.08),transparent 72%) !important;
+}
+.chip{
+  background:rgba(255,255,255,.08) !important;
+  border-color:rgba(255,255,255,.16) !important;
+  color:#d8d0cb !important;
+}
+.chip b{color:#fffaf4 !important;}
+.chip-en{color:#d8d0cb !important;}
+
+/* Stronger but quiet action icons */
+.line-actions .round,
+.mini-actions .round{
+  background:rgba(26,26,35,.20) !important;
+  border-color:rgba(255,255,255,.18) !important;
+}
+.line-actions .round.active,
+.mini-actions .round.active{
+  background:rgba(240,187,106,.16) !important;
+}
+
+/* Study cards inherit the same readable material */
+.study-card{
+  background:var(--card-reading-soft) !important;
+  border-color:rgba(255,255,255,.15) !important;
+}
+.study-card:hover{
+  background:linear-gradient(145deg,rgba(127,119,124,.92),rgba(92,88,102,.97)) !important;
+}
+
+/* retain compact song page feeling on desktop */
+@media(min-width:1024px){
+  .line{margin:12px 0 !important;}
+}
+/* Tablet */
+@media(max-width:1023px){
+  .th{font-size:25px !important;}
+  .line{padding:17px 70px 17px 15px !important;}
+}
+/* Phone */
+@media(max-width:680px){
+  .line{
+    padding:16px 66px 16px 14px !important;
+    border-radius:18px !important;
+  }
+  .th{font-size:23px !important;}
+  .rom{font-size:12.5px !important;}
+  .en,.zh{font-size:13px !important;}
+}
+
+
+/* v4.7: calmer hybrid — smaller reading type, unified warm neutral palette */
+:root{
+  --card-reading:linear-gradient(145deg,rgba(92,89,99,.86),rgba(68,67,77,.93));
+  --card-reading-soft:linear-gradient(145deg,rgba(99,94,102,.78),rgba(74,71,82,.86));
+  --thai-ink:#f8f1e9;
+  --roman-ink:#d8b77b;
+  --english-ink:#ddd5ce;
+  --chinese-ink:#eee7e0;
+}
+
+/* Keep contrast, remove cool blue cast */
+.line{
+  background:var(--card-reading) !important;
+  border-color:rgba(246,238,230,.14) !important;
+  box-shadow:0 8px 20px rgba(0,0,0,.14) !important;
+  padding:15px 72px 15px 15px !important;
+}
+.line:hover{
+  background:linear-gradient(145deg,rgba(105,100,108,.92),rgba(79,75,87,.97)) !important;
+}
+.th{
+  font-size:22px !important;
+  line-height:1.48 !important;
+  font-weight:650 !important;
+}
+.rom{
+  font-size:12px !important;
+  line-height:1.5 !important;
+  color:var(--roman-ink) !important;
+}
+.en{
+  font-size:12.5px !important;
+  line-height:1.58 !important;
+  color:var(--english-ink) !important;
+}
+.zh{
+  font-size:13px !important;
+  line-height:1.68 !important;
+  color:var(--chinese-ink) !important;
+}
+.note{
+  color:#d8d0c9 !important;
+  background:linear-gradient(90deg,rgba(155,216,199,.055),transparent 72%) !important;
+}
+.study-card{
+  background:var(--card-reading-soft) !important;
+}
+.study-card .th{
+  font-size:20px !important;
+}
+.study-card .rom{
+  font-size:11.5px !important;
+}
+.study-card .en,
+.study-card .zh{
+  font-size:12px !important;
+}
+
+/* Fold blue-ish tones into neutral warm gray */
+.chip{
+  color:#d5ccc5 !important;
+}
+.chip-en{
+  color:#c9c0ba !important;
+}
+.line-actions .round,
+.mini-actions .round{
+  background:rgba(20,20,28,.22) !important;
+}
+
+/* iPad */
+@media(max-width:1023px){
+  .th{font-size:21px !important;}
+  .line{padding:15px 69px 15px 14px !important;}
+}
+/* Phone */
+@media(max-width:680px){
+  .line{
+    padding:14px 64px 14px 14px !important;
+    border-radius:18px !important;
+  }
+  .th{font-size:20px !important;}
+  .rom{font-size:11.5px !important;}
+  .en,.zh{font-size:12.5px !important;}
+  .study-card .th{font-size:19px !important;}
+}
+
+
+/* Header Thai typography: restore the original Noto Sans Thai for the song title only */
+.song-name{
+  font-family:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif !important;
+}
+
+
+.quick-meta{display:none!important;}
+
+/* Index-tone background: align the outer page with the Library without changing card readability */
+body{
+  background:
+    radial-gradient(circle at 8% -8%,rgba(242,187,107,.20),transparent 34%),
+    radial-gradient(circle at 88% 0%,rgba(145,168,216,.13),transparent 36%),
+    linear-gradient(145deg,#14121c 0%,#101018 100%) !important;
+}
+
+</style>
+</head>
+<body>
+<div class="top"><div class="top-inner"><a class="brand btn brand-home" href="../index.html" title="Back to Song Library">♪ Thai Song Lab</a><div class="nav"><button class="btn active-tab" onclick="showPage('overview',this)">Overview</button><button class="btn" onclick="showPage('lyrics',this)">Lyrics</button><button class="btn" onclick="showPage('patterns',this)">Patterns</button><button class="btn" onclick="showPage('vocab',this)">Vocab</button><button class="btn" onclick="showPage('favorites',this)">Favorites <span id="favBadge">0</span></button><button class="btn" onclick="showPage('review',this)">Review</button><button class="btn" onclick="speakAll()">全文播放</button></div></div></div>
+<div class="wrap" id="app"><input class="import-file" id="globalStateImportFile" type="file" accept=".json,application/json" onchange="importState(event)">
+<section class="hero"><div class="kicker">Song Lesson 004 · <span id="artist"></span></div><div class="hero-main"><div><h1 class="song-name" id="title"></h1><div class="subtitle roman" id="subtitle"></div></div></div></section>
+<section class="page active" id="overview"><div class="overview-layout"><div class="glass overview-card"><div class="overview-title">Overview</div><p class="statement">這首歌用很可愛、很鬧的方式唱出一個愛吃的人：從午餐、珍奶、炸物、火鍋一路想到晚上要吃什麼。表面上是自嘲變胖，核心其實是在撒嬌地問：就算我胖了，你還會愛我嗎？</p><div class="progress-wrap" id="progressBox"></div></div><div class="glass study"><div class="overview-title">Study Mode</div><div class="toolbar"><button class="btn" onclick="setMode('normal',this)">全部</button><button class="btn" onclick="setMode('hide-zh',this)">隱藏中文</button><button class="btn" onclick="setMode('hide-roman',this)">隱藏拼音</button><button class="btn" onclick="setMode('shadow',this)">Shadow</button><button class="btn" onclick="setMode('thai-only',this)">只看泰文</button></div><p class="hint">Learned 會保留並計入 Overview 進度；跨裝置請使用匯出 / 匯入 JSON。</p></div></div>
+<div class="overview-pills" aria-label="Lesson summary"><span class="overview-pill"><b>核心主題</b><span>Food · Cute Speech · Love</span></span><span class="overview-pill"><b>學習難度</b><span>A2 可理解主線與吃東西詞彙；B1 可吸收口語節奏、可愛自嘲、食物清單與歌詞裡的誇張語氣。</span></span><span class="overview-pill"><b>優先句型</b><span>อยาก...ต้องได้... / ทีไร...ต้อง... / เธอจะ...ไหม</span></span></div></section>
+<main class="page" id="lyrics"><div class="lyrics-tools"><button class="btn" onclick="expandAll()">全部展開</button><button class="btn" onclick="collapseAll()">全部收合</button><button class="btn" onclick="playVisibleLyrics()">播放目前歌詞</button></div><input class="search" id="lyricsSearch" placeholder="搜尋 Lyrics：Thai / Romanization / English / 中文" oninput="filterLyrics(this.value)"><div id="lyricsList"></div></main>
+<section class="page" id="patterns"><div class="glass overview-card"><div class="overview-title">Patterns / 可直接拿去用的句型</div><input class="search" id="patternSearch" placeholder="搜尋 Patterns" oninput="filterStudy('patternList',this.value)"><div class="study-list" id="patternList"></div></div></section>
+<section class="page" id="vocab"><div class="glass overview-card"><div class="overview-title">Vocabulary & Chunks</div><input class="search" id="vocabSearch" placeholder="搜尋 Vocabulary" oninput="filterStudy('vocabList',this.value)"><div class="study-list" id="vocabList"></div></div></section>
+<section class="page" id="favorites"><div class="glass overview-card"><div class="overview-title">Favorites</div><div class="storage-tools"><button class="btn" onclick="exportState()">匯出 JSON</button><button class="btn" onclick="document.getElementById('globalStateImportFile').click()">匯入 JSON</button></div><input class="search" id="favSearch" placeholder="搜尋收藏" oninput="renderFavorites(this.value)"><div id="favoriteList"></div></div></section>
+<section class="page" id="review"><div class="glass overview-card"><div class="overview-title">Review</div><div class="storage-tools"><button class="btn" onclick="exportState()">匯出 JSON</button><button class="btn" onclick="document.getElementById('globalStateImportFile').click()">匯入 JSON</button><input class="import-file" id="stateImportFile" type="file" accept=".json,application/json" onchange="importState(event)"></div><div class="lyrics-tools"><button class="btn" onclick="renderReview('all')">All Learned</button><button class="btn" onclick="renderReview('fav')">Only Favorites</button><button class="btn" onclick="shuffleReview()">Shuffle</button><button class="btn review-reset" onclick="resetReview()">Reset Review</button></div><p class="hint">Review 只收錄已學會的項目；按 ✓ 只會完成本輪複習，不會影響 Overview 的 Learned 進度。</p><div id="reviewList"></div></div></section>
+</div><footer>Thai Song Lab v4.7 · Calm warm reading</footer>
+<script>
+const SONG = {
+  "slug": "chan-uan",
+  "title": "ฉันอ้วน",
+  "artist": "TimeTime",
+  "romanTitle": "chǎn ûan",
+  "englishTitle": "I'm Fat",
+  "level": "A2 → B1",
+  "summary": "這首歌用很可愛、很鬧的方式唱出一個愛吃的人：從午餐、珍奶、炸物、火鍋一路想到晚上要吃什麼。表面上是自嘲變胖，核心其實是在撒嬌地問：就算我胖了，你還會愛我嗎？",
+  "focus": [
+    "練習 อยาก...ต้องได้... 表達「想要就一定要得到」。",
+    "練習 ทีไร...ต้อง... 表達「每次一……就一定……」。",
+    "吸收 กิน / พุง / อ้วน / น้ำลายไหล 這類生活感很強的吃東西詞彙。",
+    "練習 เธอจะ...ไหม 這類可愛又不安的感情確認句。"
+  ],
+  "difficulty": "A2 可理解主線與吃東西詞彙；B1 可吸收口語節奏、可愛自嘲、食物清單與歌詞裡的誇張語氣。",
+  "topPatterns": [
+    "อยาก...ต้องได้...",
+    "ทีไร...ต้อง...",
+    "เธอจะ...ไหม"
+  ],
+  "storageKey": "thai-song-lab-v2-chan-uan",
+  "sections": [
+    {
+      "id": "intro-food-list",
+      "title": "Intro / Food List",
+      "sub": "從午餐一路想到晚餐：食物清單式開場",
+      "lines": [
+        {
+          "thai": "หมูทอดเจียงฮาย ทอดมันปลากราย",
+          "roman": "mǔu-thɔ̂ɔt jiang-hǎai, thɔ̂ɔt-man bplaa-graai",
+          "english": "Chiang Rai-style fried pork, fried fish cakes,",
+          "chinese": "江海炸豬肉、魚漿炸餅，",
+          "note": "這句是食物清單式開場。ทอด = 炸；หมูทอด 是炸豬肉，ทอดมันปลากราย 是泰國常見魚漿炸餅。",
+          "chips": [
+            "หมูทอด",
+            "เจียงฮาย",
+            "ทอดมันปลากราย",
+            "ทอด"
+          ]
+        },
+        {
+          "thai": "ตามด้วย french fries เมนูกลางวันนี้",
+          "roman": "dtaam dûai french fries mee-nuu glaang-wan níi",
+          "english": "followed by french fries for today’s lunch menu.",
+          "chinese": "再來一份 french fries，今天中午的菜單就是這樣。",
+          "note": "ตามด้วย = 接著是、再加上。French fries 直接保留英文，不需要硬轉泰文拼音。",
+          "chips": [
+            "ตามด้วย",
+            "french fries",
+            "เมนู",
+            "กลางวัน"
+          ]
+        },
+        {
+          "thai": "เย็นกินอะไร นึก ๆ เอาไว้",
+          "roman": "yen gin à-rai, nʉ́k nʉ́k ao wái",
+          "english": "What should we eat tonight? I’m already thinking about it.",
+          "chinese": "晚上要吃什麼呢？我已經先想起來放著了。",
+          "note": "นึก ๆ เอาไว้ 是很口語的「先想著、先盤算著」。เอาไว้ 有『先留著、先準備著』的感覺。",
+          "chips": [
+            "เย็น",
+            "กินอะไร",
+            "นึก ๆ",
+            "เอาไว้"
+          ]
+        },
+        {
+          "thai": "แต่ตอนนี้ยังไง ชาไข่มุกก่อน",
+          "roman": "dtɛ̀ɛ dtɔɔn níi yang-ngai, chaa-khài-múk gɔ̀ɔn",
+          "english": "But for now, no matter what, bubble tea first.",
+          "chinese": "但現在不管怎樣，先來杯珍奶。",
+          "note": "ก่อน 放句尾常是「先……再說」。這句很生活：ชาไข่มุกก่อน = 先喝珍奶。",
+          "chips": [
+            "แต่ตอนนี้",
+            "ยังไง",
+            "ชาไข่มุก",
+            "ก่อน"
+          ]
+        },
+        {
+          "thai": "มีพุงแล้วยังไง เดี๋ยวออกกำลังกาย",
+          "roman": "mii phung lɛ́ɛw yang-ngai, dǐaw ɔ̀ɔk-gam-lang-gaai",
+          "english": "So what if I have a belly? I’ll exercise later.",
+          "chinese": "有肚子了又怎樣？等一下再去運動。",
+          "note": "แล้วยังไง = 那又怎樣。เดี๋ยว... 是口語裡很常用的「等一下就會……」。",
+          "chips": [
+            "มีพุง",
+            "แล้วยังไง",
+            "เดี๋ยว",
+            "ออกกำลังกาย"
+          ]
+        },
+        {
+          "thai": "จะทำลายไขมัน ให้สลาย",
+          "roman": "jà tham-laai khǎi-man hâi sà-laai",
+          "english": "I’ll destroy the fat and make it melt away.",
+          "chinese": "我會把脂肪消滅，讓它全部散掉。",
+          "note": "ทำลาย = 破壞、摧毀；ให้สลาย = 讓它消散。這裡是搞笑誇張語氣。",
+          "chips": [
+            "ทำลาย",
+            "ไขมัน",
+            "ให้สลาย",
+            "สลาย"
+          ]
+        },
+        {
+          "thai": "ชาบูเป็นไง ร้านอยู่ไม่ไกล",
+          "roman": "chaa-buu bpen ngai, ráan yùu mâi glai",
+          "english": "How about shabu? The place isn’t far.",
+          "chinese": "吃涮涮鍋怎麼樣？店也不遠。",
+          "note": "เป็นไง = 怎麼樣？很常用來提議或問感覺。ร้านอยู่ไม่ไกล 是自然口語的地點說法。",
+          "chips": [
+            "ชาบู",
+            "เป็นไง",
+            "ร้าน",
+            "ไม่ไกล"
+          ]
+        },
+        {
+          "thai": "เตรียมตัวเอาไว้เย็นนี้เจอกัน",
+          "roman": "dtriiam-dtua ao wái yen níi jəə gan",
+          "english": "Get ready. See you this evening.",
+          "chinese": "先準備好，今晚見。",
+          "note": "เจอกัน = 到時見、再見。เย็นนี้เจอกัน 是很自然的約見面說法。",
+          "chips": [
+            "เตรียมตัว",
+            "เอาไว้",
+            "เย็นนี้",
+            "เจอกัน"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prechorus1",
+      "title": "Pre-Chorus 1",
+      "sub": "想吃什麼就要吃：吃東西就是幸福",
+      "lines": [
+        {
+          "thai": "อยากกินอะไรต้องได้กินตามใจเธอรู้ไหม มันคือความสุขฉัน",
+          "roman": "yàak gin à-rai dtɔ̂ng dâai gin dtaam-jai thəə rúu mǎi, man khʉʉ khwaam-sùk chǎn",
+          "english": "Whatever I want to eat, I have to eat it my way. You know? That’s my happiness.",
+          "chinese": "想吃什麼就一定要吃到、照自己的心意吃，你知道嗎？那就是我的幸福。",
+          "note": "อยาก...ต้องได้... 是很有執念的口語句型：想要就一定要得到。ตามใจ 這裡是照自己的心意。",
+          "chips": [
+            "อยากกินอะไร",
+            "ต้องได้กิน",
+            "ตามใจ",
+            "รู้ไหม",
+            "ความสุข"
+          ]
+        },
+        {
+          "thai": "นึกเรื่องกินทีไรน้ำลายต้องไหล",
+          "roman": "nʉ́k rʉ̂ang gin thii-rai nám-laai dtɔ̂ng lǎi",
+          "english": "Every time I think about food, my mouth waters.",
+          "chinese": "每次想到吃的，口水就一定會流。",
+          "note": "ทีไร...ต้อง... = 每次一……就一定……。น้ำลายไหล 是流口水，很生活、很好用。",
+          "chips": [
+            "นึกเรื่องกิน",
+            "ทีไร",
+            "น้ำลาย",
+            "ต้องไหล",
+            "น้ำลายไหล"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "title": "Chorus 1",
+      "sub": "胖是因為停不下來吃，但還是想確認你愛不愛我",
+      "lines": [
+        {
+          "thai": "หักห้ามใจไม่เคยได้ จัดไปทุกเมนู",
+          "roman": "hàk-hâam jai mâi khəəy dâai, jàt bpai thúk mee-nuu",
+          "english": "I’ve never been able to resist, so I order every menu item.",
+          "chinese": "我從來克制不了自己，所以每一道都給它點下去。",
+          "note": "หักห้ามใจ = 克制自己的心。จัดไป 是很口語的「來吧、點下去、安排下去」。",
+          "chips": [
+            "หักห้ามใจ",
+            "ไม่เคยได้",
+            "จัดไป",
+            "ทุกเมนู"
+          ]
+        },
+        {
+          "thai": "ที่ฉันอ้วนเพราะฉันหยุดกินไม่ได้",
+          "roman": "thîi chǎn ûan phrɔ́ chǎn yùt gin mâi dâai",
+          "english": "The reason I’m fat is because I can’t stop eating.",
+          "chinese": "我之所以胖，是因為我停不下來吃。",
+          "note": "ที่ฉัน...เพราะ... = 我之所以……是因為……。หยุด + V + ไม่ได้ = 停不下來做某事。",
+          "chips": [
+            "ที่ฉันอ้วน",
+            "เพราะ",
+            "หยุดกินไม่ได้",
+            "อ้วน"
+          ]
+        },
+        {
+          "thai": "แววตาฉันเหลือบไปเห็นอะไรต่ออะไร",
+          "roman": "wɛɛw-dtaa chǎn lʉ̀ap bpai hěn à-rai dtɔ̀ɔ à-rai",
+          "english": "My eyes keep glancing at all kinds of things.",
+          "chinese": "我的眼神總是瞄到各式各樣的東西。",
+          "note": "อะไรต่ออะไร = 各種東西、這個那個。เหลือบไปเห็น 是不經意瞄到。",
+          "chips": [
+            "แววตา",
+            "เหลือบไปเห็น",
+            "อะไรต่ออะไร"
+          ]
+        },
+        {
+          "thai": "ก็อยากกินไปหมดเลย",
+          "roman": "gɔ̂ɔ yàak gin bpai mòt ləəy",
+          "english": "and I want to eat absolutely everything.",
+          "chinese": "就全部都好想吃。",
+          "note": "ไปหมดเลย 是『全部都……了』的強調，很常出現在口語誇張裡。",
+          "chips": [
+            "ก็",
+            "อยากกิน",
+            "ไปหมดเลย"
+          ]
+        },
+        {
+          "thai": "แต่ฉันอ้วนแล้วเธอจะรักฉันไหม",
+          "roman": "dtɛ̀ɛ chǎn ûan lɛ́ɛw thəə jà rák chǎn mǎi",
+          "english": "But now that I’m fat, will you still love me?",
+          "chinese": "可是我胖了，你還會愛我嗎？",
+          "note": "เธอจะ...ไหม = 你會……嗎？這句是可愛撒嬌裡帶一點不安。",
+          "chips": [
+            "แต่",
+            "อ้วนแล้ว",
+            "เธอจะรักฉันไหม",
+            "รักฉันไหม"
+          ]
+        },
+        {
+          "thai": "หมดหัวใจที่มีมอบให้เธอตลอดไป",
+          "roman": "mòt hǔa-jai thîi mii mɔ̂ɔp hâi thəə dtà-lɔ̀ɔt bpai",
+          "english": "All the heart I have, I give to you forever.",
+          "chinese": "我所有的心，都永遠交給你。",
+          "note": "หมดหัวใจที่มี = 擁有的整顆心。มอบให้ 比 ให้ 更有『交付、獻給』的感覺。",
+          "chips": [
+            "หมดหัวใจ",
+            "ที่มี",
+            "มอบให้",
+            "ตลอดไป"
+          ]
+        },
+        {
+          "thai": "ให้เธอสุขใจมีพุงอุ่น ๆ ให้หนุนนอน",
+          "roman": "hâi thəə sùk-jai mii phung ùn ùn hâi nǔn nɔɔn",
+          "english": "I’ll make you happy, with a warm belly for you to rest your head on.",
+          "chinese": "讓你安心開心，還有暖暖的肚子可以讓你靠著睡。",
+          "note": "อุ่น ๆ 是重疊形容詞，語氣可愛柔軟。หนุนนอน = 墊著睡、靠著睡。",
+          "chips": [
+            "สุขใจ",
+            "พุง",
+            "อุ่น ๆ",
+            "หนุนนอน"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bridge-cute-eating",
+      "title": "Bridge / Cute Eating Part",
+      "sub": "整天只想吃，吃到肚子爆開",
+      "lines": [
+        {
+          "thai": "วัน ๆ เอาแต่คิด แต่เรื่องกิน",
+          "roman": "wan wan ao dtɛ̀ɛ khít, dtɛ̀ɛ rʉ̂ang gin",
+          "english": "Day after day, all I think about is food.",
+          "chinese": "一天到晚只想著吃的事情。",
+          "note": "วัน ๆ = 整天、一天到晚。เอาแต่ + V = 只顧著……，常帶一點吐槽語氣。",
+          "chips": [
+            "วัน ๆ",
+            "เอาแต่คิด",
+            "แต่เรื่องกิน",
+            "เรื่องกิน"
+          ]
+        },
+        {
+          "thai": "อยากกินมันเข้าไป กินให้พุงแตก",
+          "roman": "yàak gin man khâo bpai, gin hâi phung dtɛ̀ɛk",
+          "english": "I want to eat it all up, eat until my belly bursts.",
+          "chinese": "好想一直吃下去，吃到肚子都快爆開。",
+          "note": "กินให้... = 吃到……的程度。พุงแตก 是誇張說法，表示吃到撐爆。",
+          "chips": [
+            "อยากกิน",
+            "เข้าไป",
+            "กินให้...",
+            "พุงแตก"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prechorus2",
+      "title": "Pre-Chorus 2",
+      "sub": "Review：想吃什麼就要吃",
+      "lines": [
+        {
+          "thai": "อยากกินอะไรต้องได้กินตามใจเธอรู้ไหม มันคือความสุขฉัน",
+          "roman": "yàak gin à-rai dtɔ̂ng dâai gin dtaam-jai thəə rúu mǎi, man khʉʉ khwaam-sùk chǎn",
+          "english": "Whatever I want to eat, I have to eat it my way. You know? That’s my happiness.",
+          "chinese": "想吃什麼就一定要吃到、照自己的心意吃，你知道嗎？那就是我的幸福。",
+          "note": "Review：อยาก...ต้องได้... 是這首歌最核心的吃貨句型。",
+          "chips": [
+            "อยากกินอะไร",
+            "ต้องได้กิน",
+            "ตามใจ",
+            "รู้ไหม",
+            "ความสุข"
+          ]
+        },
+        {
+          "thai": "นึกเรื่องกินทีไรน้ำลายต้องไหล",
+          "roman": "nʉ́k rʉ̂ang gin thii-rai nám-laai dtɔ̂ng lǎi",
+          "english": "Every time I think about food, my mouth waters.",
+          "chinese": "每次想到吃的，口水就一定會流。",
+          "note": "Review：ทีไร...ต้อง... = 每次一……就一定……。",
+          "chips": [
+            "นึกเรื่องกิน",
+            "ทีไร",
+            "น้ำลาย",
+            "ต้องไหล",
+            "น้ำลายไหล"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "title": "Chorus 2",
+      "sub": "Review：胖是因為停不下來吃",
+      "lines": [
+        {
+          "thai": "หักห้ามใจไม่เคยได้ จัดไปทุกเมนู",
+          "roman": "hàk-hâam jai mâi khəəy dâai, jàt bpai thúk mee-nuu",
+          "english": "I’ve never been able to resist, so I order every menu item.",
+          "chinese": "我從來克制不了自己，所以每一道都給它點下去。",
+          "note": "Review：จัดไป 是很口語的『安排下去、點下去』。",
+          "chips": [
+            "หักห้ามใจ",
+            "ไม่เคยได้",
+            "จัดไป",
+            "ทุกเมนู"
+          ]
+        },
+        {
+          "thai": "ที่ฉันอ้วนเพราะฉันหยุดกินไม่ได้",
+          "roman": "thîi chǎn ûan phrɔ́ chǎn yùt gin mâi dâai",
+          "english": "The reason I’m fat is because I can’t stop eating.",
+          "chinese": "我之所以胖，是因為我停不下來吃。",
+          "note": "Review：เพราะ 用來接原因；หยุดกินไม่ได้ 是『停不下來吃』。",
+          "chips": [
+            "ที่ฉันอ้วน",
+            "เพราะ",
+            "หยุดกินไม่ได้",
+            "อ้วน"
+          ]
+        },
+        {
+          "thai": "แววตาฉันเหลือบไปเห็นอะไรต่ออะไร",
+          "roman": "wɛɛw-dtaa chǎn lʉ̀ap bpai hěn à-rai dtɔ̀ɔ à-rai",
+          "english": "My eyes keep glancing at all kinds of things.",
+          "chinese": "我的眼神總是瞄到各式各樣的東西。",
+          "note": "Review：อะไรต่ออะไร = 各式各樣的東西。",
+          "chips": [
+            "แววตา",
+            "เหลือบไปเห็น",
+            "อะไรต่ออะไร"
+          ]
+        },
+        {
+          "thai": "ก็อยากกินไปหมดเลย",
+          "roman": "gɔ̂ɔ yàak gin bpai mòt ləəy",
+          "english": "and I want to eat absolutely everything.",
+          "chinese": "就全部都好想吃。",
+          "note": "Review：ไปหมดเลย 用來把『全部都』的感覺加強。",
+          "chips": [
+            "ก็",
+            "อยากกิน",
+            "ไปหมดเลย"
+          ]
+        },
+        {
+          "thai": "แต่ฉันอ้วนแล้วเธอจะรักฉันไหม",
+          "roman": "dtɛ̀ɛ chǎn ûan lɛ́ɛw thəə jà rák chǎn mǎi",
+          "english": "But now that I’m fat, will you still love me?",
+          "chinese": "可是我胖了，你還會愛我嗎？",
+          "note": "Review：จะ...ไหม 是確認未來或意願的問句。",
+          "chips": [
+            "แต่",
+            "อ้วนแล้ว",
+            "เธอจะรักฉันไหม",
+            "รักฉันไหม"
+          ]
+        },
+        {
+          "thai": "หมดหัวใจที่มีมอบให้เธอตลอดไป",
+          "roman": "mòt hǔa-jai thîi mii mɔ̂ɔp hâi thəə dtà-lɔ̀ɔt bpai",
+          "english": "All the heart I have, I give to you forever.",
+          "chinese": "我所有的心，都永遠交給你。",
+          "note": "Review：ตลอดไป = 永遠、一直到以後。",
+          "chips": [
+            "หมดหัวใจ",
+            "ที่มี",
+            "มอบให้",
+            "ตลอดไป"
+          ]
+        },
+        {
+          "thai": "ให้เธอสุขใจมีพุงอุ่น ๆ ให้หนุนนอน",
+          "roman": "hâi thəə sùk-jai mii phung ùn ùn hâi nǔn nɔɔn",
+          "english": "I’ll make you happy, with a warm belly for you to rest your head on.",
+          "chinese": "讓你安心開心，還有暖暖的肚子可以讓你靠著睡。",
+          "note": "Review：พุงอุ่น ๆ 是很可愛的形容方式，像『暖暖的小肚子』。",
+          "chips": [
+            "สุขใจ",
+            "พุง",
+            "อุ่น ๆ",
+            "หนุนนอน"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-chorus",
+      "title": "Final Chorus",
+      "sub": "最後一次：我停不下來吃，但心都給你",
+      "lines": [
+        {
+          "thai": "ที่ฉันอ้วนเพราะฉันหยุดกินไม่ได้",
+          "roman": "thîi chǎn ûan phrɔ́ chǎn yùt gin mâi dâai",
+          "english": "The reason I’m fat is because I can’t stop eating.",
+          "chinese": "我之所以胖，是因為我停不下來吃。",
+          "note": "Review：這句是全歌主題句，也最適合拿來練 เพราะ = because。",
+          "chips": [
+            "ที่ฉันอ้วน",
+            "เพราะ",
+            "หยุดกินไม่ได้",
+            "อ้วน"
+          ]
+        },
+        {
+          "thai": "แววตาฉันเหลือบไปเห็นอะไรต่ออะไร",
+          "roman": "wɛɛw-dtaa chǎn lʉ̀ap bpai hěn à-rai dtɔ̀ɔ à-rai",
+          "english": "My eyes keep glancing at all kinds of things.",
+          "chinese": "我的眼神總是瞄到各式各樣的東西。",
+          "note": "Review：เหลือบไปเห็น 是『不經意瞄到』，比 เห็น 更有畫面。",
+          "chips": [
+            "แววตา",
+            "เหลือบไปเห็น",
+            "อะไรต่ออะไร"
+          ]
+        },
+        {
+          "thai": "ก็อยากกินไปหมดเลย",
+          "roman": "gɔ̂ɔ yàak gin bpai mòt ləəy",
+          "english": "and I want to eat absolutely everything.",
+          "chinese": "就全部都好想吃。",
+          "note": "Review：อยากกินไปหมดเลย 可以直接拿來形容看到一整桌食物的心情。",
+          "chips": [
+            "ก็",
+            "อยากกิน",
+            "ไปหมดเลย"
+          ]
+        },
+        {
+          "thai": "แต่ฉันอ้วนแล้วเธอจะรักฉันไหม",
+          "roman": "dtɛ̀ɛ chǎn ûan lɛ́ɛw thəə jà rák chǎn mǎi",
+          "english": "But now that I’m fat, will you still love me?",
+          "chinese": "可是我胖了，你還會愛我嗎？",
+          "note": "Review：這句情緒是撒嬌式不安，不是真的嚴肅質問。",
+          "chips": [
+            "แต่",
+            "อ้วนแล้ว",
+            "เธอจะรักฉันไหม",
+            "รักฉันไหม"
+          ]
+        },
+        {
+          "thai": "หมดหัวใจที่มีมอบให้เธอตลอดไป",
+          "roman": "mòt hǔa-jai thîi mii mɔ̂ɔp hâi thəə dtà-lɔ̀ɔt bpai",
+          "english": "All the heart I have, I give to you forever.",
+          "chinese": "我所有的心，都永遠交給你。",
+          "note": "Review：หมดหัวใจที่มี 是『我有的整顆心』，歌詞感很強。",
+          "chips": [
+            "หมดหัวใจ",
+            "ที่มี",
+            "มอบให้",
+            "ตลอดไป"
+          ]
+        },
+        {
+          "thai": "ให้เธอสุขใจมีพุงอุ่น ๆ ให้หนุนนอน",
+          "roman": "hâi thəə sùk-jai mii phung ùn ùn hâi nǔn nɔɔn",
+          "english": "I’ll make you happy, with a warm belly for you to rest your head on.",
+          "chinese": "讓你安心開心，還有暖暖的肚子可以讓你靠著睡。",
+          "note": "Review：最後收在 พุงอุ่น ๆ ให้หนุนนอน，讓整首歌維持可愛、撒嬌的語氣。",
+          "chips": [
+            "สุขใจ",
+            "พุง",
+            "อุ่น ๆ",
+            "หนุนนอน"
+          ]
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pat-food-list",
+      "thai": "A ตามด้วย B",
+      "roman": "A dtaam dûai B",
+      "english": "A followed by B",
+      "chinese": "A 接著是 B",
+      "level": "Core"
+    },
+    {
+      "id": "pat-ao-wai",
+      "thai": "เอาไว้...",
+      "roman": "ao wái...",
+      "english": "keep it for... / prepare it for...",
+      "chinese": "先留著／準備著……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-gin-arai",
+      "thai": "กินอะไร",
+      "roman": "gin à-rai",
+      "english": "What should we eat?",
+      "chinese": "吃什麼？",
+      "level": "Core"
+    },
+    {
+      "id": "pat-x-gon",
+      "thai": "...ก่อน",
+      "roman": "...gɔ̀ɔn",
+      "english": "...first",
+      "chinese": "先……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-laew-yang-ngai",
+      "thai": "...แล้วยังไง",
+      "roman": "...lɛ́ɛw yang-ngai",
+      "english": "So what if...?",
+      "chinese": "……了又怎樣？",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-diaw-v",
+      "thai": "เดี๋ยว + V",
+      "roman": "dǐaw + V",
+      "english": "I’ll do it later / in a bit",
+      "chinese": "等一下就……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-bpen-ngai",
+      "thai": "...เป็นไง",
+      "roman": "...bpen ngai",
+      "english": "How about...?",
+      "chinese": "……怎麼樣？",
+      "level": "Core"
+    },
+    {
+      "id": "pat-yen-nii-jer-gan",
+      "thai": "เย็นนี้เจอกัน",
+      "roman": "yen níi jəə gan",
+      "english": "See you this evening.",
+      "chinese": "今晚見。",
+      "level": "Core"
+    },
+    {
+      "id": "pat-yaak-tong-dai",
+      "thai": "อยาก...ต้องได้...",
+      "roman": "yàak...dtɔ̂ng dâai...",
+      "english": "If I want..., I have to get...",
+      "chinese": "想要……就一定要得到……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-thii-rai-tong",
+      "thai": "...ทีไร...ต้อง...",
+      "roman": "...thii-rai...dtɔ̂ng...",
+      "english": "Every time..., ...must...",
+      "chinese": "每次一……就一定……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-mai-khoei-dai",
+      "thai": "ไม่เคยได้...",
+      "roman": "mâi khəəy dâai...",
+      "english": "have never been able to...",
+      "chinese": "從來沒能……",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-thii-chan-phro",
+      "thai": "ที่ฉัน...เพราะ...",
+      "roman": "thîi chǎn...phrɔ́...",
+      "english": "The reason I... is because...",
+      "chinese": "我之所以……是因為……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-yut-v-mai-dai",
+      "thai": "หยุด + V + ไม่ได้",
+      "roman": "yùt + V + mâi dâai",
+      "english": "can’t stop doing...",
+      "chinese": "停不下來……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-arai-tor-arai",
+      "thai": "อะไรต่ออะไร",
+      "roman": "à-rai dtɔ̀ɔ à-rai",
+      "english": "all sorts of things",
+      "chinese": "各式各樣的東西",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-pai-mot-loei",
+      "thai": "...ไปหมดเลย",
+      "roman": "...bpai mòt ləəy",
+      "english": "completely / all of it",
+      "chinese": "全部都……",
+      "level": "Core"
+    },
+    {
+      "id": "pat-caa-mai",
+      "thai": "เธอจะ...ไหม",
+      "roman": "thəə jà...mǎi",
+      "english": "Will you...?",
+      "chinese": "你會……嗎？",
+      "level": "Core"
+    },
+    {
+      "id": "pat-mop-hai",
+      "thai": "มอบให้...",
+      "roman": "mɔ̂ɔp hâi...",
+      "english": "give / devote to...",
+      "chinese": "交給／獻給……",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-hai-suk-jai",
+      "thai": "ให้เธอสุขใจ",
+      "roman": "hâi thəə sùk-jai",
+      "english": "make you feel happy and at ease",
+      "chinese": "讓你安心開心",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-ao-tae",
+      "thai": "เอาแต่ + V",
+      "roman": "ao dtɛ̀ɛ + V",
+      "english": "do nothing but...",
+      "chinese": "只顧著……",
+      "level": "Useful"
+    },
+    {
+      "id": "pat-gin-hai",
+      "thai": "กินให้...",
+      "roman": "gin hâi...",
+      "english": "eat until...",
+      "chinese": "吃到……",
+      "level": "Useful"
+    }
+  ],
+  "vocab": [
+    {
+      "id": "voc-chan-uan",
+      "thai": "ฉันอ้วน",
+      "roman": "chǎn ûan",
+      "english": "I’m fat",
+      "chinese": "我胖了",
+      "level": "Core"
+    },
+    {
+      "id": "voc-uan",
+      "thai": "อ้วน",
+      "roman": "ûan",
+      "english": "fat / chubby",
+      "chinese": "胖／肉肉的",
+      "level": "Core"
+    },
+    {
+      "id": "voc-gin",
+      "thai": "กิน",
+      "roman": "gin",
+      "english": "eat",
+      "chinese": "吃",
+      "level": "Core"
+    },
+    {
+      "id": "voc-yaak-gin",
+      "thai": "อยากกิน",
+      "roman": "yàak gin",
+      "english": "want to eat",
+      "chinese": "想吃",
+      "level": "Core"
+    },
+    {
+      "id": "voc-tong-dai-gin",
+      "thai": "ต้องได้กิน",
+      "roman": "dtɔ̂ng dâai gin",
+      "english": "must get to eat",
+      "chinese": "一定要吃到",
+      "level": "Core"
+    },
+    {
+      "id": "voc-dtaam-jai",
+      "thai": "ตามใจ",
+      "roman": "dtaam-jai",
+      "english": "as one wishes / follow one’s heart",
+      "chinese": "照心意／隨心",
+      "level": "Core"
+    },
+    {
+      "id": "voc-khwaam-suk",
+      "thai": "ความสุข",
+      "roman": "khwaam-sùk",
+      "english": "happiness",
+      "chinese": "幸福／快樂",
+      "level": "Core"
+    },
+    {
+      "id": "voc-phung",
+      "thai": "พุง",
+      "roman": "phung",
+      "english": "belly / tummy",
+      "chinese": "肚子／小肚子",
+      "level": "Core"
+    },
+    {
+      "id": "voc-phung-un-un",
+      "thai": "พุงอุ่น ๆ",
+      "roman": "phung ùn ùn",
+      "english": "warm belly",
+      "chinese": "暖暖的肚子",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-nun-non",
+      "thai": "หนุนนอน",
+      "roman": "nǔn nɔɔn",
+      "english": "rest one’s head on while sleeping",
+      "chinese": "靠著睡／墊著睡",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-nam-laai-lai",
+      "thai": "น้ำลายไหล",
+      "roman": "nám-laai lǎi",
+      "english": "mouth-watering / drool",
+      "chinese": "流口水",
+      "level": "Core"
+    },
+    {
+      "id": "voc-hak-haam-jai",
+      "thai": "หักห้ามใจ",
+      "roman": "hàk-hâam jai",
+      "english": "restrain oneself",
+      "chinese": "克制自己",
+      "level": "Core"
+    },
+    {
+      "id": "voc-jat-bpai",
+      "thai": "จัดไป",
+      "roman": "jàt bpai",
+      "english": "go for it / order it",
+      "chinese": "安排下去／點下去",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-mee-nuu",
+      "thai": "เมนู",
+      "roman": "mee-nuu",
+      "english": "menu / dish",
+      "chinese": "菜單／品項",
+      "level": "Core"
+    },
+    {
+      "id": "voc-yut-gin-mai-dai",
+      "thai": "หยุดกินไม่ได้",
+      "roman": "yùt gin mâi dâai",
+      "english": "can’t stop eating",
+      "chinese": "停不下來吃",
+      "level": "Core"
+    },
+    {
+      "id": "voc-lueap-bpai-hen",
+      "thai": "เหลือบไปเห็น",
+      "roman": "lʉ̀ap bpai hěn",
+      "english": "glance and see",
+      "chinese": "不經意瞄到",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-arai-tor-arai",
+      "thai": "อะไรต่ออะไร",
+      "roman": "à-rai dtɔ̀ɔ à-rai",
+      "english": "all sorts of things",
+      "chinese": "各式各樣的東西",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-bpai-mot-loei",
+      "thai": "ไปหมดเลย",
+      "roman": "bpai mòt ləəy",
+      "english": "all / completely",
+      "chinese": "全部都",
+      "level": "Core"
+    },
+    {
+      "id": "voc-rak-chan-mai",
+      "thai": "รักฉันไหม",
+      "roman": "rák chǎn mǎi",
+      "english": "Do you love me?",
+      "chinese": "你愛我嗎？",
+      "level": "Core"
+    },
+    {
+      "id": "voc-mot-hua-jai",
+      "thai": "หมดหัวใจ",
+      "roman": "mòt hǔa-jai",
+      "english": "all of one’s heart",
+      "chinese": "整顆心／全部的心",
+      "level": "Core"
+    },
+    {
+      "id": "voc-mop-hai",
+      "thai": "มอบให้",
+      "roman": "mɔ̂ɔp hâi",
+      "english": "give / devote",
+      "chinese": "交給／獻給",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-talot-bpai",
+      "thai": "ตลอดไป",
+      "roman": "dtà-lɔ̀ɔt bpai",
+      "english": "forever",
+      "chinese": "永遠",
+      "level": "Core"
+    },
+    {
+      "id": "voc-suk-jai",
+      "thai": "สุขใจ",
+      "roman": "sùk-jai",
+      "english": "feel happy / at ease",
+      "chinese": "安心開心",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-muu-thot",
+      "thai": "หมูทอด",
+      "roman": "mǔu-thɔ̂ɔt",
+      "english": "fried pork",
+      "chinese": "炸豬肉",
+      "level": "Core"
+    },
+    {
+      "id": "voc-thot-man-bplaa-graai",
+      "thai": "ทอดมันปลากราย",
+      "roman": "thɔ̂ɔt-man bplaa-graai",
+      "english": "fried fish cake",
+      "chinese": "魚漿炸餅",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-chaa-khai-muk",
+      "thai": "ชาไข่มุก",
+      "roman": "chaa-khài-múk",
+      "english": "bubble tea",
+      "chinese": "珍珠奶茶",
+      "level": "Core"
+    },
+    {
+      "id": "voc-shabu",
+      "thai": "ชาบู",
+      "roman": "chaa-buu",
+      "english": "shabu / hot pot",
+      "chinese": "涮涮鍋／火鍋",
+      "level": "Core"
+    },
+    {
+      "id": "voc-ork-gamlang-gaai",
+      "thai": "ออกกำลังกาย",
+      "roman": "ɔ̀ɔk-gam-lang-gaai",
+      "english": "exercise",
+      "chinese": "運動",
+      "level": "Core"
+    },
+    {
+      "id": "voc-khai-man",
+      "thai": "ไขมัน",
+      "roman": "khǎi-man",
+      "english": "fat",
+      "chinese": "脂肪",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-salaai",
+      "thai": "สลาย",
+      "roman": "sà-laai",
+      "english": "dissolve / disappear",
+      "chinese": "消散／瓦解",
+      "level": "Extension"
+    },
+    {
+      "id": "voc-ao-tae-khit",
+      "thai": "เอาแต่คิด",
+      "roman": "ao dtɛ̀ɛ khít",
+      "english": "do nothing but think",
+      "chinese": "只顧著想",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-ruang-gin",
+      "thai": "เรื่องกิน",
+      "roman": "rʉ̂ang gin",
+      "english": "food matters / eating",
+      "chinese": "吃的事情",
+      "level": "Core"
+    },
+    {
+      "id": "voc-phung-dtaek",
+      "thai": "พุงแตก",
+      "roman": "phung dtɛ̀ɛk",
+      "english": "belly bursting",
+      "chinese": "肚子撐爆",
+      "level": "Useful"
+    },
+    {
+      "id": "voc-jer-gan",
+      "thai": "เจอกัน",
+      "roman": "jəə gan",
+      "english": "see you / meet up",
+      "chinese": "見面／到時見",
+      "level": "Core"
+    },
+    {
+      "id": "voc-bpen-ngai",
+      "thai": "เป็นไง",
+      "roman": "bpen ngai",
+      "english": "How is it? / How about it?",
+      "chinese": "怎麼樣？",
+      "level": "Core"
+    }
+  ],
+  "vocabDefs": {
+    "ฉันอ้วน": [
+      "chǎn ûan",
+      "I’m fat",
+      "我胖了"
+    ],
+    "อ้วน": [
+      "ûan",
+      "fat / chubby",
+      "胖／肉肉的"
+    ],
+    "กิน": [
+      "gin",
+      "eat",
+      "吃"
+    ],
+    "อยากกิน": [
+      "yàak gin",
+      "want to eat",
+      "想吃"
+    ],
+    "ต้องได้กิน": [
+      "dtɔ̂ng dâai gin",
+      "must get to eat",
+      "一定要吃到"
+    ],
+    "ตามใจ": [
+      "dtaam-jai",
+      "as one wishes / follow one’s heart",
+      "照心意／隨心"
+    ],
+    "ความสุข": [
+      "khwaam-sùk",
+      "happiness",
+      "幸福／快樂"
+    ],
+    "พุง": [
+      "phung",
+      "belly / tummy",
+      "肚子／小肚子"
+    ],
+    "พุงอุ่น ๆ": [
+      "phung ùn ùn",
+      "warm belly",
+      "暖暖的肚子"
+    ],
+    "หนุนนอน": [
+      "nǔn nɔɔn",
+      "rest one’s head on while sleeping",
+      "靠著睡／墊著睡"
+    ],
+    "น้ำลายไหล": [
+      "nám-laai lǎi",
+      "mouth-watering / drool",
+      "流口水"
+    ],
+    "หักห้ามใจ": [
+      "hàk-hâam jai",
+      "restrain oneself",
+      "克制自己"
+    ],
+    "จัดไป": [
+      "jàt bpai",
+      "go for it / order it",
+      "安排下去／點下去"
+    ],
+    "เมนู": [
+      "mee-nuu",
+      "menu / dish",
+      "菜單／品項"
+    ],
+    "หยุดกินไม่ได้": [
+      "yùt gin mâi dâai",
+      "can’t stop eating",
+      "停不下來吃"
+    ],
+    "เหลือบไปเห็น": [
+      "lʉ̀ap bpai hěn",
+      "glance and see",
+      "不經意瞄到"
+    ],
+    "อะไรต่ออะไร": [
+      "à-rai dtɔ̀ɔ à-rai",
+      "all sorts of things",
+      "各式各樣的東西"
+    ],
+    "ไปหมดเลย": [
+      "bpai mòt ləəy",
+      "all / completely",
+      "全部都"
+    ],
+    "รักฉันไหม": [
+      "rák chǎn mǎi",
+      "Do you love me?",
+      "你愛我嗎？"
+    ],
+    "หมดหัวใจ": [
+      "mòt hǔa-jai",
+      "all of one’s heart",
+      "整顆心／全部的心"
+    ],
+    "มอบให้": [
+      "mɔ̂ɔp hâi",
+      "give / devote",
+      "交給／獻給"
+    ],
+    "ตลอดไป": [
+      "dtà-lɔ̀ɔt bpai",
+      "forever",
+      "永遠"
+    ],
+    "สุขใจ": [
+      "sùk-jai",
+      "feel happy / at ease",
+      "安心開心"
+    ],
+    "หมูทอด": [
+      "mǔu-thɔ̂ɔt",
+      "fried pork",
+      "炸豬肉"
+    ],
+    "ทอดมันปลากราย": [
+      "thɔ̂ɔt-man bplaa-graai",
+      "fried fish cake",
+      "魚漿炸餅"
+    ],
+    "ชาไข่มุก": [
+      "chaa-khài-múk",
+      "bubble tea",
+      "珍珠奶茶"
+    ],
+    "ชาบู": [
+      "chaa-buu",
+      "shabu / hot pot",
+      "涮涮鍋／火鍋"
+    ],
+    "ออกกำลังกาย": [
+      "ɔ̀ɔk-gam-lang-gaai",
+      "exercise",
+      "運動"
+    ],
+    "ไขมัน": [
+      "khǎi-man",
+      "fat",
+      "脂肪"
+    ],
+    "สลาย": [
+      "sà-laai",
+      "dissolve / disappear",
+      "消散／瓦解"
+    ],
+    "เอาแต่คิด": [
+      "ao dtɛ̀ɛ khít",
+      "do nothing but think",
+      "只顧著想"
+    ],
+    "เรื่องกิน": [
+      "rʉ̂ang gin",
+      "food matters / eating",
+      "吃的事情"
+    ],
+    "พุงแตก": [
+      "phung dtɛ̀ɛk",
+      "belly bursting",
+      "肚子撐爆"
+    ],
+    "เจอกัน": [
+      "jəə gan",
+      "see you / meet up",
+      "見面／到時見"
+    ],
+    "เป็นไง": [
+      "bpen ngai",
+      "How is it? / How about it?",
+      "怎麼樣？"
+    ],
+    "A ตามด้วย B": [
+      "A dtaam dûai B",
+      "A followed by B",
+      "A 接著是 B"
+    ],
+    "เอาไว้...": [
+      "ao wái...",
+      "keep it for... / prepare it for...",
+      "先留著／準備著……"
+    ],
+    "กินอะไร": [
+      "gin à-rai",
+      "What should we eat?",
+      "吃什麼？"
+    ],
+    "...ก่อน": [
+      "...gɔ̀ɔn",
+      "...first",
+      "先……"
+    ],
+    "...แล้วยังไง": [
+      "...lɛ́ɛw yang-ngai",
+      "So what if...?",
+      "……了又怎樣？"
+    ],
+    "เดี๋ยว + V": [
+      "dǐaw + V",
+      "I’ll do it later / in a bit",
+      "等一下就……"
+    ],
+    "...เป็นไง": [
+      "...bpen ngai",
+      "How about...?",
+      "……怎麼樣？"
+    ],
+    "เย็นนี้เจอกัน": [
+      "yen níi jəə gan",
+      "See you this evening.",
+      "今晚見。"
+    ],
+    "อยาก...ต้องได้...": [
+      "yàak...dtɔ̂ng dâai...",
+      "If I want..., I have to get...",
+      "想要……就一定要得到……"
+    ],
+    "...ทีไร...ต้อง...": [
+      "...thii-rai...dtɔ̂ng...",
+      "Every time..., ...must...",
+      "每次一……就一定……"
+    ],
+    "ไม่เคยได้...": [
+      "mâi khəəy dâai...",
+      "have never been able to...",
+      "從來沒能……"
+    ],
+    "ที่ฉัน...เพราะ...": [
+      "thîi chǎn...phrɔ́...",
+      "The reason I... is because...",
+      "我之所以……是因為……"
+    ],
+    "หยุด + V + ไม่ได้": [
+      "yùt + V + mâi dâai",
+      "can’t stop doing...",
+      "停不下來……"
+    ],
+    "...ไปหมดเลย": [
+      "...bpai mòt ləəy",
+      "completely / all of it",
+      "全部都……"
+    ],
+    "เธอจะ...ไหม": [
+      "thəə jà...mǎi",
+      "Will you...?",
+      "你會……嗎？"
+    ],
+    "มอบให้...": [
+      "mɔ̂ɔp hâi...",
+      "give / devote to...",
+      "交給／獻給……"
+    ],
+    "ให้เธอสุขใจ": [
+      "hâi thəə sùk-jai",
+      "make you feel happy and at ease",
+      "讓你安心開心"
+    ],
+    "เอาแต่ + V": [
+      "ao dtɛ̀ɛ + V",
+      "do nothing but...",
+      "只顧著……"
+    ],
+    "กินให้...": [
+      "gin hâi...",
+      "eat until...",
+      "吃到……"
+    ],
+    "เจียงฮาย": [
+      "jiang-hǎai",
+      "Chiang Rai / Northern-style spelling",
+      "江海／清萊式拼法"
+    ],
+    "ทอด": [
+      "thɔ̂ɔt",
+      "fry",
+      "炸"
+    ],
+    "ตามด้วย": [
+      "dtaam dûai",
+      "followed by",
+      "接著是"
+    ],
+    "french fries": [
+      "french fries",
+      "french fries",
+      "薯條"
+    ],
+    "กลางวัน": [
+      "glaang-wan",
+      "daytime / lunch",
+      "白天／中午"
+    ],
+    "เย็น": [
+      "yen",
+      "evening",
+      "傍晚／晚上"
+    ],
+    "นึก ๆ": [
+      "nʉ́k nʉ́k",
+      "think a bit / keep thinking",
+      "想一想"
+    ],
+    "เอาไว้": [
+      "ao wái",
+      "keep / prepare for later",
+      "先留著／準備著"
+    ],
+    "แต่ตอนนี้": [
+      "dtɛ̀ɛ dtɔɔn níi",
+      "but right now",
+      "但現在"
+    ],
+    "ยังไง": [
+      "yang-ngai",
+      "anyway / how",
+      "怎樣／不管怎樣"
+    ],
+    "ก่อน": [
+      "gɔ̀ɔn",
+      "first / before",
+      "先／之前"
+    ],
+    "มีพุง": [
+      "mii phung",
+      "have a belly",
+      "有肚子"
+    ],
+    "แล้วยังไง": [
+      "lɛ́ɛw yang-ngai",
+      "So what?",
+      "那又怎樣？"
+    ],
+    "เดี๋ยว": [
+      "dǐaw",
+      "in a bit / later",
+      "等一下"
+    ],
+    "ทำลาย": [
+      "tham-laai",
+      "destroy",
+      "破壞／摧毀"
+    ],
+    "ให้สลาย": [
+      "hâi sà-laai",
+      "make it dissolve",
+      "讓它消散"
+    ],
+    "ร้าน": [
+      "ráan",
+      "shop / restaurant",
+      "店"
+    ],
+    "ไม่ไกล": [
+      "mâi glai",
+      "not far",
+      "不遠"
+    ],
+    "เตรียมตัว": [
+      "dtriiam-dtua",
+      "get ready",
+      "準備好"
+    ],
+    "เย็นนี้": [
+      "yen níi",
+      "this evening",
+      "今晚／今天傍晚"
+    ],
+    "อยากกินอะไร": [
+      "yàak gin à-rai",
+      "whatever one wants to eat",
+      "想吃什麼"
+    ],
+    "รู้ไหม": [
+      "rúu mǎi",
+      "Do you know?",
+      "你知道嗎？"
+    ],
+    "นึกเรื่องกิน": [
+      "nʉ́k rʉ̂ang gin",
+      "think about food",
+      "想到吃的事情"
+    ],
+    "ทีไร": [
+      "thii-rai",
+      "whenever",
+      "每次一……"
+    ],
+    "น้ำลาย": [
+      "nám-laai",
+      "saliva",
+      "口水"
+    ],
+    "ต้องไหล": [
+      "dtɔ̂ng lǎi",
+      "must flow",
+      "一定會流"
+    ],
+    "ไม่เคยได้": [
+      "mâi khəəy dâai",
+      "have never been able to",
+      "從來沒能"
+    ],
+    "ทุกเมนู": [
+      "thúk mee-nuu",
+      "every menu item",
+      "每一道菜／每個品項"
+    ],
+    "ที่ฉันอ้วน": [
+      "thîi chǎn ûan",
+      "the reason I’m fat",
+      "我之所以胖"
+    ],
+    "เพราะ": [
+      "phrɔ́",
+      "because",
+      "因為"
+    ],
+    "แววตา": [
+      "wɛɛw-dtaa",
+      "look in the eyes / eye expression",
+      "眼神"
+    ],
+    "ก็": [
+      "gɔ̂ɔ",
+      "so / then / just",
+      "就／也"
+    ],
+    "แต่": [
+      "dtɛ̀ɛ",
+      "but",
+      "可是"
+    ],
+    "อ้วนแล้ว": [
+      "ûan lɛ́ɛw",
+      "already fat / now fat",
+      "胖了"
+    ],
+    "เธอจะรักฉันไหม": [
+      "thəə jà rák chǎn mǎi",
+      "Will you love me?",
+      "你會愛我嗎？"
+    ],
+    "ที่มี": [
+      "thîi mii",
+      "that one has",
+      "所擁有的"
+    ],
+    "อุ่น ๆ": [
+      "ùn ùn",
+      "warm and cozy",
+      "暖暖的"
+    ],
+    "วัน ๆ": [
+      "wan wan",
+      "day after day / all day long",
+      "整天／一天到晚"
+    ],
+    "แต่เรื่องกิน": [
+      "dtɛ̀ɛ rʉ̂ang gin",
+      "only food matters",
+      "只有吃的事情"
+    ],
+    "เข้าไป": [
+      "khâo bpai",
+      "into it / keep doing into it",
+      "進去／一直下去"
+    ]
+  }
+};
+const STORE_KEY = SONG.storageKey;
+let state = {favorite:{}, learned:{}, reviewed:{}, mode:'normal'};
+let reviewPool = [];
+let currentReviewMode = 'all';
+
+function load(){
+  try{
+    state=Object.assign(state,JSON.parse(localStorage.getItem(STORE_KEY)||'{}'));
+  }catch(e){}
+  state.favorite=state.favorite||{};
+  state.learned=state.learned||{};
+  state.reviewed=state.reviewed||{};
+}
+function save(){
+  localStorage.setItem(STORE_KEY,JSON.stringify(state));
+  updateAllStatus();
+}
+function allLines(){return SONG.sections.flatMap(sec=>sec.lines.map((l,i)=>({type:'line',id:`line-${sec.id}-${i}`,section:sec.title,...l})));}
+function allPatterns(){return SONG.patterns.map(x=>({type:'pattern',id:x.id,...x}));}
+function allVocab(){return SONG.vocab.map(x=>({type:'vocab',id:x.id,...x}));}
+function itemKey(type, thai){return `${type}:${thai}`}
+function isFav(type,thai){return !!state.favorite[itemKey(type,thai)]}
+function isLearned(type,thai){return !!state.learned[itemKey(type,thai)]}
+function isReviewed(type,thai){return !!state.reviewed[itemKey(type,thai)]}
+function toggleFav(type,thai){
+  const k=itemKey(type,thai);
+  state.favorite[k]=!state.favorite[k];
+  if(!state.favorite[k]) delete state.favorite[k];
+  save();
+}
+function toggleLearned(type,thai){
+  const k=itemKey(type,thai);
+  state.learned[k]=!state.learned[k];
+  if(!state.learned[k]) delete state.learned[k];
+  save();
+}
+function toggleReviewed(type,thai){
+  const k=itemKey(type,thai);
+  state.reviewed[k]=!state.reviewed[k];
+  if(!state.reviewed[k]) delete state.reviewed[k];
+  save();
+}
+function resetReview(){
+  state.reviewed={};
+  save();
+  renderReview(currentReviewMode);
+}
+function esc(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function js(s){return String(s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,' ')}
+function defFor(chip){const direct=SONG.vocabDefs[chip]; if(direct)return {roman:direct[0],english:direct[1],chinese:direct[2]}; const pat=SONG.patterns.find(p=>p.thai===chip); if(pat)return pat; return {english:'',chinese:''}}
+function chipHtml(c){const d=defFor(c);return `<span class="chip" data-thai="${esc(c)}" onclick="event.stopPropagation();speak('${js(c)}',this)"><b>${esc(c)}</b>${d.english?`<span class="chip-en">${esc(d.english)}</span>`:''}</span>`}
+function lineHtml(l,i,secId,secTitle){const id=`line-${secId}-${i}`;return `<div class="line" data-search="${esc([l.thai,l.roman,l.english,l.chinese,l.note,...(l.chips||[])].join(' ').toLowerCase())}" data-id="${id}" data-thai="${esc(l.thai)}" onclick="speak('${js(l.thai)}',this)"><div class="th">${esc(l.thai)}</div><div class="rom">${esc(l.roman)}</div><div class="en">${esc(l.english)}</div><div class="zh">${esc(l.chinese)}</div><div class="vocab">${(l.chips||[]).map(chipHtml).join('')}</div><div class="note">${esc(l.note)}</div><div class="line-actions"><button class="round fav" onclick="event.stopPropagation();toggleFav('line','${js(l.thai)}')" data-type="line" data-thai="${esc(l.thai)}" title="收藏">♥</button><button class="round learned" onclick="event.stopPropagation();toggleLearned('line','${js(l.thai)}')" data-type="line" data-thai="${esc(l.thai)}" title="已學會">✓</button></div></div>`}
+function renderLyrics(){document.getElementById('lyricsList').innerHTML=SONG.sections.map((s,idx)=>`<section class="song-section glass ${idx<2?'open':''}" id="${s.id}"><button class="sec-head" onclick="this.parentElement.classList.toggle('open')"><span><span class="sec-title">${esc(s.title)}</span><span class="sec-sub">${esc(s.sub)}</span></span><span class="arrow">⌄</span></button><div class="sec-body">${s.lines.map((l,i)=>lineHtml(l,i,s.id,s.title)).join('')}</div></section>`).join('')}
+function studyCard(x,type,isReview=false){
+  const secondAction=isReview
+    ? `<button class="round reviewed" onclick="event.stopPropagation();toggleReviewed('${type}','${js(x.thai)}')" data-type="${type}" data-thai="${esc(x.thai)}" title="本輪已複習">✓</button>`
+    : `<button class="round learned" onclick="event.stopPropagation();toggleLearned('${type}','${js(x.thai)}')" data-type="${type}" data-thai="${esc(x.thai)}" title="已學會">✓</button>`;
+  return `<div class="glass study-card" data-search="${esc([x.thai,x.roman,x.english,x.chinese,x.level].join(' ').toLowerCase())}" onclick="speak('${js(x.thai)}',this)"><div class="th">${esc(x.thai)}</div><div class="rom">${esc(x.roman)}</div><div class="en">${esc(x.english)}</div><div class="zh">${esc(x.chinese)}</div><span class="level">${esc(x.level||'')}</span><div class="mini-actions"><button class="round fav" onclick="event.stopPropagation();toggleFav('${type}','${js(x.thai)}')" data-type="${type}" data-thai="${esc(x.thai)}" title="收藏">♥</button>${secondAction}</div></div>`;
+}
+function renderStudy(){document.getElementById('patternList').innerHTML=SONG.patterns.map(x=>studyCard(x,'pattern')).join('');document.getElementById('vocabList').innerHTML=SONG.vocab.map(x=>studyCard(x,'vocab')).join('')}
+function updateAllStatus(){document.querySelectorAll('.fav').forEach(b=>b.classList.toggle('active',isFav(b.dataset.type,b.dataset.thai)));document.querySelectorAll('.learned').forEach(b=>b.classList.toggle('active',isLearned(b.dataset.type,b.dataset.thai))); const favCount=Object.keys(state.favorite).length; document.getElementById('favBadge').textContent=favCount; renderProgress(); if(document.getElementById('favorites').classList.contains('active'))renderFavorites(document.getElementById('favSearch').value||''); if(document.getElementById('review').classList.contains('active'))renderReview(currentReviewMode);}
+function countLearned(items,type){let total=items.length;let learned=items.filter(x=>isLearned(type,x.thai)).length;return {total,learned,pct:total?Math.round(learned/total*100):0}}
+function progressRow(lbl,obj){return `<div class="progress-row"><span class="lbl">${lbl}</span><div class="bar"><span style="width:${obj.pct}%"></span></div><span class="pct">${obj.pct}%</span></div>`}
+function renderProgress(){const l=countLearned(uniqueByThai(allLines()),'line'), p=countLearned(SONG.patterns,'pattern'), v=countLearned(SONG.vocab,'vocab');const all={total:l.total+p.total+v.total,learned:l.learned+p.learned+v.learned};all.pct=all.total?Math.round(all.learned/all.total*100):0;document.getElementById('progressBox').innerHTML=progressRow('Song',all)+progressRow('Lyrics',l)+progressRow('Patterns',p)+progressRow('Vocab',v)}
+function uniqueByThai(items){const m=new Map();items.forEach(x=>{if(!m.has(x.thai))m.set(x.thai,x)});return [...m.values()]}
+function renderFavorites(q=''){q=(q||'').toLowerCase();const groups=[['Favorite Lyrics',uniqueByThai(allLines()),'line'],['Favorite Patterns',SONG.patterns,'pattern'],['Favorite Vocabulary',SONG.vocab,'vocab']];let html='';groups.forEach(([title,items,type])=>{let arr=items.filter(x=>isFav(type,x.thai)).filter(x=>[x.thai,x.roman,x.english,x.chinese,x.note].join(' ').toLowerCase().includes(q));html+=`<div class="fav-block"><h3>${title}</h3>${arr.length?`<div class="study-list">${arr.map(x=>studyCard(x,type)).join('')}</div>`:'<div class="empty">目前沒有收藏</div>'}</div>`});document.getElementById('favoriteList').innerHTML=html;updateAllStatusNoRender()}
+function updateAllStatusNoRender(){
+  document.querySelectorAll('.fav').forEach(b=>b.classList.toggle('active',isFav(b.dataset.type,b.dataset.thai)));
+  document.querySelectorAll('.learned').forEach(b=>b.classList.toggle('active',isLearned(b.dataset.type,b.dataset.thai)));
+  document.querySelectorAll('.reviewed').forEach(b=>b.classList.toggle('active',isReviewed(b.dataset.type,b.dataset.thai)));
+}
+function groupBlock(title,items,type,open=true,isReview=false){
+  return `<div class="collapsible-group ${open?'':'closed'}"><button class="group-head" onclick="this.parentElement.classList.toggle('closed')"><span><span class="group-title">${title}</span><span class="group-count">${items.length}</span></span><span class="arrow">⌄</span></button><div class="group-body">${items.length?`<div class="study-list">${items.map(x=>studyCard(x,type||x.type,isReview)).join('')}</div>`:'<div class="empty">目前沒有項目</div>'}</div></div>`;
+}
+function reviewEligible(x){
+  return isLearned(x.type,x.thai) && !isReviewed(x.type,x.thai);
+}
+function renderReview(mode='all'){
+  currentReviewMode=mode;
+  let lines=uniqueByThai(allLines()).map(x=>({...x,type:'line'})).filter(reviewEligible);
+  let patterns=SONG.patterns.map(x=>({...x,type:'pattern'})).filter(reviewEligible);
+  let vocab=SONG.vocab.map(x=>({...x,type:'vocab'})).filter(reviewEligible);
+
+  if(mode==='fav'){
+    lines=lines.filter(x=>isFav(x.type,x.thai));
+    patterns=patterns.filter(x=>isFav(x.type,x.thai));
+    vocab=vocab.filter(x=>isFav(x.type,x.thai));
+  }
+
+  reviewPool=[...lines,...patterns,...vocab];
+  document.getElementById('reviewList').innerHTML=reviewPool.length
+    ? groupBlock('Lyrics',lines,'line',true,true)
+      + groupBlock('Patterns',patterns,'pattern',false,true)
+      + groupBlock('Vocabulary',vocab,'vocab',false,true)
+    : '<div class="empty">目前沒有可複習的已學會項目</div>';
+  updateAllStatusNoRender();
+}
+function shuffleReview(){
+  currentReviewMode='all';
+  let items=[
+    ...uniqueByThai(allLines()).map(x=>({...x,type:'line'})),
+    ...SONG.patterns.map(x=>({...x,type:'pattern'})),
+    ...SONG.vocab.map(x=>({...x,type:'vocab'}))
+  ].filter(reviewEligible).sort(()=>Math.random()-.5);
+  reviewPool=items;
+  document.getElementById('reviewList').innerHTML=items.length
+    ? groupBlock('Shuffle Review',items,null,true,true)
+    : '<div class="empty">目前沒有可複習的已學會項目</div>';
+  updateAllStatusNoRender();
+}
+function getProgressSnapshot(){
+  const uniqueLines=uniqueByThai(allLines());
+  const countLearned=(type,items)=>items.filter(x=>isLearned(type,x.thai)).length;
+  const lineLearned=countLearned('line',uniqueLines);
+  const patternLearned=countLearned('pattern',SONG.patterns);
+  const vocabLearned=countLearned('vocab',SONG.vocab);
+  const total=uniqueLines.length+SONG.patterns.length+SONG.vocab.length;
+  const learned=lineLearned+patternLearned+vocabLearned;
+  return {
+    song:{learned,total,percent:total?Math.round(learned/total*100):0},
+    lyrics:{learned:lineLearned,total:uniqueLines.length,percent:uniqueLines.length?Math.round(lineLearned/uniqueLines.length*100):0},
+    patterns:{learned:patternLearned,total:SONG.patterns.length,percent:SONG.patterns.length?Math.round(patternLearned/SONG.patterns.length*100):0},
+    vocab:{learned:vocabLearned,total:SONG.vocab.length,percent:SONG.vocab.length?Math.round(vocabLearned/SONG.vocab.length*100):0}
+  };
+}
+function exportState(){
+  const payload={
+    schema:'thai-song-lab-song-state',
+    version:3,
+    exportedAt:new Date().toISOString(),
+    song:{
+      slug:SONG.slug,
+      title:SONG.title,
+      artist:SONG.artist,
+      level:SONG.level
+    },
+    progress:getProgressSnapshot(),
+    state:{
+      favorite:{...(state.favorite||{})},
+      learned:{...(state.learned||{})},
+      reviewed:{...(state.reviewed||{})},
+      mode:state.mode||'normal'
+    }
+  };
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`${SONG.slug}-progress.json`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),0);
+  a.remove();
+}
+function importState(event){
+  const file=event.target.files && event.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      const incoming=data.state||data;
+      const incomingSlug=data.song?.slug||data.song;
+      if(data.schema && data.schema!=='thai-song-lab-song-state')throw new Error('Invalid schema');
+      if(incomingSlug && incomingSlug!==SONG.slug)throw new Error('Different song');
+      if(!incomingSlug){
+        const proceed=confirm('這份 JSON 沒有歌曲資訊，無法確認是否屬於《ฉันอ้วน》。仍要匯入嗎？');
+        if(!proceed){
+          event.target.value='';
+          return;
+        }
+      }
+      if(!incoming.favorite && !incoming.learned && !incoming.reviewed)throw new Error('Invalid state file');
+
+      state.favorite={...(state.favorite||{}),...(incoming.favorite||{})};
+      state.learned={...(state.learned||{}),...(incoming.learned||{})};
+      state.reviewed={...(state.reviewed||{}),...(incoming.reviewed||{})};
+      if(incoming.mode)state.mode=incoming.mode;
+
+      save();
+      renderLyrics();
+      renderStudy();
+      renderFavorites(document.getElementById('favSearch')?.value||'');
+      renderReview(currentReviewMode);
+      alert('已匯入此首歌的 Favorites、Learned、Review 與學習進度。');
+    }catch(e){
+      const message=e.message==='Different song'
+        ? '匯入失敗：這份 JSON 屬於另一首歌。'
+        : '匯入失敗：請選擇有效的 Thai Song Lab JSON 檔。';
+      alert(message);
+    }
+    event.target.value='';
+    const legacyInput=document.getElementById('stateImportFile');
+    if(legacyInput)legacyInput.value='';
+  };
+  reader.readAsText(file);
+}
+function filterLyrics(q){
+  q=(q||'').toLowerCase();
+  document.querySelectorAll('#lyricsList .song-section').forEach(section=>{
+    const lines=[...section.querySelectorAll('.line')];
+    lines.forEach(el=>el.classList.toggle('hidden',q && !el.dataset.search.includes(q)));
+    if(q) section.classList.toggle('open',lines.some(el=>!el.classList.contains('hidden')));
+  });
+}
+function filterStudy(id,q){q=(q||'').toLowerCase();document.querySelectorAll(`#${id} .study-card`).forEach(el=>el.classList.toggle('hidden',q && !el.dataset.search.includes(q)))}
+function showPage(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('.top .btn').forEach(b=>b.classList.remove('active-tab'));if(btn)btn.classList.add('active-tab');if(id==='favorites')renderFavorites(document.getElementById('favSearch').value||'');if(id==='review')renderReview('all');window.scrollTo({top:0,behavior:'smooth'})}
+function setMode(mode,btn){const app=document.getElementById('app');app.className='wrap';if(mode!=='normal')app.classList.add(mode);state.mode=mode;document.querySelectorAll('.toolbar .btn').forEach(b=>b.classList.remove('mode-on'));if(btn)btn.classList.add('mode-on');save()}
+function expandAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.add('open'))}function collapseAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.remove('open'))}
+let queueToken=0;function speak(text,btn){
+  if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');
+  queueToken++;
+  speechSynthesis.cancel();
+  document.querySelectorAll('.playing').forEach(el=>el.classList.remove('playing'));
+  const card = btn && btn.classList ? (btn.classList.contains('line')||btn.classList.contains('study-card') ? btn : btn.closest('.line,.study-card')) : null;
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='th-TH';
+  u.rate=.86;
+  if(card)card.classList.add('playing');
+  if(btn && btn.classList)btn.classList.add('active');
+  const clear=()=>{if(card)card.classList.remove('playing'); if(btn && btn.classList)btn.classList.remove('active')};
+  u.onend=clear;
+  u.onerror=clear;
+  speechSynthesis.speak(u);
+}
+function speakQueue(lines){if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');queueToken++;const token=queueToken;speechSynthesis.cancel();let i=0;function next(){if(token!==queueToken||i>=lines.length)return;const u=new SpeechSynthesisUtterance(lines[i++]);u.lang='th-TH';u.rate=.84;u.onend=()=>setTimeout(next,420);speechSynthesis.speak(u)}next()}
+function playVisibleLyrics(){
+  const lines=[...document.querySelectorAll('#lyricsList .song-section.open .line:not(.hidden)')]
+    .map(el=>el.dataset.thai)
+    .filter(t=>!t.startsWith('Every night')&&!t.startsWith('Tryna')&&!t.startsWith('And I'));
+  speakQueue(lines);
+}
+function speakAll(){showPage('lyrics');expandAll();const lines=SONG.sections.flatMap(s=>s.lines.map(l=>l.thai).filter(t=>!t.startsWith('Every night')&&!t.startsWith('Tryna')&&!t.startsWith('And I')));speakQueue(lines)}
+function init(){document.getElementById('artist').textContent=SONG.artist;document.getElementById('title').textContent=SONG.title;document.getElementById('subtitle').textContent=`${SONG.romanTitle} · ${SONG.englishTitle}`;load();renderLyrics();renderStudy();setMode(state.mode||'normal');updateAllStatus()}
+init();
+</script>
+</body>
+</html>
