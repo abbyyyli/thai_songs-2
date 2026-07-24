@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ฉันอ้วน — TimeTime | Thai Song Lab</title>
+<title>บรรยากาศ — Only Monday | Thai Song Lab</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+Thai:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 :root{--bg:#111018;--text:#fff8ef;--muted:#c9c0b7;--soft:#a9a2b5;--line:rgba(255,255,255,.13);--card:rgba(255,255,255,.075);--card2:rgba(255,255,255,.105);--accent:#f2bb6b;--accent2:#9fd7c7;--blue:#91a8d8;--purple:#b69ad8;--rose:#edb4a3;--shadow:0 18px 46px rgba(0,0,0,.28);--radius:22px;--thai:'Noto Sans Thai','Leelawadee UI',Tahoma,sans-serif;--ui:'Inter','Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--zh:'Noto Serif TC','Noto Serif CJK TC','Songti TC','PMingLiU',serif;--en:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
@@ -869,9 +869,9 @@ body{
 <body>
 <div class="top"><div class="top-inner"><a class="brand btn brand-home" href="../index.html" title="Back to Song Library">♪ Thai Song Lab</a><div class="nav"><button class="btn active-tab" onclick="showPage('overview',this)">Overview</button><button class="btn" onclick="showPage('lyrics',this)">Lyrics</button><button class="btn" onclick="showPage('patterns',this)">Patterns</button><button class="btn" onclick="showPage('vocab',this)">Vocab</button><button class="btn" onclick="showPage('favorites',this)">Favorites <span id="favBadge">0</span></button><button class="btn" onclick="showPage('review',this)">Review</button><button class="btn" onclick="speakAll()">全文播放</button></div></div></div>
 <div class="wrap" id="app"><input class="import-file" id="globalStateImportFile" type="file" accept=".json,application/json" onchange="importState(event)">
-<section class="hero"><div class="kicker">Song Lesson 004 · <span id="artist"></span></div><div class="hero-main"><div><h1 class="song-name" id="title"></h1><div class="subtitle roman" id="subtitle"></div></div></div></section>
-<section class="page active" id="overview"><div class="overview-layout"><div class="glass overview-card"><div class="overview-title">Overview</div><p class="statement">這首歌用很可愛、很鬧的方式唱出一個愛吃的人：從午餐、珍奶、炸物、火鍋一路想到晚上要吃什麼。表面上是自嘲變胖，核心其實是在撒嬌地問：就算我胖了，你還會愛我嗎？</p><div class="progress-wrap" id="progressBox"></div></div><div class="glass study"><div class="overview-title">Study Mode</div><div class="toolbar"><button class="btn" onclick="setMode('normal',this)">全部</button><button class="btn" onclick="setMode('hide-zh',this)">隱藏中文</button><button class="btn" onclick="setMode('hide-roman',this)">隱藏拼音</button><button class="btn" onclick="setMode('shadow',this)">Shadow</button><button class="btn" onclick="setMode('thai-only',this)">只看泰文</button></div><p class="hint">Learned 會保留並計入 Overview 進度；跨裝置請使用匯出 / 匯入 JSON。</p></div></div>
-<div class="overview-pills" aria-label="Lesson summary"><span class="overview-pill"><b>核心主題</b><span>Food · Cute Speech · Love</span></span><span class="overview-pill"><b>學習難度</b><span>A2 可理解主線與吃東西詞彙；B1 可吸收口語節奏、可愛自嘲、食物清單與歌詞裡的誇張語氣。</span></span><span class="overview-pill"><b>優先句型</b><span>อยาก...ต้องได้... / ทีไร...ต้อง... / เธอจะ...ไหม</span></span></div></section>
+<section class="hero"><div class="kicker">Song Lesson 009 · <span id="artist"></span></div><div class="hero-main"><div><h1 class="song-name" id="title"></h1><div class="subtitle roman" id="subtitle"></div></div></div></section>
+<section class="page active" id="overview"><div class="overview-layout"><div class="glass overview-card"><div class="overview-title">Overview</div><p class="statement">歌曲描寫一個人回到過去曾與戀人共度時光的店裡。周圍仍是熟悉的場景，身旁卻只剩自己與酒杯；舊日氣氛不斷喚起回憶，也讓他明白那段感情已無法重新來過。</p><div class="progress-wrap" id="progressBox"></div></div><div class="glass study"><div class="overview-title">Study Mode</div><div class="toolbar"><button class="btn" onclick="setMode('normal',this)">全部</button><button class="btn" onclick="setMode('hide-zh',this)">隱藏中文</button><button class="btn" onclick="setMode('hide-roman',this)">隱藏拼音</button><button class="btn" onclick="setMode('shadow',this)">Shadow</button><button class="btn" onclick="setMode('thai-only',this)">只看泰文</button></div><p class="hint">Learned 會保留並計入 Overview 進度；跨裝置請使用匯出 / 匯入 JSON。</p></div></div>
+<div class="overview-pills" aria-label="Lesson summary"><span class="overview-pill"><b>核心主題</b><span>Longing · Memory · Lost Love</span></span><span class="overview-pill"><b>學習難度</b><span>A2 學習者可以理解主要故事與高頻結構；B1 學習者可進一步吸收時間感、持續感、省略語序與情緒歌詞中的自然搭配。</span></span><span class="overview-pill"><b>優先句型</b><span>ทำให้ + 人 + 動詞 / ยังคง + 動詞／狀態 / ไม่มีทาง + 動詞</span></span></div></section>
 <main class="page" id="lyrics"><div class="lyrics-tools"><button class="btn" onclick="expandAll()">全部展開</button><button class="btn" onclick="collapseAll()">全部收合</button><button class="btn" onclick="playVisibleLyrics()">播放目前歌詞</button></div><input class="search" id="lyricsSearch" placeholder="搜尋 Lyrics：Thai / Romanization / English / 中文" oninput="filterLyrics(this.value)"><div id="lyricsList"></div></main>
 <section class="page" id="patterns"><div class="glass overview-card"><div class="overview-title">Patterns / 可直接拿去用的句型</div><input class="search" id="patternSearch" placeholder="搜尋 Patterns" oninput="filterStudy('patternList',this.value)"><div class="study-list" id="patternList"></div></div></section>
 <section class="page" id="vocab"><div class="glass overview-card"><div class="overview-title">Vocabulary & Chunks</div><input class="search" id="vocabSearch" placeholder="搜尋 Vocabulary" oninput="filterStudy('vocabList',this.value)"><div class="study-list" id="vocabList"></div></div></section>
@@ -880,1433 +880,1350 @@ body{
 </div><footer>Thai Song Lab v4.7 · Calm warm reading</footer>
 <script>
 const SONG = {
-  "slug": "chan-uan",
-  "title": "ฉันอ้วน",
-  "artist": "TimeTime",
-  "romanTitle": "chǎn ûan",
-  "englishTitle": "I'm Fat",
-  "level": "A2 → B1",
-  "summary": "這首歌用很可愛、很鬧的方式唱出一個愛吃的人：從午餐、珍奶、炸物、火鍋一路想到晚上要吃什麼。表面上是自嘲變胖，核心其實是在撒嬌地問：就算我胖了，你還會愛我嗎？",
+  "slug": "banyakat",
+  "title": "บรรยากาศ",
+  "artist": "Only Monday",
+  "romanTitle": "ban-yaa-gàat",
+  "englishTitle": "Atmosphere",
+  "level": "A2–B1",
+  "summary": "歌曲描寫一個人回到過去曾與戀人共度時光的店裡。周圍仍是熟悉的場景，身旁卻只剩自己與酒杯；舊日氣氛不斷喚起回憶，也讓他明白那段感情已無法重新來過。",
   "focus": [
-    "練習 อยาก...ต้องได้... 表達「想要就一定要得到」。",
-    "練習 ทีไร...ต้อง... 表達「每次一……就一定……」。",
-    "吸收 กิน / พุง / อ้วน / น้ำลายไหล 這類生活感很強的吃東西詞彙。",
-    "練習 เธอจะ...ไหม 這類可愛又不安的感情確認句。"
+    "用 เคย、ยังคง、ยังไม่ 描寫過去經驗、持續狀態與尚未完成的情緒",
+    "掌握 ทำให้ + 人 + 動詞，以及 ไม่มีทาง + 動詞 的高頻結構",
+    "理解 เดิม ๆ、ที่เดิม ๆ、วนแบบนี้ทุกครั้งไป 所營造的反覆與困在回憶中的感覺",
+    "練習歌詞中省略主詞與重複詞帶出的自然口語節奏"
   ],
-  "difficulty": "A2 可理解主線與吃東西詞彙；B1 可吸收口語節奏、可愛自嘲、食物清單與歌詞裡的誇張語氣。",
+  "difficulty": "A2 學習者可以理解主要故事與高頻結構；B1 學習者可進一步吸收時間感、持續感、省略語序與情緒歌詞中的自然搭配。",
   "topPatterns": [
-    "อยาก...ต้องได้...",
-    "ทีไร...ต้อง...",
-    "เธอจะ...ไหม"
+    "ทำให้ + 人 + 動詞",
+    "ยังคง + 動詞／狀態",
+    "ไม่มีทาง + 動詞"
   ],
-  "storageKey": "thai-song-lab-v2-chan-uan",
+  "storageKey": "thai-song-lab-v2-banyakat",
   "sections": [
     {
-      "id": "intro-food-list",
-      "title": "Intro / Food List",
-      "sub": "從午餐一路想到晚餐：食物清單式開場",
+      "id": "verse-1",
+      "title": "Verse 1",
+      "sub": "人群中的孤單與舊地重遊",
       "lines": [
         {
-          "thai": "หมูทอดเจียงฮาย ทอดมันปลากราย",
-          "roman": "mǔu-thɔ̂ɔt jiang-hǎai, thɔ̂ɔt-man bplaa-graai",
-          "english": "Chiang Rai-style fried pork, fried fish cakes,",
-          "chinese": "江海炸豬肉、魚漿炸餅，",
-          "note": "這句是食物清單式開場。ทอด = 炸；หมูทอด 是炸豬肉，ทอดมันปลากราย 是泰國常見魚漿炸餅。",
+          "id": "l001",
+          "thai": "อยู่ท่ามกลางคนที่มีอยู่เป็นล้าน",
+          "roman": "yùu thâam-glaang khon thîi mii yùu bpen láan",
+          "english": "I’m surrounded by millions of people.",
+          "chinese": "身處在成千上萬的人群之中。",
+          "note": "อยู่ท่ามกลาง… 是「置身於……之中」。มีอยู่เป็นล้าน 不是精確數字，而是誇張地表示「有多達數百萬之多」。",
           "chips": [
-            "หมูทอด",
-            "เจียงฮาย",
-            "ทอดมันปลากราย",
-            "ทอด"
+            "p01",
+            "v01",
+            "v02"
           ]
         },
         {
-          "thai": "ตามด้วย french fries เมนูกลางวันนี้",
-          "roman": "dtaam dûai french fries mee-nuu glaang-wan níi",
-          "english": "followed by french fries for today’s lunch menu.",
-          "chinese": "再來一份 french fries，今天中午的菜單就是這樣。",
-          "note": "ตามด้วย = 接著是、再加上。French fries 直接保留英文，不需要硬轉泰文拼音。",
+          "id": "l002",
+          "thai": "แต่ทำไมหัวใจฉันมันกลับอ้างว้าง",
+          "roman": "dtɛ̀ɛ tham-mai hǔa-jai chǎn man glàp âang-wáang",
+          "english": "But why does my heart feel lonely instead?",
+          "chinese": "但為什麼我的心反而如此寂寞？",
+          "note": "กลับ 在這裡不是「回去」，而是「反而、卻」。มัน 放在 หัวใจฉัน 後面，是帶情緒的口語回指。",
           "chips": [
-            "ตามด้วย",
-            "french fries",
-            "เมนู",
-            "กลางวัน"
+            "p02",
+            "v03",
+            "v04"
           ]
         },
         {
-          "thai": "เย็นกินอะไร นึก ๆ เอาไว้",
-          "roman": "yen gin à-rai, nʉ́k nʉ́k ao wái",
-          "english": "What should we eat tonight? I’m already thinking about it.",
-          "chinese": "晚上要吃什麼呢？我已經先想起來放著了。",
-          "note": "นึก ๆ เอาไว้ 是很口語的「先想著、先盤算著」。เอาไว้ 有『先留著、先準備著』的感覺。",
+          "id": "l003",
+          "thai": "เหมือนว่ารอบตัวที่มันวุ่นวาย",
+          "roman": "mʉ̌an wâa rɔ̂ɔp-dtua thîi man wûn-waai",
+          "english": "It feels as though all the chaos around me",
+          "chinese": "彷彿周遭的一切喧鬧混亂，",
+          "note": "เหมือนว่า… 用來引出主觀感受，相當於「彷彿……」。這一句必須接下一句才完整。",
           "chips": [
-            "เย็น",
-            "กินอะไร",
-            "นึก ๆ",
-            "เอาไว้"
+            "p03",
+            "v05",
+            "v06"
           ]
         },
         {
-          "thai": "แต่ตอนนี้ยังไง ชาไข่มุกก่อน",
-          "roman": "dtɛ̀ɛ dtɔɔn níi yang-ngai, chaa-khài-múk gɔ̀ɔn",
-          "english": "But for now, no matter what, bubble tea first.",
-          "chinese": "但現在不管怎樣，先來杯珍奶。",
-          "note": "ก่อน 放句尾常是「先……再說」。這句很生活：ชาไข่มุกก่อน = 先喝珍奶。",
+          "id": "l004",
+          "thai": "กำลังค่อย ๆ หายไป",
+          "roman": "gam-lang khɔ̂i khɔ̂i hǎai bpai",
+          "english": "is slowly fading away.",
+          "chinese": "正在一點一點地消失。",
+          "note": "กำลัง 表示正在進行；ค่อย ๆ 表示逐漸、慢慢地。兩者合用會強化過程正在緩慢發生的感覺。",
           "chips": [
-            "แต่ตอนนี้",
-            "ยังไง",
-            "ชาไข่มุก",
-            "ก่อน"
+            "p04",
+            "v07",
+            "v08"
           ]
         },
         {
-          "thai": "มีพุงแล้วยังไง เดี๋ยวออกกำลังกาย",
-          "roman": "mii phung lɛ́ɛw yang-ngai, dǐaw ɔ̀ɔk-gam-lang-gaai",
-          "english": "So what if I have a belly? I’ll exercise later.",
-          "chinese": "有肚子了又怎樣？等一下再去運動。",
-          "note": "แล้วยังไง = 那又怎樣。เดี๋ยว... 是口語裡很常用的「等一下就會……」。",
+          "id": "l005",
+          "thai": "ร้านที่ฉันเคยพาเธอไปตอนนั้น",
+          "roman": "ráan thîi chǎn khəəy phaa thəə bpai dtɔɔn nán",
+          "english": "The place I used to take you to back then—",
+          "chinese": "那間我當時曾帶妳去過的店，",
+          "note": "เคย + 動詞 表示「曾經做過」。พา + 人 + ไป 是「帶某人去」。ร้าน 在情境中可理解為店家、餐廳或酒吧。",
           "chips": [
-            "มีพุง",
-            "แล้วยังไง",
-            "เดี๋ยว",
-            "ออกกำลังกาย"
+            "p05",
+            "v09",
+            "v10"
           ]
         },
         {
-          "thai": "จะทำลายไขมัน ให้สลาย",
-          "roman": "jà tham-laai khǎi-man hâi sà-laai",
-          "english": "I’ll destroy the fat and make it melt away.",
-          "chinese": "我會把脂肪消滅，讓它全部散掉。",
-          "note": "ทำลาย = 破壞、摧毀；ให้สลาย = 讓它消散。這裡是搞笑誇張語氣。",
+          "id": "l006",
+          "thai": "ตอนนี้ไม่มีใครมีเพียงแค่ตัวฉัน",
+          "roman": "dtɔɔn-níi mâi mii khrai mii phiiang khɛ̂ɛ dtua chǎn",
+          "english": "now there’s no one here, only me.",
+          "chinese": "如今一個人也沒有，只剩下我自己。",
+          "note": "มีเพียงแค่… 是帶歌詞感的「僅有……」。日常口語更常直接說 มีแค่ฉันคนเดียว。",
           "chips": [
-            "ทำลาย",
-            "ไขมัน",
-            "ให้สลาย",
-            "สลาย"
+            "p06",
+            "v11",
+            "v12"
           ]
         },
         {
-          "thai": "ชาบูเป็นไง ร้านอยู่ไม่ไกล",
-          "roman": "chaa-buu bpen ngai, ráan yùu mâi glai",
-          "english": "How about shabu? The place isn’t far.",
-          "chinese": "吃涮涮鍋怎麼樣？店也不遠。",
-          "note": "เป็นไง = 怎麼樣？很常用來提議或問感覺。ร้านอยู่ไม่ไกล 是自然口語的地點說法。",
+          "id": "l007",
+          "thai": "กับแก้วที่มันรินบาง ๆ",
+          "roman": "gàp gɛ̂ɛw thîi man rin baang baang",
+          "english": "with a glass being lightly filled.",
+          "chinese": "陪著我的，只有那只被淺淺斟滿的杯子。",
+          "note": "ริน 是「斟、倒入飲料」。บาง ๆ 原義是「薄薄地」，在這裡帶有酒被少量、緩緩斟入杯中的畫面感。",
           "chips": [
-            "ชาบู",
-            "เป็นไง",
-            "ร้าน",
-            "ไม่ไกล"
+            "v13",
+            "v14"
           ]
         },
         {
-          "thai": "เตรียมตัวเอาไว้เย็นนี้เจอกัน",
-          "roman": "dtriiam-dtua ao wái yen níi jəə gan",
-          "english": "Get ready. See you this evening.",
-          "chinese": "先準備好，今晚見。",
-          "note": "เจอกัน = 到時見、再見。เย็นนี้เจอกัน 是很自然的約見面說法。",
+          "id": "l008",
+          "thai": "มันให้ฉันนั้นคิดถึงเธอ",
+          "roman": "man hâi chǎn nán khít-thʉ̌ng thəə",
+          "english": "It makes me miss you.",
+          "chinese": "這一切讓我想起妳、想念妳。",
+          "note": "ให้ 在此具有「使、讓」的功能，語意接近 ทำให้。ฉันนั้น 中的 นั้น 主要為歌詞節奏與強調。",
           "chips": [
-            "เตรียมตัว",
-            "เอาไว้",
-            "เย็นนี้",
-            "เจอกัน"
+            "p07",
+            "v15"
           ]
         }
       ]
     },
     {
-      "id": "prechorus1",
-      "title": "Pre-Chorus 1",
-      "sub": "想吃什麼就要吃：吃東西就是幸福",
-      "lines": [
-        {
-          "thai": "อยากกินอะไรต้องได้กินตามใจเธอรู้ไหม มันคือความสุขฉัน",
-          "roman": "yàak gin à-rai dtɔ̂ng dâai gin dtaam-jai thəə rúu mǎi, man khʉʉ khwaam-sùk chǎn",
-          "english": "Whatever I want to eat, I have to eat it my way. You know? That’s my happiness.",
-          "chinese": "想吃什麼就一定要吃到、照自己的心意吃，你知道嗎？那就是我的幸福。",
-          "note": "อยาก...ต้องได้... 是很有執念的口語句型：想要就一定要得到。ตามใจ 這裡是照自己的心意。",
-          "chips": [
-            "อยากกินอะไร",
-            "ต้องได้กิน",
-            "ตามใจ",
-            "รู้ไหม",
-            "ความสุข"
-          ]
-        },
-        {
-          "thai": "นึกเรื่องกินทีไรน้ำลายต้องไหล",
-          "roman": "nʉ́k rʉ̂ang gin thii-rai nám-laai dtɔ̂ng lǎi",
-          "english": "Every time I think about food, my mouth waters.",
-          "chinese": "每次想到吃的，口水就一定會流。",
-          "note": "ทีไร...ต้อง... = 每次一……就一定……。น้ำลายไหล 是流口水，很生活、很好用。",
-          "chips": [
-            "นึกเรื่องกิน",
-            "ทีไร",
-            "น้ำลาย",
-            "ต้องไหล",
-            "น้ำลายไหล"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chorus1",
+      "id": "chorus-1",
       "title": "Chorus 1",
-      "sub": "胖是因為停不下來吃，但還是想確認你愛不愛我",
+      "sub": "熟悉的氣氛喚回無法挽回的愛",
       "lines": [
         {
-          "thai": "หักห้ามใจไม่เคยได้ จัดไปทุกเมนู",
-          "roman": "hàk-hâam jai mâi khəəy dâai, jàt bpai thúk mee-nuu",
-          "english": "I’ve never been able to resist, so I order every menu item.",
-          "chinese": "我從來克制不了自己，所以每一道都給它點下去。",
-          "note": "หักห้ามใจ = 克制自己的心。จัดไป 是很口語的「來吧、點下去、安排下去」。",
+          "id": "l009",
+          "thai": "บรรยากาศเดิม ๆ ที่เดิม ๆ ทำให้ฉันคิดถึงใคร",
+          "roman": "ban-yaa-gàat dəəm dəəm thîi dəəm dəəm tham hâi chǎn khít-thʉ̌ng khrai",
+          "english": "The same old atmosphere, the same old place, makes me miss someone.",
+          "chinese": "熟悉的氣氛、熟悉的地方，讓我想起了某個人。",
+          "note": "ทำให้ + 人 + 動詞 是非常實用的使役結構。「ใคร」表面是「誰」，此處其實指那個彼此都知道的人。",
           "chips": [
-            "หักห้ามใจ",
-            "ไม่เคยได้",
-            "จัดไป",
-            "ทุกเมนู"
+            "p08",
+            "v16",
+            "v17"
           ]
         },
         {
-          "thai": "ที่ฉันอ้วนเพราะฉันหยุดกินไม่ได้",
-          "roman": "thîi chǎn ûan phrɔ́ chǎn yùt gin mâi dâai",
-          "english": "The reason I’m fat is because I can’t stop eating.",
-          "chinese": "我之所以胖，是因為我停不下來吃。",
-          "note": "ที่ฉัน...เพราะ... = 我之所以……是因為……。หยุด + V + ไม่ได้ = 停不下來做某事。",
+          "id": "l010",
+          "thai": "อยู่ภายในใจ อยู่ในใจ ยังจดจำทุกเรื่องราว",
+          "roman": "yùu phaai-nai jai yùu nai jai yang jòt-jam thúk rʉ̂ang-raao",
+          "english": "Deep in my heart, still in my heart, I remember every story.",
+          "chinese": "深藏在心裡、留在心裡，我依然記得所有往事。",
+          "note": "ยัง + 動詞 表示「仍然……」。จดจำ 比 จำ 更有「銘記、牢記」的語感，較適合歌詞或正式表達。",
           "chips": [
-            "ที่ฉันอ้วน",
-            "เพราะ",
-            "หยุดกินไม่ได้",
-            "อ้วน"
+            "p09",
+            "v18",
+            "v19"
           ]
         },
         {
-          "thai": "แววตาฉันเหลือบไปเห็นอะไรต่ออะไร",
-          "roman": "wɛɛw-dtaa chǎn lʉ̀ap bpai hěn à-rai dtɔ̀ɔ à-rai",
-          "english": "My eyes keep glancing at all kinds of things.",
-          "chinese": "我的眼神總是瞄到各式各樣的東西。",
-          "note": "อะไรต่ออะไร = 各種東西、這個那個。เหลือบไปเห็น 是不經意瞄到。",
+          "id": "l011",
+          "thai": "ภาพนั้นยังคงเป็นเธอ ที่ฉันคงไม่ได้เจอ",
+          "roman": "phâap nán yang khong bpen thəə thîi chǎn khong mâi dâai jəə",
+          "english": "That image is still you—the one I probably won’t see again.",
+          "chinese": "那幅畫面裡依然是妳，而我大概再也見不到妳了。",
+          "note": "ยังคง 表示某個狀態持續不變。後面的 คง 是推測語氣「大概、恐怕」，同一句中的兩個 คง 功能不同。",
           "chips": [
-            "แววตา",
-            "เหลือบไปเห็น",
-            "อะไรต่ออะไร"
+            "p10",
+            "p11",
+            "v20"
           ]
         },
         {
-          "thai": "ก็อยากกินไปหมดเลย",
-          "roman": "gɔ̂ɔ yàak gin bpai mòt ləəy",
-          "english": "and I want to eat absolutely everything.",
-          "chinese": "就全部都好想吃。",
-          "note": "ไปหมดเลย 是『全部都……了』的強調，很常出現在口語誇張裡。",
+          "id": "l012",
+          "thai": "ไม่มีทางอีกแล้ว",
+          "roman": "mâi mii thaang ìik lɛ́ɛw",
+          "english": "There’s no chance anymore.",
+          "chinese": "已經再也沒有可能了。",
+          "note": "ไม่มีทาง 是強烈的「不可能、沒有辦法」。อีกแล้ว 放在否定句中，表示「再也不……了」。",
           "chips": [
-            "ก็",
-            "อยากกิน",
-            "ไปหมดเลย"
+            "p12",
+            "v21"
           ]
         },
         {
-          "thai": "แต่ฉันอ้วนแล้วเธอจะรักฉันไหม",
-          "roman": "dtɛ̀ɛ chǎn ûan lɛ́ɛw thəə jà rák chǎn mǎi",
-          "english": "But now that I’m fat, will you still love me?",
-          "chinese": "可是我胖了，你還會愛我嗎？",
-          "note": "เธอจะ...ไหม = 你會……嗎？這句是可愛撒嬌裡帶一點不安。",
+          "id": "l013",
+          "thai": "อยู่กับฉากเดิม ๆ ที่เดิม ๆ วนแบบนี้ทุกครั้งไป",
+          "roman": "yùu gàp chàak dəəm dəəm thîi dəəm dəəm won bɛ̀ɛp níi thúk khráng bpai",
+          "english": "I stay with the same old scenes in the same old place, repeating like this every time.",
+          "chinese": "留在相同的場景、相同的地方，每一次都這樣反覆循環。",
+          "note": "วนแบบนี้ 是「像這樣一直循環」。ทุกครั้งไป 帶有「每次總是如此」的慣常與無奈感。",
           "chips": [
-            "แต่",
-            "อ้วนแล้ว",
-            "เธอจะรักฉันไหม",
-            "รักฉันไหม"
+            "p13",
+            "v22",
+            "v23"
           ]
         },
         {
-          "thai": "หมดหัวใจที่มีมอบให้เธอตลอดไป",
-          "roman": "mòt hǔa-jai thîi mii mɔ̂ɔp hâi thəə dtà-lɔ̀ɔt bpai",
-          "english": "All the heart I have, I give to you forever.",
-          "chinese": "我所有的心，都永遠交給你。",
-          "note": "หมดหัวใจที่มี = 擁有的整顆心。มอบให้ 比 ให้ 更有『交付、獻給』的感覺。",
+          "id": "l014",
+          "thai": "อยู่ภายในใจ แค่ในใจ ยังไม่ลืมภาพอดีต",
+          "roman": "yùu phaai-nai jai khɛ̂ɛ nai jai yang mâi lʉʉm phâap à-dìit",
+          "english": "It remains inside my heart, only in my heart; I still haven’t forgotten the past.",
+          "chinese": "一切只留在心裡，而我依然沒有忘記過去的畫面。",
+          "note": "ยังไม่ + 動詞 表示「到現在仍未……」，重點是狀態截至此刻尚未改變。",
           "chips": [
-            "หมดหัวใจ",
-            "ที่มี",
-            "มอบให้",
-            "ตลอดไป"
+            "p14",
+            "v24",
+            "v25"
           ]
         },
         {
-          "thai": "ให้เธอสุขใจมีพุงอุ่น ๆ ให้หนุนนอน",
-          "roman": "hâi thəə sùk-jai mii phung ùn ùn hâi nǔn nɔɔn",
-          "english": "I’ll make you happy, with a warm belly for you to rest your head on.",
-          "chinese": "讓你安心開心，還有暖暖的肚子可以讓你靠著睡。",
-          "note": "อุ่น ๆ 是重疊形容詞，語氣可愛柔軟。หนุนนอน = 墊著睡、靠著睡。",
+          "id": "l015",
+          "thai": "รักนั้นที่เราเคยผ่าน รักนี้ที่ไม่มีทาง",
+          "roman": "rák nán thîi rao khəəy phàan rák níi thîi mâi mii thaang",
+          "english": "That love we once went through—this love that has no way",
+          "chinese": "那段我們曾經走過的愛，這段已經不可能……",
+          "note": "ผ่าน 在 รักที่เราเคยผ่าน 中不是單純「經過」，而是「共同經歷、一起走過」。句意延續至下一句。",
           "chips": [
-            "สุขใจ",
-            "พุง",
-            "อุ่น ๆ",
-            "หนุนนอน"
+            "p15",
+            "v26"
+          ]
+        },
+        {
+          "id": "l016",
+          "thai": "ทำให้ดีกว่านี้",
+          "roman": "tham hâi dii gwàa níi",
+          "english": "to be made any better than this.",
+          "chinese": "再變得比現在更好了。",
+          "note": "ทำให้ดีขึ้น 是「改善」；歌詞使用 ดีกว่านี้，強調已沒有辦法讓這段關係變得更好。",
+          "chips": [
+            "p16",
+            "v27"
           ]
         }
       ]
     },
     {
-      "id": "bridge-cute-eating",
-      "title": "Bridge / Cute Eating Part",
-      "sub": "整天只想吃，吃到肚子爆開",
+      "id": "verse-2",
+      "title": "Verse 2",
+      "sub": "回想曾經如夢般的幸福",
       "lines": [
         {
-          "thai": "วัน ๆ เอาแต่คิด แต่เรื่องกิน",
-          "roman": "wan wan ao dtɛ̀ɛ khít, dtɛ̀ɛ rʉ̂ang gin",
-          "english": "Day after day, all I think about is food.",
-          "chinese": "一天到晚只想著吃的事情。",
-          "note": "วัน ๆ = 整天、一天到晚。เอาแต่ + V = 只顧著……，常帶一點吐槽語氣。",
+          "id": "l017",
+          "thai": "นึกเรื่องดี ๆ ที่มีในตอนนั้น",
+          "roman": "nʉ́k rʉ̂ang dii dii thîi mii nai dtɔɔn nán",
+          "english": "I think back to the good things we had back then.",
+          "chinese": "我想起那時候曾有過的美好事情。",
+          "note": "นึกเรื่อง… 是「想到……」。若要明確表示突然想起，也常說 นึกถึงเรื่อง… 或 นึกขึ้นได้ว่า…。",
           "chips": [
-            "วัน ๆ",
-            "เอาแต่คิด",
-            "แต่เรื่องกิน",
-            "เรื่องกิน"
+            "p17",
+            "v28"
           ]
         },
         {
-          "thai": "อยากกินมันเข้าไป กินให้พุงแตก",
-          "roman": "yàak gin man khâo bpai, gin hâi phung dtɛ̀ɛk",
-          "english": "I want to eat it all up, eat until my belly bursts.",
-          "chinese": "好想一直吃下去，吃到肚子都快爆開。",
-          "note": "กินให้... = 吃到……的程度。พุงแตก 是誇張說法，表示吃到撐爆。",
+          "id": "l018",
+          "thai": "ที่ฉันและเธอเคย เคยเป็นอย่างที่ฝัน",
+          "roman": "thîi chǎn lɛ́ thəə khəəy khəəy bpen yàang thîi fǎn",
+          "english": "when you and I once—once were just as we had dreamed.",
+          "chinese": "那時我和妳曾經、曾經活成了夢想中的模樣。",
+          "note": "เคย 的重複主要是音樂節奏與情緒強調。เป็นอย่างที่ฝัน 是「成為／呈現夢想中的樣子」。",
           "chips": [
-            "อยากกิน",
-            "เข้าไป",
-            "กินให้...",
-            "พุงแตก"
+            "p18",
+            "v29"
+          ]
+        },
+        {
+          "id": "l019",
+          "thai": "ฉันนั้นโชคดีที่เคยมีเธอ",
+          "roman": "chǎn nán chôok-dii thîi khəəy mii thəə",
+          "english": "I was lucky to have had you.",
+          "chinese": "我很幸運，曾經擁有過妳。",
+          "note": "โชคดีที่… 是「很幸運能夠……」。เคยมีเธอ 將這份擁有清楚放在已經結束的過去。",
+          "chips": [
+            "p19",
+            "v30"
+          ]
+        },
+        {
+          "id": "l020",
+          "thai": "อยู่ในภาพความทรงจำ",
+          "roman": "yùu nai phâap khwaam-song-jam",
+          "english": "within the picture in my memory.",
+          "chinese": "存在於我的記憶畫面之中。",
+          "note": "ภาพความทรงจำ 是帶畫面感的「記憶中的景象」，比單獨使用 ความทรงจำ 更具視覺性。",
+          "chips": [
+            "v31"
+          ]
+        },
+        {
+          "id": "l021",
+          "thai": "โต๊ะที่มันเคยมีเธออยู่ตรงนั้น",
+          "roman": "dtó thîi man khəəy mii thəə yùu dtrong nán",
+          "english": "The table where you used to sit right there—",
+          "chinese": "那張妳曾坐在那裡的桌子，",
+          "note": "原句直譯為「那張曾經有妳在那裡的桌子」。泰文常用 มี + 人 + อยู่ 表示某人存在於某處。",
+          "chips": [
+            "p20",
+            "v32"
+          ]
+        },
+        {
+          "id": "l022",
+          "thai": "ตอนนี้ไม่มีใครมันเป็นแค่ความฝัน",
+          "roman": "dtɔɔn-níi mâi mii khrai man bpen khɛ̂ɛ khwaam-fǎn",
+          "english": "now no one is there; it was only a dream.",
+          "chinese": "如今那裡空無一人，一切只像是一場夢。",
+          "note": "มันเป็นแค่… 是口語的「那只不過是……」。此處的 มัน 回指眼前留下的景象或過去的幸福。",
+          "chips": [
+            "p21",
+            "v33"
+          ]
+        },
+        {
+          "id": "l023",
+          "thai": "อยู่กับแก้วที่มันรินบาง ๆ",
+          "roman": "yùu gàp gɛ̂ɛw thîi man rin baang baang",
+          "english": "I’m left with a glass being lightly filled.",
+          "chinese": "陪著我的，只剩那只被淺淺斟酒的杯子。",
+          "note": "Review：แก้ว 是杯子；ริน 是斟酒或倒飲料。這個畫面再次將現在的孤單與過去對比。",
+          "chips": [
+            "v13",
+            "v14"
+          ]
+        },
+        {
+          "id": "l024",
+          "thai": "มันทำให้ฉันนั้นคิดถึงเธอ",
+          "roman": "man tham hâi chǎn nán khít-thʉ̌ng thəə",
+          "english": "It makes me miss you.",
+          "chinese": "它讓我再次想念妳。",
+          "note": "Review：ทำให้ + 人 + 動詞，是「使某人……」。相較第一段的 ให้，這裡完整使用 ทำให้。",
+          "chips": [
+            "p08",
+            "v15"
           ]
         }
       ]
     },
     {
-      "id": "prechorus2",
-      "title": "Pre-Chorus 2",
-      "sub": "Review：想吃什麼就要吃",
-      "lines": [
-        {
-          "thai": "อยากกินอะไรต้องได้กินตามใจเธอรู้ไหม มันคือความสุขฉัน",
-          "roman": "yàak gin à-rai dtɔ̂ng dâai gin dtaam-jai thəə rúu mǎi, man khʉʉ khwaam-sùk chǎn",
-          "english": "Whatever I want to eat, I have to eat it my way. You know? That’s my happiness.",
-          "chinese": "想吃什麼就一定要吃到、照自己的心意吃，你知道嗎？那就是我的幸福。",
-          "note": "Review：อยาก...ต้องได้... 是這首歌最核心的吃貨句型。",
-          "chips": [
-            "อยากกินอะไร",
-            "ต้องได้กิน",
-            "ตามใจ",
-            "รู้ไหม",
-            "ความสุข"
-          ]
-        },
-        {
-          "thai": "นึกเรื่องกินทีไรน้ำลายต้องไหล",
-          "roman": "nʉ́k rʉ̂ang gin thii-rai nám-laai dtɔ̂ng lǎi",
-          "english": "Every time I think about food, my mouth waters.",
-          "chinese": "每次想到吃的，口水就一定會流。",
-          "note": "Review：ทีไร...ต้อง... = 每次一……就一定……。",
-          "chips": [
-            "นึกเรื่องกิน",
-            "ทีไร",
-            "น้ำลาย",
-            "ต้องไหล",
-            "น้ำลายไหล"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chorus2",
+      "id": "chorus-2",
       "title": "Chorus 2",
-      "sub": "Review：胖是因為停不下來吃",
+      "sub": "回憶再次循環",
       "lines": [
         {
-          "thai": "หักห้ามใจไม่เคยได้ จัดไปทุกเมนู",
-          "roman": "hàk-hâam jai mâi khəəy dâai, jàt bpai thúk mee-nuu",
-          "english": "I’ve never been able to resist, so I order every menu item.",
-          "chinese": "我從來克制不了自己，所以每一道都給它點下去。",
-          "note": "Review：จัดไป 是很口語的『安排下去、點下去』。",
+          "id": "l025",
+          "thai": "บรรยากาศเดิม ๆ ที่เดิม ๆ ทำให้ฉันคิดถึงใคร",
+          "roman": "ban-yaa-gàat dəəm dəəm thîi dəəm dəəm tham hâi chǎn khít-thʉ̌ng khrai",
+          "english": "The same old atmosphere, the same old place, makes me miss someone.",
+          "chinese": "熟悉的氣氛、熟悉的地方，讓我想起了某個人。",
+          "note": "Review：เดิม ๆ 表示與過去相同、沒有改變；ทำให้ 引出這個場景造成的情緒。",
           "chips": [
-            "หักห้ามใจ",
-            "ไม่เคยได้",
-            "จัดไป",
-            "ทุกเมนู"
+            "p08",
+            "v16",
+            "v17"
           ]
         },
         {
-          "thai": "ที่ฉันอ้วนเพราะฉันหยุดกินไม่ได้",
-          "roman": "thîi chǎn ûan phrɔ́ chǎn yùt gin mâi dâai",
-          "english": "The reason I’m fat is because I can’t stop eating.",
-          "chinese": "我之所以胖，是因為我停不下來吃。",
-          "note": "Review：เพราะ 用來接原因；หยุดกินไม่ได้ 是『停不下來吃』。",
+          "id": "l026",
+          "thai": "อยู่ภายในใจ อยู่ในใจ ยังจดจำทุกเรื่องราว",
+          "roman": "yùu phaai-nai jai yùu nai jai yang jòt-jam thúk rʉ̂ang-raao",
+          "english": "Deep in my heart, still in my heart, I remember every story.",
+          "chinese": "深藏在心裡、留在心裡，我依然記得所有往事。",
+          "note": "Review：ยังจดจำ 表示直到現在仍牢牢記得。",
           "chips": [
-            "ที่ฉันอ้วน",
-            "เพราะ",
-            "หยุดกินไม่ได้",
-            "อ้วน"
+            "p09",
+            "v18",
+            "v19"
           ]
         },
         {
-          "thai": "แววตาฉันเหลือบไปเห็นอะไรต่ออะไร",
-          "roman": "wɛɛw-dtaa chǎn lʉ̀ap bpai hěn à-rai dtɔ̀ɔ à-rai",
-          "english": "My eyes keep glancing at all kinds of things.",
-          "chinese": "我的眼神總是瞄到各式各樣的東西。",
-          "note": "Review：อะไรต่ออะไร = 各式各樣的東西。",
+          "id": "l027",
+          "thai": "ภาพนั้นยังคงเป็นเธอ ที่ฉันคงไม่ได้เจอ",
+          "roman": "phâap nán yang khong bpen thəə thîi chǎn khong mâi dâai jəə",
+          "english": "That image is still you—the one I probably won’t see again.",
+          "chinese": "那幅畫面裡依然是妳，而我大概再也見不到妳了。",
+          "note": "Review：ยังคง 是持續不變；คงไม่ได้เจอ 是帶悲觀推測的「恐怕見不到了」。",
           "chips": [
-            "แววตา",
-            "เหลือบไปเห็น",
-            "อะไรต่ออะไร"
+            "p10",
+            "p11",
+            "v20"
           ]
         },
         {
-          "thai": "ก็อยากกินไปหมดเลย",
-          "roman": "gɔ̂ɔ yàak gin bpai mòt ləəy",
-          "english": "and I want to eat absolutely everything.",
-          "chinese": "就全部都好想吃。",
-          "note": "Review：ไปหมดเลย 用來把『全部都』的感覺加強。",
+          "id": "l028",
+          "thai": "ไม่มีทางอีกแล้ว",
+          "roman": "mâi mii thaang ìik lɛ́ɛw",
+          "english": "There’s no chance anymore.",
+          "chinese": "已經再也沒有可能了。",
+          "note": "Review：ไม่มีทางอีกแล้ว 是強烈且帶終結感的「再也不可能了」。",
           "chips": [
-            "ก็",
-            "อยากกิน",
-            "ไปหมดเลย"
+            "p12",
+            "v21"
           ]
         },
         {
-          "thai": "แต่ฉันอ้วนแล้วเธอจะรักฉันไหม",
-          "roman": "dtɛ̀ɛ chǎn ûan lɛ́ɛw thəə jà rák chǎn mǎi",
-          "english": "But now that I’m fat, will you still love me?",
-          "chinese": "可是我胖了，你還會愛我嗎？",
-          "note": "Review：จะ...ไหม 是確認未來或意願的問句。",
+          "id": "l029",
+          "thai": "อยู่กับฉากเดิม ๆ ที่เดิม ๆ วนแบบนี้ทุกครั้งไป",
+          "roman": "yùu gàp chàak dəəm dəəm thîi dəəm dəəm won bɛ̀ɛp níi thúk khráng bpai",
+          "english": "I stay with the same old scenes in the same old place, repeating like this every time.",
+          "chinese": "留在相同的場景、相同的地方，每一次都這樣反覆循環。",
+          "note": "Review：วนแบบนี้ 強調思緒與行為反覆困在同一個循環。",
           "chips": [
-            "แต่",
-            "อ้วนแล้ว",
-            "เธอจะรักฉันไหม",
-            "รักฉันไหม"
+            "p13",
+            "v22",
+            "v23"
           ]
         },
         {
-          "thai": "หมดหัวใจที่มีมอบให้เธอตลอดไป",
-          "roman": "mòt hǔa-jai thîi mii mɔ̂ɔp hâi thəə dtà-lɔ̀ɔt bpai",
-          "english": "All the heart I have, I give to you forever.",
-          "chinese": "我所有的心，都永遠交給你。",
-          "note": "Review：ตลอดไป = 永遠、一直到以後。",
+          "id": "l030",
+          "thai": "อยู่ภายในใจ แค่ในใจ ยังไม่ลืมภาพอดีต",
+          "roman": "yùu phaai-nai jai khɛ̂ɛ nai jai yang mâi lʉʉm phâap à-dìit",
+          "english": "It remains inside my heart, only in my heart; I still haven’t forgotten the past.",
+          "chinese": "一切只留在心裡，而我依然沒有忘記過去的畫面。",
+          "note": "Review：ยังไม่ลืม 表示「到現在仍然沒有忘記」。",
           "chips": [
-            "หมดหัวใจ",
-            "ที่มี",
-            "มอบให้",
-            "ตลอดไป"
+            "p14",
+            "v24",
+            "v25"
           ]
         },
         {
-          "thai": "ให้เธอสุขใจมีพุงอุ่น ๆ ให้หนุนนอน",
-          "roman": "hâi thəə sùk-jai mii phung ùn ùn hâi nǔn nɔɔn",
-          "english": "I’ll make you happy, with a warm belly for you to rest your head on.",
-          "chinese": "讓你安心開心，還有暖暖的肚子可以讓你靠著睡。",
-          "note": "Review：พุงอุ่น ๆ 是很可愛的形容方式，像『暖暖的小肚子』。",
+          "id": "l031",
+          "thai": "รักนั้นที่เราเคยผ่าน รักนี้ที่ไม่มีทาง",
+          "roman": "rák nán thîi rao khəəy phàan rák níi thîi mâi mii thaang",
+          "english": "That love we once went through—this love that has no way",
+          "chinese": "那段我們曾經走過的愛，這段已經不可能……",
+          "note": "Review：เคยผ่าน 指兩人共同經歷過那段感情。",
           "chips": [
-            "สุขใจ",
-            "พุง",
-            "อุ่น ๆ",
-            "หนุนนอน"
+            "p15",
+            "v26"
           ]
+        },
+        {
+          "id": "l032",
+          "thai": "ทำให้ดีกว่านี้",
+          "roman": "tham hâi dii gwàa níi",
+          "english": "to be made any better than this.",
+          "chinese": "再變得比現在更好了。",
+          "note": "Review：整體意思是沒有任何方法能再挽救或改善這段愛。",
+          "chips": [
+            "p16",
+            "v27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chorus-3",
+      "title": "Chorus 3",
+      "sub": "第三次重返相同場景",
+      "lines": [
+        {
+          "id": "l033",
+          "thai": "บรรยากาศเดิม ๆ ที่เดิม ๆ ทำให้ฉันคิดถึงใคร",
+          "roman": "ban-yaa-gàat dəəm dəəm thîi dəəm dəəm tham hâi chǎn khít-thʉ̌ng khrai",
+          "english": "The same old atmosphere, the same old place, makes me miss someone.",
+          "chinese": "熟悉的氣氛、熟悉的地方，讓我想起了某個人。",
+          "note": "Review：副歌再次出現，呈現回憶反覆湧現的循環感。",
+          "chips": [
+            "p08",
+            "v16",
+            "v17"
+          ]
+        },
+        {
+          "id": "l034",
+          "thai": "อยู่ภายในใจ อยู่ในใจ ยังจดจำทุกเรื่องราว",
+          "roman": "yùu phaai-nai jai yùu nai jai yang jòt-jam thúk rʉ̂ang-raao",
+          "english": "Deep in my heart, still in my heart, I remember every story.",
+          "chinese": "深藏在心裡、留在心裡，我依然記得所有往事。",
+          "note": "Review：อยู่ในใจ 與 ยังจดจำ 共同強調記憶仍未消失。",
+          "chips": [
+            "p09",
+            "v18",
+            "v19"
+          ]
+        },
+        {
+          "id": "l035",
+          "thai": "ภาพนั้นยังคงเป็นเธอ ที่ฉันคงไม่ได้เจอ",
+          "roman": "phâap nán yang khong bpen thəə thîi chǎn khong mâi dâai jəə",
+          "english": "That image is still you—the one I probably won’t see again.",
+          "chinese": "那幅畫面裡依然是妳，而我大概再也見不到妳了。",
+          "note": "Review：同時對比「記憶中的妳仍存在」與「現實中恐怕再也見不到」。",
+          "chips": [
+            "p10",
+            "p11",
+            "v20"
+          ]
+        },
+        {
+          "id": "l036",
+          "thai": "ไม่มีทางอีกแล้ว",
+          "roman": "mâi mii thaang ìik lɛ́ɛw",
+          "english": "There’s no chance anymore.",
+          "chinese": "已經再也沒有可能了。",
+          "note": "Review：อีกแล้ว 讓否定帶有明確的終止感。",
+          "chips": [
+            "p12",
+            "v21"
+          ]
+        },
+        {
+          "id": "l037",
+          "thai": "อยู่กับฉากเดิม ๆ ที่เดิม ๆ วนแบบนี้ทุกครั้งไป",
+          "roman": "yùu gàp chàak dəəm dəəm thîi dəəm dəəm won bɛ̀ɛp níi thúk khráng bpai",
+          "english": "I stay with the same old scenes in the same old place, repeating like this every time.",
+          "chinese": "留在相同的場景、相同的地方，每一次都這樣反覆循環。",
+          "note": "Review：ทุกครั้งไป 表示每一次最後都走向同樣的結果。",
+          "chips": [
+            "p13",
+            "v22",
+            "v23"
+          ]
+        },
+        {
+          "id": "l038",
+          "thai": "อยู่ภายในใจ แค่ในใจ ยังไม่ลืมภาพอดีต",
+          "roman": "yùu phaai-nai jai khɛ̂ɛ nai jai yang mâi lʉʉm phâap à-dìit",
+          "english": "It remains inside my heart, only in my heart; I still haven’t forgotten the past.",
+          "chinese": "一切只留在心裡，而我依然沒有忘記過去的畫面。",
+          "note": "Review：แค่ในใจ 帶出這段關係如今只能存在於內心。",
+          "chips": [
+            "p14",
+            "v24",
+            "v25"
+          ]
+        },
+        {
+          "id": "l039",
+          "thai": "รักนั้นที่เราเคยผ่าน รักนี้ที่ไม่มีทาง",
+          "roman": "rák nán thîi rao khəəy phàan rák níi thîi mâi mii thaang",
+          "english": "That love we once went through—this love that has no way",
+          "chinese": "那段我們曾經走過的愛，這段已經不可能……",
+          "note": "Review：รักนั้น 指過去的愛；รักนี้ 則像是站在現在回看那段仍留在心中的感情。",
+          "chips": [
+            "p15",
+            "v26"
+          ]
+        },
+        {
+          "id": "l040",
+          "thai": "ทำให้ดีกว่านี้",
+          "roman": "tham hâi dii gwàa níi",
+          "english": "to be made any better than this.",
+          "chinese": "再變得比現在更好了。",
+          "note": "Review：ดีกว่านี้ 是「比這更好」，搭配 ไม่มีทาง 形成完整的無法挽回。",
+          "chips": [
+            "p16",
+            "v27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocal-break",
+      "title": "Vocal Break",
+      "sub": "無實義哼唱",
+      "lines": [
+        {
+          "id": "l041",
+          "thai": "โว้ โว้วโฮ โว้วโฮ (นานันนานันนา นันนานานานันนานา นานันนานันนา นันนานานานันนานา)",
+          "roman": "wôo wôow-hoo wôow-hoo (naa-nan-naa-nan-naa nan-naa-naa-naa-nan-naa-naa naa-nan-naa-nan-naa nan-naa-naa-naa-nan-naa-naa)",
+          "english": "Whoa, whoa-oh, whoa-oh (wordless vocals).",
+          "chinese": "喔、喔喔——（無實義的哼唱）。",
+          "note": "這一段是無實義的 vocalization，用來延續副歌情緒，不需當作一般詞彙學習。",
+          "chips": []
+        },
+        {
+          "id": "l042",
+          "thai": "โว้วโฮโฮ โว้วโฮโฮโฮ (นานันนานันนา นันนานานานันนานา นานันนานันนา นันนานานานันนานา)",
+          "roman": "wôow-hoo-hoo wôow-hoo-hoo-hoo (naa-nan-naa-nan-naa nan-naa-naa-naa-nan-naa-naa naa-nan-naa-nan-naa nan-naa-naa-naa-nan-naa-naa)",
+          "english": "Whoa-oh-oh, whoa-oh-oh-oh (wordless vocals).",
+          "chinese": "喔喔喔——（無實義的哼唱）。",
+          "note": "此處依使用者提供的歌詞保留原貌，不納入核心 Vocabulary 或 Patterns。",
+          "chips": []
         }
       ]
     },
     {
       "id": "final-chorus",
       "title": "Final Chorus",
-      "sub": "最後一次：我停不下來吃，但心都給你",
+      "sub": "記憶留下，關係無法挽回",
       "lines": [
         {
-          "thai": "ที่ฉันอ้วนเพราะฉันหยุดกินไม่ได้",
-          "roman": "thîi chǎn ûan phrɔ́ chǎn yùt gin mâi dâai",
-          "english": "The reason I’m fat is because I can’t stop eating.",
-          "chinese": "我之所以胖，是因為我停不下來吃。",
-          "note": "Review：這句是全歌主題句，也最適合拿來練 เพราะ = because。",
+          "id": "l043",
+          "thai": "ภาพนั้นยังคงเป็นเธอ ที่ฉันคงไม่ได้เจอ",
+          "roman": "phâap nán yang khong bpen thəə thîi chǎn khong mâi dâai jəə",
+          "english": "That image is still you—the one I probably won’t see again.",
+          "chinese": "那幅畫面裡依然是妳，而我大概再也見不到妳了。",
+          "note": "Review：最後一次從 ภาพนั้น 開始，直接聚焦於記憶中仍然存在的那個人。",
           "chips": [
-            "ที่ฉันอ้วน",
-            "เพราะ",
-            "หยุดกินไม่ได้",
-            "อ้วน"
+            "p10",
+            "p11",
+            "v20"
           ]
         },
         {
-          "thai": "แววตาฉันเหลือบไปเห็นอะไรต่ออะไร",
-          "roman": "wɛɛw-dtaa chǎn lʉ̀ap bpai hěn à-rai dtɔ̀ɔ à-rai",
-          "english": "My eyes keep glancing at all kinds of things.",
-          "chinese": "我的眼神總是瞄到各式各樣的東西。",
-          "note": "Review：เหลือบไปเห็น 是『不經意瞄到』，比 เห็น 更有畫面。",
+          "id": "l044",
+          "thai": "ไม่มีทางอีกแล้ว",
+          "roman": "mâi mii thaang ìik lɛ́ɛw",
+          "english": "There’s no chance anymore.",
+          "chinese": "已經再也沒有可能了。",
+          "note": "Review：沒有任何重新相見或挽回的可能。",
           "chips": [
-            "แววตา",
-            "เหลือบไปเห็น",
-            "อะไรต่ออะไร"
+            "p12",
+            "v21"
           ]
         },
         {
-          "thai": "ก็อยากกินไปหมดเลย",
-          "roman": "gɔ̂ɔ yàak gin bpai mòt ləəy",
-          "english": "and I want to eat absolutely everything.",
-          "chinese": "就全部都好想吃。",
-          "note": "Review：อยากกินไปหมดเลย 可以直接拿來形容看到一整桌食物的心情。",
+          "id": "l045",
+          "thai": "อยู่กับฉากเดิม ๆ ที่เดิม ๆ วนแบบนี้ทุกครั้งไป",
+          "roman": "yùu gàp chàak dəəm dəəm thîi dəəm dəəm won bɛ̀ɛp níi thúk khráng bpai",
+          "english": "I stay with the same old scenes in the same old place, repeating like this every time.",
+          "chinese": "留在相同的場景、相同的地方，每一次都這樣反覆循環。",
+          "note": "Review：場景沒有改變，但曾經在場的人已經不在。",
           "chips": [
-            "ก็",
-            "อยากกิน",
-            "ไปหมดเลย"
+            "p13",
+            "v22",
+            "v23"
           ]
         },
         {
-          "thai": "แต่ฉันอ้วนแล้วเธอจะรักฉันไหม",
-          "roman": "dtɛ̀ɛ chǎn ûan lɛ́ɛw thəə jà rák chǎn mǎi",
-          "english": "But now that I’m fat, will you still love me?",
-          "chinese": "可是我胖了，你還會愛我嗎？",
-          "note": "Review：這句情緒是撒嬌式不安，不是真的嚴肅質問。",
+          "id": "l046",
+          "thai": "อยู่ภายในใจ แค่ในใจ ยังไม่ลืมภาพอดีต",
+          "roman": "yùu phaai-nai jai khɛ̂ɛ nai jai yang mâi lʉʉm phâap à-dìit",
+          "english": "It remains inside my heart, only in my heart; I still haven’t forgotten the past.",
+          "chinese": "一切只留在心裡，而我依然沒有忘記過去的畫面。",
+          "note": "Review：現實已結束，但記憶仍留在ใจ。",
           "chips": [
-            "แต่",
-            "อ้วนแล้ว",
-            "เธอจะรักฉันไหม",
-            "รักฉันไหม"
+            "p14",
+            "v24",
+            "v25"
           ]
         },
         {
-          "thai": "หมดหัวใจที่มีมอบให้เธอตลอดไป",
-          "roman": "mòt hǔa-jai thîi mii mɔ̂ɔp hâi thəə dtà-lɔ̀ɔt bpai",
-          "english": "All the heart I have, I give to you forever.",
-          "chinese": "我所有的心，都永遠交給你。",
-          "note": "Review：หมดหัวใจที่มี 是『我有的整顆心』，歌詞感很強。",
+          "id": "l047",
+          "thai": "รักนั้นที่เราเคยผ่าน รักนี้ที่ไม่มีทาง",
+          "roman": "rák nán thîi rao khəəy phàan rák níi thîi mâi mii thaang",
+          "english": "That love we once went through—this love that has no way",
+          "chinese": "那段我們曾經走過的愛，這段已經不可能……",
+          "note": "Review：歌詞將共同經歷過的愛，與如今無法改善的現實並列。",
           "chips": [
-            "หมดหัวใจ",
-            "ที่มี",
-            "มอบให้",
-            "ตลอดไป"
+            "p15",
+            "v26"
           ]
         },
         {
-          "thai": "ให้เธอสุขใจมีพุงอุ่น ๆ ให้หนุนนอน",
-          "roman": "hâi thəə sùk-jai mii phung ùn ùn hâi nǔn nɔɔn",
-          "english": "I’ll make you happy, with a warm belly for you to rest your head on.",
-          "chinese": "讓你安心開心，還有暖暖的肚子可以讓你靠著睡。",
-          "note": "Review：最後收在 พุงอุ่น ๆ ให้หนุนนอน，讓整首歌維持可愛、撒嬌的語氣。",
+          "id": "l048",
+          "thai": "ทำให้ดีกว่านี้",
+          "roman": "tham hâi dii gwàa níi",
+          "english": "to be made any better than this.",
+          "chinese": "再變得比現在更好了。",
+          "note": "Review：作為最後核心句，確認這段感情已無法修復。",
           "chips": [
-            "สุขใจ",
-            "พุง",
-            "อุ่น ๆ",
-            "หนุนนอน"
+            "p16",
+            "v27"
           ]
+        },
+        {
+          "id": "l049",
+          "thai": "โว้โอ วู้ฮู (เย้)",
+          "roman": "wôo-oo wúu-huu (yée)",
+          "english": "Whoa-oh, woo-hoo (yeah).",
+          "chinese": "喔喔、嗚呼——（耶）。",
+          "note": "結尾的無實義哼唱，依歌詞來源保留原貌。",
+          "chips": []
         }
       ]
     }
   ],
   "patterns": [
     {
-      "id": "pat-food-list",
-      "thai": "A ตามด้วย B",
-      "roman": "A dtaam dûai B",
-      "english": "A followed by B",
-      "chinese": "A 接著是 B",
-      "level": "Core"
-    },
-    {
-      "id": "pat-ao-wai",
-      "thai": "เอาไว้...",
-      "roman": "ao wái...",
-      "english": "keep it for... / prepare it for...",
-      "chinese": "先留著／準備著……",
-      "level": "Core"
-    },
-    {
-      "id": "pat-gin-arai",
-      "thai": "กินอะไร",
-      "roman": "gin à-rai",
-      "english": "What should we eat?",
-      "chinese": "吃什麼？",
-      "level": "Core"
-    },
-    {
-      "id": "pat-x-gon",
-      "thai": "...ก่อน",
-      "roman": "...gɔ̀ɔn",
-      "english": "...first",
-      "chinese": "先……",
-      "level": "Core"
-    },
-    {
-      "id": "pat-laew-yang-ngai",
-      "thai": "...แล้วยังไง",
-      "roman": "...lɛ́ɛw yang-ngai",
-      "english": "So what if...?",
-      "chinese": "……了又怎樣？",
+      "id": "p01",
+      "thai": "อยู่ท่ามกลาง + 名詞",
+      "roman": "yùu thâam-glaang + noun",
+      "english": "to be amid / surrounded by…",
+      "chinese": "置身於……之中",
       "level": "Useful"
     },
     {
-      "id": "pat-diaw-v",
-      "thai": "เดี๋ยว + V",
-      "roman": "dǐaw + V",
-      "english": "I’ll do it later / in a bit",
-      "chinese": "等一下就……",
-      "level": "Core"
-    },
-    {
-      "id": "pat-bpen-ngai",
-      "thai": "...เป็นไง",
-      "roman": "...bpen ngai",
-      "english": "How about...?",
-      "chinese": "……怎麼樣？",
-      "level": "Core"
-    },
-    {
-      "id": "pat-yen-nii-jer-gan",
-      "thai": "เย็นนี้เจอกัน",
-      "roman": "yen níi jəə gan",
-      "english": "See you this evening.",
-      "chinese": "今晚見。",
-      "level": "Core"
-    },
-    {
-      "id": "pat-yaak-tong-dai",
-      "thai": "อยาก...ต้องได้...",
-      "roman": "yàak...dtɔ̂ng dâai...",
-      "english": "If I want..., I have to get...",
-      "chinese": "想要……就一定要得到……",
-      "level": "Core"
-    },
-    {
-      "id": "pat-thii-rai-tong",
-      "thai": "...ทีไร...ต้อง...",
-      "roman": "...thii-rai...dtɔ̂ng...",
-      "english": "Every time..., ...must...",
-      "chinese": "每次一……就一定……",
-      "level": "Core"
-    },
-    {
-      "id": "pat-mai-khoei-dai",
-      "thai": "ไม่เคยได้...",
-      "roman": "mâi khəəy dâai...",
-      "english": "have never been able to...",
-      "chinese": "從來沒能……",
+      "id": "p02",
+      "thai": "แต่ทำไม…กลับ…",
+      "roman": "dtɛ̀ɛ tham-mai… glàp…",
+      "english": "but why does… instead…?",
+      "chinese": "但為什麼……反而……？",
       "level": "Useful"
     },
     {
-      "id": "pat-thii-chan-phro",
-      "thai": "ที่ฉัน...เพราะ...",
-      "roman": "thîi chǎn...phrɔ́...",
-      "english": "The reason I... is because...",
-      "chinese": "我之所以……是因為……",
+      "id": "p03",
+      "thai": "เหมือนว่า + 子句",
+      "roman": "mʉ̌an wâa + clause",
+      "english": "it seems as though…",
+      "chinese": "彷彿……／好像……",
       "level": "Core"
     },
     {
-      "id": "pat-yut-v-mai-dai",
-      "thai": "หยุด + V + ไม่ได้",
-      "roman": "yùt + V + mâi dâai",
-      "english": "can’t stop doing...",
-      "chinese": "停不下來……",
+      "id": "p04",
+      "thai": "กำลังค่อย ๆ + 動詞",
+      "roman": "gam-lang khɔ̂i khɔ̂i + verb",
+      "english": "to be gradually doing…",
+      "chinese": "正在逐漸……",
+      "level": "Useful"
+    },
+    {
+      "id": "p05",
+      "thai": "เคยพา + 人 + ไป + 地方",
+      "roman": "khəəy phaa + person + bpai + place",
+      "english": "used to take someone to…",
+      "chinese": "曾經帶某人去……",
       "level": "Core"
     },
     {
-      "id": "pat-arai-tor-arai",
-      "thai": "อะไรต่ออะไร",
-      "roman": "à-rai dtɔ̀ɔ à-rai",
-      "english": "all sorts of things",
-      "chinese": "各式各樣的東西",
+      "id": "p06",
+      "thai": "ไม่มีใคร มีเพียงแค่…",
+      "roman": "mâi mii khrai mii phiiang khɛ̂ɛ…",
+      "english": "there is no one, only…",
+      "chinese": "沒有任何人，只有……",
+      "level": "Extension"
+    },
+    {
+      "id": "p07",
+      "thai": "ให้ + 人 + 動詞",
+      "roman": "hâi + person + verb",
+      "english": "to make / cause someone to…",
+      "chinese": "讓某人……",
       "level": "Useful"
     },
     {
-      "id": "pat-pai-mot-loei",
-      "thai": "...ไปหมดเลย",
-      "roman": "...bpai mòt ləəy",
-      "english": "completely / all of it",
-      "chinese": "全部都……",
+      "id": "p08",
+      "thai": "ทำให้ + 人 + 動詞",
+      "roman": "tham hâi + person + verb",
+      "english": "to make someone do / feel…",
+      "chinese": "使某人……／讓某人……",
       "level": "Core"
     },
     {
-      "id": "pat-caa-mai",
-      "thai": "เธอจะ...ไหม",
-      "roman": "thəə jà...mǎi",
-      "english": "Will you...?",
-      "chinese": "你會……嗎？",
+      "id": "p09",
+      "thai": "ยัง + 動詞",
+      "roman": "yang + verb",
+      "english": "still…",
+      "chinese": "仍然……",
       "level": "Core"
     },
     {
-      "id": "pat-mop-hai",
-      "thai": "มอบให้...",
-      "roman": "mɔ̂ɔp hâi...",
-      "english": "give / devote to...",
-      "chinese": "交給／獻給……",
+      "id": "p10",
+      "thai": "ยังคง + 動詞／狀態",
+      "roman": "yang khong + verb/state",
+      "english": "to still remain…",
+      "chinese": "依然維持……",
+      "level": "Core"
+    },
+    {
+      "id": "p11",
+      "thai": "คงไม่ได้ + 動詞",
+      "roman": "khong mâi dâai + verb",
+      "english": "probably will not / may not be able to…",
+      "chinese": "恐怕不會／大概無法……",
       "level": "Useful"
     },
     {
-      "id": "pat-hai-suk-jai",
-      "thai": "ให้เธอสุขใจ",
-      "roman": "hâi thəə sùk-jai",
-      "english": "make you feel happy and at ease",
-      "chinese": "讓你安心開心",
+      "id": "p12",
+      "thai": "ไม่มีทาง + 動詞",
+      "roman": "mâi mii thaang + verb",
+      "english": "there is no way to…",
+      "chinese": "不可能……／沒有辦法……",
+      "level": "Core"
+    },
+    {
+      "id": "p13",
+      "thai": "วนแบบนี้ทุกครั้งไป",
+      "roman": "won bɛ̀ɛp níi thúk khráng bpai",
+      "english": "to repeat like this every time",
+      "chinese": "每一次都像這樣反覆循環",
       "level": "Useful"
     },
     {
-      "id": "pat-ao-tae",
-      "thai": "เอาแต่ + V",
-      "roman": "ao dtɛ̀ɛ + V",
-      "english": "do nothing but...",
-      "chinese": "只顧著……",
+      "id": "p14",
+      "thai": "ยังไม่ + 動詞",
+      "roman": "yang mâi + verb",
+      "english": "still have not…",
+      "chinese": "到現在仍然沒有……",
+      "level": "Core"
+    },
+    {
+      "id": "p15",
+      "thai": "สิ่งที่เราเคยผ่าน",
+      "roman": "sìng thîi rao khəəy phàan",
+      "english": "something we once went through",
+      "chinese": "我們曾共同經歷過的事",
       "level": "Useful"
     },
     {
-      "id": "pat-gin-hai",
-      "thai": "กินให้...",
-      "roman": "gin hâi...",
-      "english": "eat until...",
-      "chinese": "吃到……",
+      "id": "p16",
+      "thai": "ทำให้ดีขึ้น／ทำให้ดีกว่านี้",
+      "roman": "tham hâi dii khʉ̂n / tham hâi dii gwàa níi",
+      "english": "to make it better / make it better than this",
+      "chinese": "使它變得更好／使它比現在更好",
+      "level": "Core"
+    },
+    {
+      "id": "p17",
+      "thai": "นึกเรื่อง + 名詞",
+      "roman": "nʉ́k rʉ̂ang + noun",
+      "english": "to think about / recall…",
+      "chinese": "想起……的事情",
       "level": "Useful"
+    },
+    {
+      "id": "p18",
+      "thai": "เป็นอย่างที่ฝัน",
+      "roman": "bpen yàang thîi fǎn",
+      "english": "to be as one dreamed",
+      "chinese": "成為夢想中的樣子",
+      "level": "Useful"
+    },
+    {
+      "id": "p19",
+      "thai": "โชคดีที่ + 子句",
+      "roman": "chôok-dii thîi + clause",
+      "english": "to be lucky that…",
+      "chinese": "很幸運能夠……",
+      "level": "Core"
+    },
+    {
+      "id": "p20",
+      "thai": "มี + 人 + อยู่ + 地方",
+      "roman": "mii + person + yùu + place",
+      "english": "to have someone present at…",
+      "chinese": "某人在某個地方",
+      "level": "Useful"
+    },
+    {
+      "id": "p21",
+      "thai": "เป็นแค่ + 名詞",
+      "roman": "bpen khɛ̂ɛ + noun",
+      "english": "to be only / merely…",
+      "chinese": "只不過是……",
+      "level": "Core"
     }
   ],
   "vocab": [
     {
-      "id": "voc-chan-uan",
-      "thai": "ฉันอ้วน",
-      "roman": "chǎn ûan",
-      "english": "I’m fat",
-      "chinese": "我胖了",
-      "level": "Core"
-    },
-    {
-      "id": "voc-uan",
-      "thai": "อ้วน",
-      "roman": "ûan",
-      "english": "fat / chubby",
-      "chinese": "胖／肉肉的",
-      "level": "Core"
-    },
-    {
-      "id": "voc-gin",
-      "thai": "กิน",
-      "roman": "gin",
-      "english": "eat",
-      "chinese": "吃",
-      "level": "Core"
-    },
-    {
-      "id": "voc-yaak-gin",
-      "thai": "อยากกิน",
-      "roman": "yàak gin",
-      "english": "want to eat",
-      "chinese": "想吃",
-      "level": "Core"
-    },
-    {
-      "id": "voc-tong-dai-gin",
-      "thai": "ต้องได้กิน",
-      "roman": "dtɔ̂ng dâai gin",
-      "english": "must get to eat",
-      "chinese": "一定要吃到",
-      "level": "Core"
-    },
-    {
-      "id": "voc-dtaam-jai",
-      "thai": "ตามใจ",
-      "roman": "dtaam-jai",
-      "english": "as one wishes / follow one’s heart",
-      "chinese": "照心意／隨心",
-      "level": "Core"
-    },
-    {
-      "id": "voc-khwaam-suk",
-      "thai": "ความสุข",
-      "roman": "khwaam-sùk",
-      "english": "happiness",
-      "chinese": "幸福／快樂",
-      "level": "Core"
-    },
-    {
-      "id": "voc-phung",
-      "thai": "พุง",
-      "roman": "phung",
-      "english": "belly / tummy",
-      "chinese": "肚子／小肚子",
-      "level": "Core"
-    },
-    {
-      "id": "voc-phung-un-un",
-      "thai": "พุงอุ่น ๆ",
-      "roman": "phung ùn ùn",
-      "english": "warm belly",
-      "chinese": "暖暖的肚子",
+      "id": "v01",
+      "thai": "ท่ามกลาง",
+      "roman": "thâam-glaang",
+      "english": "amid; in the middle of",
+      "chinese": "在……之中",
       "level": "Useful"
     },
     {
-      "id": "voc-nun-non",
-      "thai": "หนุนนอน",
-      "roman": "nǔn nɔɔn",
-      "english": "rest one’s head on while sleeping",
-      "chinese": "靠著睡／墊著睡",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-nam-laai-lai",
-      "thai": "น้ำลายไหล",
-      "roman": "nám-laai lǎi",
-      "english": "mouth-watering / drool",
-      "chinese": "流口水",
-      "level": "Core"
-    },
-    {
-      "id": "voc-hak-haam-jai",
-      "thai": "หักห้ามใจ",
-      "roman": "hàk-hâam jai",
-      "english": "restrain oneself",
-      "chinese": "克制自己",
-      "level": "Core"
-    },
-    {
-      "id": "voc-jat-bpai",
-      "thai": "จัดไป",
-      "roman": "jàt bpai",
-      "english": "go for it / order it",
-      "chinese": "安排下去／點下去",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-mee-nuu",
-      "thai": "เมนู",
-      "roman": "mee-nuu",
-      "english": "menu / dish",
-      "chinese": "菜單／品項",
-      "level": "Core"
-    },
-    {
-      "id": "voc-yut-gin-mai-dai",
-      "thai": "หยุดกินไม่ได้",
-      "roman": "yùt gin mâi dâai",
-      "english": "can’t stop eating",
-      "chinese": "停不下來吃",
-      "level": "Core"
-    },
-    {
-      "id": "voc-lueap-bpai-hen",
-      "thai": "เหลือบไปเห็น",
-      "roman": "lʉ̀ap bpai hěn",
-      "english": "glance and see",
-      "chinese": "不經意瞄到",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-arai-tor-arai",
-      "thai": "อะไรต่ออะไร",
-      "roman": "à-rai dtɔ̀ɔ à-rai",
-      "english": "all sorts of things",
-      "chinese": "各式各樣的東西",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-bpai-mot-loei",
-      "thai": "ไปหมดเลย",
-      "roman": "bpai mòt ləəy",
-      "english": "all / completely",
-      "chinese": "全部都",
-      "level": "Core"
-    },
-    {
-      "id": "voc-rak-chan-mai",
-      "thai": "รักฉันไหม",
-      "roman": "rák chǎn mǎi",
-      "english": "Do you love me?",
-      "chinese": "你愛我嗎？",
-      "level": "Core"
-    },
-    {
-      "id": "voc-mot-hua-jai",
-      "thai": "หมดหัวใจ",
-      "roman": "mòt hǔa-jai",
-      "english": "all of one’s heart",
-      "chinese": "整顆心／全部的心",
-      "level": "Core"
-    },
-    {
-      "id": "voc-mop-hai",
-      "thai": "มอบให้",
-      "roman": "mɔ̂ɔp hâi",
-      "english": "give / devote",
-      "chinese": "交給／獻給",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-talot-bpai",
-      "thai": "ตลอดไป",
-      "roman": "dtà-lɔ̀ɔt bpai",
-      "english": "forever",
-      "chinese": "永遠",
-      "level": "Core"
-    },
-    {
-      "id": "voc-suk-jai",
-      "thai": "สุขใจ",
-      "roman": "sùk-jai",
-      "english": "feel happy / at ease",
-      "chinese": "安心開心",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-muu-thot",
-      "thai": "หมูทอด",
-      "roman": "mǔu-thɔ̂ɔt",
-      "english": "fried pork",
-      "chinese": "炸豬肉",
-      "level": "Core"
-    },
-    {
-      "id": "voc-thot-man-bplaa-graai",
-      "thai": "ทอดมันปลากราย",
-      "roman": "thɔ̂ɔt-man bplaa-graai",
-      "english": "fried fish cake",
-      "chinese": "魚漿炸餅",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-chaa-khai-muk",
-      "thai": "ชาไข่มุก",
-      "roman": "chaa-khài-múk",
-      "english": "bubble tea",
-      "chinese": "珍珠奶茶",
-      "level": "Core"
-    },
-    {
-      "id": "voc-shabu",
-      "thai": "ชาบู",
-      "roman": "chaa-buu",
-      "english": "shabu / hot pot",
-      "chinese": "涮涮鍋／火鍋",
-      "level": "Core"
-    },
-    {
-      "id": "voc-ork-gamlang-gaai",
-      "thai": "ออกกำลังกาย",
-      "roman": "ɔ̀ɔk-gam-lang-gaai",
-      "english": "exercise",
-      "chinese": "運動",
-      "level": "Core"
-    },
-    {
-      "id": "voc-khai-man",
-      "thai": "ไขมัน",
-      "roman": "khǎi-man",
-      "english": "fat",
-      "chinese": "脂肪",
-      "level": "Useful"
-    },
-    {
-      "id": "voc-salaai",
-      "thai": "สลาย",
-      "roman": "sà-laai",
-      "english": "dissolve / disappear",
-      "chinese": "消散／瓦解",
+      "id": "v02",
+      "thai": "เป็นล้าน",
+      "roman": "bpen láan",
+      "english": "in the millions",
+      "chinese": "多達數百萬",
       "level": "Extension"
     },
     {
-      "id": "voc-ao-tae-khit",
-      "thai": "เอาแต่คิด",
-      "roman": "ao dtɛ̀ɛ khít",
-      "english": "do nothing but think",
-      "chinese": "只顧著想",
+      "id": "v03",
+      "thai": "กลับ",
+      "roman": "glàp",
+      "english": "instead; on the contrary",
+      "chinese": "反而、卻",
+      "level": "Core"
+    },
+    {
+      "id": "v04",
+      "thai": "อ้างว้าง",
+      "roman": "âang-wáang",
+      "english": "lonely; desolate",
+      "chinese": "孤寂、寂寞",
       "level": "Useful"
     },
     {
-      "id": "voc-ruang-gin",
-      "thai": "เรื่องกิน",
-      "roman": "rʉ̂ang gin",
-      "english": "food matters / eating",
-      "chinese": "吃的事情",
+      "id": "v05",
+      "thai": "รอบตัว",
+      "roman": "rɔ̂ɔp-dtua",
+      "english": "surroundings; around oneself",
+      "chinese": "周遭、身邊",
       "level": "Core"
     },
     {
-      "id": "voc-phung-dtaek",
-      "thai": "พุงแตก",
-      "roman": "phung dtɛ̀ɛk",
-      "english": "belly bursting",
-      "chinese": "肚子撐爆",
+      "id": "v06",
+      "thai": "วุ่นวาย",
+      "roman": "wûn-waai",
+      "english": "chaotic; hectic",
+      "chinese": "混亂、忙亂",
+      "level": "Core"
+    },
+    {
+      "id": "v07",
+      "thai": "ค่อย ๆ",
+      "roman": "khɔ̂i khɔ̂i",
+      "english": "gradually; slowly",
+      "chinese": "漸漸地、慢慢地",
+      "level": "Core"
+    },
+    {
+      "id": "v08",
+      "thai": "หายไป",
+      "roman": "hǎai bpai",
+      "english": "to disappear; fade away",
+      "chinese": "消失、不見",
+      "level": "Core"
+    },
+    {
+      "id": "v09",
+      "thai": "เคย",
+      "roman": "khəəy",
+      "english": "ever; used to",
+      "chinese": "曾經",
+      "level": "Core"
+    },
+    {
+      "id": "v10",
+      "thai": "พา",
+      "roman": "phaa",
+      "english": "to take; bring someone",
+      "chinese": "帶某人去",
+      "level": "Core"
+    },
+    {
+      "id": "v11",
+      "thai": "เพียงแค่",
+      "roman": "phiiang khɛ̂ɛ",
+      "english": "only; merely",
+      "chinese": "僅僅、只有",
       "level": "Useful"
     },
     {
-      "id": "voc-jer-gan",
-      "thai": "เจอกัน",
-      "roman": "jəə gan",
-      "english": "see you / meet up",
-      "chinese": "見面／到時見",
+      "id": "v12",
+      "thai": "ตัวฉัน",
+      "roman": "dtua chǎn",
+      "english": "myself; me",
+      "chinese": "我自己",
+      "level": "Useful"
+    },
+    {
+      "id": "v13",
+      "thai": "แก้ว",
+      "roman": "gɛ̂ɛw",
+      "english": "glass; cup",
+      "chinese": "杯子、玻璃杯",
       "level": "Core"
     },
     {
-      "id": "voc-bpen-ngai",
-      "thai": "เป็นไง",
-      "roman": "bpen ngai",
-      "english": "How is it? / How about it?",
-      "chinese": "怎麼樣？",
+      "id": "v14",
+      "thai": "ริน",
+      "roman": "rin",
+      "english": "to pour a drink",
+      "chinese": "斟、倒飲料",
+      "level": "Useful"
+    },
+    {
+      "id": "v15",
+      "thai": "คิดถึง",
+      "roman": "khít-thʉ̌ng",
+      "english": "to miss; think of",
+      "chinese": "想念、想起",
       "level": "Core"
+    },
+    {
+      "id": "v16",
+      "thai": "บรรยากาศ",
+      "roman": "ban-yaa-gàat",
+      "english": "atmosphere; ambience",
+      "chinese": "氣氛、氛圍",
+      "level": "Core"
+    },
+    {
+      "id": "v17",
+      "thai": "เดิม ๆ",
+      "roman": "dəəm dəəm",
+      "english": "the same old; unchanged",
+      "chinese": "一如往常的、相同的",
+      "level": "Core"
+    },
+    {
+      "id": "v18",
+      "thai": "จดจำ",
+      "roman": "jòt-jam",
+      "english": "to remember; retain in memory",
+      "chinese": "銘記、牢記",
+      "level": "Useful"
+    },
+    {
+      "id": "v19",
+      "thai": "เรื่องราว",
+      "roman": "rʉ̂ang-raao",
+      "english": "story; events",
+      "chinese": "故事、種種往事",
+      "level": "Core"
+    },
+    {
+      "id": "v20",
+      "thai": "ยังคง",
+      "roman": "yang khong",
+      "english": "still remain",
+      "chinese": "依然、仍舊保持",
+      "level": "Core"
+    },
+    {
+      "id": "v21",
+      "thai": "ไม่มีทาง",
+      "roman": "mâi mii thaang",
+      "english": "no way; impossible",
+      "chinese": "不可能、沒有辦法",
+      "level": "Core"
+    },
+    {
+      "id": "v22",
+      "thai": "ฉาก",
+      "roman": "chàak",
+      "english": "scene; setting",
+      "chinese": "場景、幕",
+      "level": "Useful"
+    },
+    {
+      "id": "v23",
+      "thai": "วน",
+      "roman": "won",
+      "english": "to circle; repeat in a loop",
+      "chinese": "循環、反覆",
+      "level": "Useful"
+    },
+    {
+      "id": "v24",
+      "thai": "ยังไม่ลืม",
+      "roman": "yang mâi lʉʉm",
+      "english": "still have not forgotten",
+      "chinese": "仍然沒有忘記",
+      "level": "Core"
+    },
+    {
+      "id": "v25",
+      "thai": "ภาพอดีต",
+      "roman": "phâap à-dìit",
+      "english": "images of the past",
+      "chinese": "過去的畫面",
+      "level": "Useful"
+    },
+    {
+      "id": "v26",
+      "thai": "เคยผ่าน",
+      "roman": "khəəy phàan",
+      "english": "to have gone through",
+      "chinese": "曾經歷、曾一起走過",
+      "level": "Useful"
+    },
+    {
+      "id": "v27",
+      "thai": "ดีกว่านี้",
+      "roman": "dii gwàa níi",
+      "english": "better than this",
+      "chinese": "比現在更好",
+      "level": "Core"
+    },
+    {
+      "id": "v28",
+      "thai": "นึก",
+      "roman": "nʉ́k",
+      "english": "to think of; recall",
+      "chinese": "想起、想到",
+      "level": "Core"
+    },
+    {
+      "id": "v29",
+      "thai": "อย่างที่ฝัน",
+      "roman": "yàang thîi fǎn",
+      "english": "as dreamed",
+      "chinese": "如夢想中的樣子",
+      "level": "Useful"
+    },
+    {
+      "id": "v30",
+      "thai": "โชคดี",
+      "roman": "chôok-dii",
+      "english": "lucky; fortunate",
+      "chinese": "幸運",
+      "level": "Core"
+    },
+    {
+      "id": "v31",
+      "thai": "ภาพความทรงจำ",
+      "roman": "phâap khwaam-song-jam",
+      "english": "an image in one’s memory",
+      "chinese": "記憶中的畫面",
+      "level": "Useful"
+    },
+    {
+      "id": "v32",
+      "thai": "ตรงนั้น",
+      "roman": "dtrong nán",
+      "english": "right there",
+      "chinese": "就在那裡",
+      "level": "Core"
+    },
+    {
+      "id": "v33",
+      "thai": "เป็นแค่ความฝัน",
+      "roman": "bpen khɛ̂ɛ khwaam-fǎn",
+      "english": "to be only a dream",
+      "chinese": "只是一場夢",
+      "level": "Useful"
     }
   ],
   "vocabDefs": {
-    "ฉันอ้วน": [
-      "chǎn ûan",
-      "I’m fat",
-      "我胖了"
-    ],
-    "อ้วน": [
-      "ûan",
-      "fat / chubby",
-      "胖／肉肉的"
-    ],
-    "กิน": [
-      "gin",
-      "eat",
-      "吃"
-    ],
-    "อยากกิน": [
-      "yàak gin",
-      "want to eat",
-      "想吃"
-    ],
-    "ต้องได้กิน": [
-      "dtɔ̂ng dâai gin",
-      "must get to eat",
-      "一定要吃到"
-    ],
-    "ตามใจ": [
-      "dtaam-jai",
-      "as one wishes / follow one’s heart",
-      "照心意／隨心"
-    ],
-    "ความสุข": [
-      "khwaam-sùk",
-      "happiness",
-      "幸福／快樂"
-    ],
-    "พุง": [
-      "phung",
-      "belly / tummy",
-      "肚子／小肚子"
-    ],
-    "พุงอุ่น ๆ": [
-      "phung ùn ùn",
-      "warm belly",
-      "暖暖的肚子"
-    ],
-    "หนุนนอน": [
-      "nǔn nɔɔn",
-      "rest one’s head on while sleeping",
-      "靠著睡／墊著睡"
-    ],
-    "น้ำลายไหล": [
-      "nám-laai lǎi",
-      "mouth-watering / drool",
-      "流口水"
-    ],
-    "หักห้ามใจ": [
-      "hàk-hâam jai",
-      "restrain oneself",
-      "克制自己"
-    ],
-    "จัดไป": [
-      "jàt bpai",
-      "go for it / order it",
-      "安排下去／點下去"
-    ],
-    "เมนู": [
-      "mee-nuu",
-      "menu / dish",
-      "菜單／品項"
-    ],
-    "หยุดกินไม่ได้": [
-      "yùt gin mâi dâai",
-      "can’t stop eating",
-      "停不下來吃"
-    ],
-    "เหลือบไปเห็น": [
-      "lʉ̀ap bpai hěn",
-      "glance and see",
-      "不經意瞄到"
-    ],
-    "อะไรต่ออะไร": [
-      "à-rai dtɔ̀ɔ à-rai",
-      "all sorts of things",
-      "各式各樣的東西"
-    ],
-    "ไปหมดเลย": [
-      "bpai mòt ləəy",
-      "all / completely",
-      "全部都"
-    ],
-    "รักฉันไหม": [
-      "rák chǎn mǎi",
-      "Do you love me?",
-      "你愛我嗎？"
-    ],
-    "หมดหัวใจ": [
-      "mòt hǔa-jai",
-      "all of one’s heart",
-      "整顆心／全部的心"
-    ],
-    "มอบให้": [
-      "mɔ̂ɔp hâi",
-      "give / devote",
-      "交給／獻給"
-    ],
-    "ตลอดไป": [
-      "dtà-lɔ̀ɔt bpai",
-      "forever",
-      "永遠"
-    ],
-    "สุขใจ": [
-      "sùk-jai",
-      "feel happy / at ease",
-      "安心開心"
-    ],
-    "หมูทอด": [
-      "mǔu-thɔ̂ɔt",
-      "fried pork",
-      "炸豬肉"
-    ],
-    "ทอดมันปลากราย": [
-      "thɔ̂ɔt-man bplaa-graai",
-      "fried fish cake",
-      "魚漿炸餅"
-    ],
-    "ชาไข่มุก": [
-      "chaa-khài-múk",
-      "bubble tea",
-      "珍珠奶茶"
-    ],
-    "ชาบู": [
-      "chaa-buu",
-      "shabu / hot pot",
-      "涮涮鍋／火鍋"
-    ],
-    "ออกกำลังกาย": [
-      "ɔ̀ɔk-gam-lang-gaai",
-      "exercise",
-      "運動"
-    ],
-    "ไขมัน": [
-      "khǎi-man",
-      "fat",
-      "脂肪"
-    ],
-    "สลาย": [
-      "sà-laai",
-      "dissolve / disappear",
-      "消散／瓦解"
-    ],
-    "เอาแต่คิด": [
-      "ao dtɛ̀ɛ khít",
-      "do nothing but think",
-      "只顧著想"
-    ],
-    "เรื่องกิน": [
-      "rʉ̂ang gin",
-      "food matters / eating",
-      "吃的事情"
-    ],
-    "พุงแตก": [
-      "phung dtɛ̀ɛk",
-      "belly bursting",
-      "肚子撐爆"
-    ],
-    "เจอกัน": [
-      "jəə gan",
-      "see you / meet up",
-      "見面／到時見"
-    ],
-    "เป็นไง": [
-      "bpen ngai",
-      "How is it? / How about it?",
-      "怎麼樣？"
-    ],
-    "A ตามด้วย B": [
-      "A dtaam dûai B",
-      "A followed by B",
-      "A 接著是 B"
-    ],
-    "เอาไว้...": [
-      "ao wái...",
-      "keep it for... / prepare it for...",
-      "先留著／準備著……"
-    ],
-    "กินอะไร": [
-      "gin à-rai",
-      "What should we eat?",
-      "吃什麼？"
-    ],
-    "...ก่อน": [
-      "...gɔ̀ɔn",
-      "...first",
-      "先……"
-    ],
-    "...แล้วยังไง": [
-      "...lɛ́ɛw yang-ngai",
-      "So what if...?",
-      "……了又怎樣？"
-    ],
-    "เดี๋ยว + V": [
-      "dǐaw + V",
-      "I’ll do it later / in a bit",
-      "等一下就……"
-    ],
-    "...เป็นไง": [
-      "...bpen ngai",
-      "How about...?",
-      "……怎麼樣？"
-    ],
-    "เย็นนี้เจอกัน": [
-      "yen níi jəə gan",
-      "See you this evening.",
-      "今晚見。"
-    ],
-    "อยาก...ต้องได้...": [
-      "yàak...dtɔ̂ng dâai...",
-      "If I want..., I have to get...",
-      "想要……就一定要得到……"
-    ],
-    "...ทีไร...ต้อง...": [
-      "...thii-rai...dtɔ̂ng...",
-      "Every time..., ...must...",
-      "每次一……就一定……"
-    ],
-    "ไม่เคยได้...": [
-      "mâi khəəy dâai...",
-      "have never been able to...",
-      "從來沒能……"
-    ],
-    "ที่ฉัน...เพราะ...": [
-      "thîi chǎn...phrɔ́...",
-      "The reason I... is because...",
-      "我之所以……是因為……"
-    ],
-    "หยุด + V + ไม่ได้": [
-      "yùt + V + mâi dâai",
-      "can’t stop doing...",
-      "停不下來……"
-    ],
-    "...ไปหมดเลย": [
-      "...bpai mòt ləəy",
-      "completely / all of it",
-      "全部都……"
-    ],
-    "เธอจะ...ไหม": [
-      "thəə jà...mǎi",
-      "Will you...?",
-      "你會……嗎？"
-    ],
-    "มอบให้...": [
-      "mɔ̂ɔp hâi...",
-      "give / devote to...",
-      "交給／獻給……"
-    ],
-    "ให้เธอสุขใจ": [
-      "hâi thəə sùk-jai",
-      "make you feel happy and at ease",
-      "讓你安心開心"
-    ],
-    "เอาแต่ + V": [
-      "ao dtɛ̀ɛ + V",
-      "do nothing but...",
-      "只顧著……"
-    ],
-    "กินให้...": [
-      "gin hâi...",
-      "eat until...",
-      "吃到……"
-    ],
-    "เจียงฮาย": [
-      "jiang-hǎai",
-      "Chiang Rai / Northern-style spelling",
-      "江海／清萊式拼法"
-    ],
-    "ทอด": [
-      "thɔ̂ɔt",
-      "fry",
-      "炸"
-    ],
-    "ตามด้วย": [
-      "dtaam dûai",
-      "followed by",
-      "接著是"
-    ],
-    "french fries": [
-      "french fries",
-      "french fries",
-      "薯條"
-    ],
-    "กลางวัน": [
-      "glaang-wan",
-      "daytime / lunch",
-      "白天／中午"
-    ],
-    "เย็น": [
-      "yen",
-      "evening",
-      "傍晚／晚上"
-    ],
-    "นึก ๆ": [
-      "nʉ́k nʉ́k",
-      "think a bit / keep thinking",
-      "想一想"
-    ],
-    "เอาไว้": [
-      "ao wái",
-      "keep / prepare for later",
-      "先留著／準備著"
-    ],
-    "แต่ตอนนี้": [
-      "dtɛ̀ɛ dtɔɔn níi",
-      "but right now",
-      "但現在"
-    ],
-    "ยังไง": [
-      "yang-ngai",
-      "anyway / how",
-      "怎樣／不管怎樣"
-    ],
-    "ก่อน": [
-      "gɔ̀ɔn",
-      "first / before",
-      "先／之前"
-    ],
-    "มีพุง": [
-      "mii phung",
-      "have a belly",
-      "有肚子"
-    ],
-    "แล้วยังไง": [
-      "lɛ́ɛw yang-ngai",
-      "So what?",
-      "那又怎樣？"
-    ],
-    "เดี๋ยว": [
-      "dǐaw",
-      "in a bit / later",
-      "等一下"
-    ],
-    "ทำลาย": [
-      "tham-laai",
-      "destroy",
-      "破壞／摧毀"
-    ],
-    "ให้สลาย": [
-      "hâi sà-laai",
-      "make it dissolve",
-      "讓它消散"
-    ],
-    "ร้าน": [
-      "ráan",
-      "shop / restaurant",
-      "店"
-    ],
-    "ไม่ไกล": [
-      "mâi glai",
-      "not far",
-      "不遠"
-    ],
-    "เตรียมตัว": [
-      "dtriiam-dtua",
-      "get ready",
-      "準備好"
-    ],
-    "เย็นนี้": [
-      "yen níi",
-      "this evening",
-      "今晚／今天傍晚"
-    ],
-    "อยากกินอะไร": [
-      "yàak gin à-rai",
-      "whatever one wants to eat",
-      "想吃什麼"
-    ],
-    "รู้ไหม": [
-      "rúu mǎi",
-      "Do you know?",
-      "你知道嗎？"
-    ],
-    "นึกเรื่องกิน": [
-      "nʉ́k rʉ̂ang gin",
-      "think about food",
-      "想到吃的事情"
-    ],
-    "ทีไร": [
-      "thii-rai",
-      "whenever",
-      "每次一……"
-    ],
-    "น้ำลาย": [
-      "nám-laai",
-      "saliva",
-      "口水"
-    ],
-    "ต้องไหล": [
-      "dtɔ̂ng lǎi",
-      "must flow",
-      "一定會流"
-    ],
-    "ไม่เคยได้": [
-      "mâi khəəy dâai",
-      "have never been able to",
-      "從來沒能"
-    ],
-    "ทุกเมนู": [
-      "thúk mee-nuu",
-      "every menu item",
-      "每一道菜／每個品項"
-    ],
-    "ที่ฉันอ้วน": [
-      "thîi chǎn ûan",
-      "the reason I’m fat",
-      "我之所以胖"
-    ],
-    "เพราะ": [
-      "phrɔ́",
-      "because",
-      "因為"
-    ],
-    "แววตา": [
-      "wɛɛw-dtaa",
-      "look in the eyes / eye expression",
-      "眼神"
-    ],
-    "ก็": [
-      "gɔ̂ɔ",
-      "so / then / just",
-      "就／也"
-    ],
-    "แต่": [
-      "dtɛ̀ɛ",
-      "but",
-      "可是"
-    ],
-    "อ้วนแล้ว": [
-      "ûan lɛ́ɛw",
-      "already fat / now fat",
-      "胖了"
-    ],
-    "เธอจะรักฉันไหม": [
-      "thəə jà rák chǎn mǎi",
-      "Will you love me?",
-      "你會愛我嗎？"
-    ],
-    "ที่มี": [
-      "thîi mii",
-      "that one has",
-      "所擁有的"
-    ],
-    "อุ่น ๆ": [
-      "ùn ùn",
-      "warm and cozy",
-      "暖暖的"
-    ],
-    "วัน ๆ": [
-      "wan wan",
-      "day after day / all day long",
-      "整天／一天到晚"
-    ],
-    "แต่เรื่องกิน": [
-      "dtɛ̀ɛ rʉ̂ang gin",
-      "only food matters",
-      "只有吃的事情"
-    ],
-    "เข้าไป": [
-      "khâo bpai",
-      "into it / keep doing into it",
-      "進去／一直下去"
-    ]
-  }
+    "v01": {
+      "thai": "ท่ามกลาง",
+      "roman": "thâam-glaang",
+      "english": "amid; in the middle of",
+      "chinese": "位於許多人或事物之中，常搭配 อยู่ท่ามกลาง。"
+    },
+    "v02": {
+      "thai": "เป็นล้าน",
+      "roman": "bpen láan",
+      "english": "in the millions",
+      "chinese": "表示數量極多；歌詞中屬誇張用法。"
+    },
+    "v03": {
+      "thai": "กลับ",
+      "roman": "glàp",
+      "english": "instead; on the contrary",
+      "chinese": "在此不是「返回」，而是表示結果與預期相反。"
+    },
+    "v04": {
+      "thai": "อ้างว้าง",
+      "roman": "âang-wáang",
+      "english": "lonely; desolate",
+      "chinese": "比 เหงา 更帶有空蕩、孤寂的畫面感。"
+    },
+    "v05": {
+      "thai": "รอบตัว",
+      "roman": "rɔ̂ɔp-dtua",
+      "english": "surroundings; around oneself",
+      "chinese": "自己周圍的人、事物或環境。"
+    },
+    "v06": {
+      "thai": "วุ่นวาย",
+      "roman": "wûn-waai",
+      "english": "chaotic; hectic",
+      "chinese": "可形容環境吵雜混亂，也可形容事情繁忙複雜。"
+    },
+    "v07": {
+      "thai": "ค่อย ๆ",
+      "roman": "khɔ̂i khɔ̂i",
+      "english": "gradually; slowly",
+      "chinese": "表示動作或變化緩慢、逐步進行。"
+    },
+    "v08": {
+      "thai": "หายไป",
+      "roman": "hǎai bpai",
+      "english": "to disappear; fade away",
+      "chinese": "從原本存在的狀態中消失、不見。"
+    },
+    "v09": {
+      "thai": "เคย",
+      "roman": "khəəy",
+      "english": "ever; used to",
+      "chinese": "表示過去曾有過某種經驗或狀態。"
+    },
+    "v10": {
+      "thai": "พา",
+      "roman": "phaa",
+      "english": "to take; bring someone",
+      "chinese": "帶著某人一起前往某處。"
+    },
+    "v11": {
+      "thai": "เพียงแค่",
+      "roman": "phiiang khɛ̂ɛ",
+      "english": "only; merely",
+      "chinese": "較有書面或歌詞感的「只有」，口語常簡化為 แค่。"
+    },
+    "v12": {
+      "thai": "ตัวฉัน",
+      "roman": "dtua chǎn",
+      "english": "myself; me",
+      "chinese": "以 ตัว 加人稱代詞來加強「本人、自己」的感覺。"
+    },
+    "v13": {
+      "thai": "แก้ว",
+      "roman": "gɛ̂ɛw",
+      "english": "glass; cup",
+      "chinese": "可指杯子，也可作杯子的量詞。"
+    },
+    "v14": {
+      "thai": "ริน",
+      "roman": "rin",
+      "english": "to pour a drink",
+      "chinese": "通常用於將酒、水或飲料倒入杯中。"
+    },
+    "v15": {
+      "thai": "คิดถึง",
+      "roman": "khít-thʉ̌ng",
+      "english": "to miss; think of",
+      "chinese": "既可表示想念某人，也可表示想到某人或某事。"
+    },
+    "v16": {
+      "thai": "บรรยากาศ",
+      "roman": "ban-yaa-gàat",
+      "english": "atmosphere; ambience",
+      "chinese": "某個地方或場合帶給人的整體感受與氣氛。"
+    },
+    "v17": {
+      "thai": "เดิม ๆ",
+      "roman": "dəəm dəəm",
+      "english": "the same old; unchanged",
+      "chinese": "重複 เดิม 會帶出「還是老樣子、一成不變」的感覺。"
+    },
+    "v18": {
+      "thai": "จดจำ",
+      "roman": "jòt-jam",
+      "english": "to remember; retain in memory",
+      "chinese": "比 จำ 更強調牢牢記住、銘記在心。"
+    },
+    "v19": {
+      "thai": "เรื่องราว",
+      "roman": "rʉ̂ang-raao",
+      "english": "story; events",
+      "chinese": "可指一段故事，也可泛指曾發生的各種事情。"
+    },
+    "v20": {
+      "thai": "ยังคง",
+      "roman": "yang khong",
+      "english": "still remain",
+      "chinese": "表示某狀態延續至今，並沒有改變。"
+    },
+    "v21": {
+      "thai": "ไม่มีทาง",
+      "roman": "mâi mii thaang",
+      "english": "no way; impossible",
+      "chinese": "強烈表示某件事不可能發生或沒有辦法做到。"
+    },
+    "v22": {
+      "thai": "ฉาก",
+      "roman": "chàak",
+      "english": "scene; setting",
+      "chinese": "可指戲劇中的一幕，也可比喻人生或回憶中的場景。"
+    },
+    "v23": {
+      "thai": "วน",
+      "roman": "won",
+      "english": "to circle; repeat in a loop",
+      "chinese": "表示繞圈、反覆，常用於思緒或事件不斷重演。"
+    },
+    "v24": {
+      "thai": "ยังไม่ลืม",
+      "roman": "yang mâi lʉʉm",
+      "english": "still have not forgotten",
+      "chinese": "表示直到目前為止，遺忘這件事仍未發生。"
+    },
+    "v25": {
+      "thai": "ภาพอดีต",
+      "roman": "phâap à-dìit",
+      "english": "images of the past",
+      "chinese": "腦中浮現的過往畫面。"
+    },
+    "v26": {
+      "thai": "เคยผ่าน",
+      "roman": "khəəy phàan",
+      "english": "to have gone through",
+      "chinese": "曾經經歷過，常用於事件、困難或一段關係。"
+    },
+    "v27": {
+      "thai": "ดีกว่านี้",
+      "roman": "dii gwàa níi",
+      "english": "better than this",
+      "chinese": "比較結構 ดี + กว่า + นี้，表示比目前狀態更好。"
+    },
+    "v28": {
+      "thai": "นึก",
+      "roman": "nʉ́k",
+      "english": "to think of; recall",
+      "chinese": "在腦中想到或回想起某件事。"
+    },
+    "v29": {
+      "thai": "อย่างที่ฝัน",
+      "roman": "yàang thîi fǎn",
+      "english": "as dreamed",
+      "chinese": "符合自己曾經夢想或想像的樣子。"
+    },
+    "v30": {
+      "thai": "โชคดี",
+      "roman": "chôok-dii",
+      "english": "lucky; fortunate",
+      "chinese": "形容運氣好；โชคดีที่… 可表示「很幸運能……」。"
+    },
+    "v31": {
+      "thai": "ภาพความทรงจำ",
+      "roman": "phâap khwaam-song-jam",
+      "english": "an image in one’s memory",
+      "chinese": "帶有視覺畫面的回憶或記憶片段。"
+    },
+    "v32": {
+      "thai": "ตรงนั้น",
+      "roman": "dtrong nán",
+      "english": "right there",
+      "chinese": "指明確的那個位置，比單獨說 ที่นั่น 更有「就在那裡」的感覺。"
+    },
+    "v33": {
+      "thai": "เป็นแค่ความฝัน",
+      "roman": "bpen khɛ̂ɛ khwaam-fǎn",
+      "english": "to be only a dream",
+      "chinese": "表示某件美好的事如今不真實、無法再觸及。"
+    }
+  },
+  "totals": {
+    "lyrics": 49,
+    "patterns": 21,
+    "vocab": 33
+  },
+  "searchTerms": [
+    "บรรยากาศ",
+    "ban-yaa-gàat",
+    "banyakat",
+    "Atmosphere",
+    "Only Monday",
+    "คิดถึง",
+    "ความทรงจำ",
+    "เดิม ๆ",
+    "ที่เดิม ๆ",
+    "ยังคง",
+    "ยังไม่ลืม",
+    "ไม่มีทาง",
+    "อ้างว้าง",
+    "ทำให้",
+    "ภาพอดีต",
+    "lost love",
+    "memories",
+    "old places",
+    "loneliness",
+    "失戀",
+    "回憶",
+    "舊地重遊"
+  ],
+  "possibleQuestions": [
+    "Spotify 截圖中的完整顯示順序可確認為：Verse 1 → Chorus → Verse 2 → Chorus → Chorus → Vocal Break → Final Chorus；目前已依此順序整理。",
+    "使用者貼出的第一段有「มันให้ฉันนั้นคิดถึงเธอ」，第二段則是「มันทำให้ฉันนั้นคิดถึงเธอ」；已依原文差異保留。",
+    "「กับแก้วที่มันรินบาง ๆ」中的 รินบาง ๆ 屬較具畫面感的歌詞用法；目前翻譯為杯中飲料被淺淺、緩緩斟入。",
+    "英文歌名目前依泰文歌名直譯為「Atmosphere」；若樂團另有官方英文標題，可再替換。"
+  ]
 };
 const STORE_KEY = SONG.storageKey;
 let state = {favorite:{}, learned:{}, reviewed:{}, mode:'normal'};
@@ -2357,8 +2274,19 @@ function resetReview(){
 }
 function esc(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function js(s){return String(s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,' ')}
-function defFor(chip){const direct=SONG.vocabDefs[chip]; if(direct)return {roman:direct[0],english:direct[1],chinese:direct[2]}; const pat=SONG.patterns.find(p=>p.thai===chip); if(pat)return pat; return {english:'',chinese:''}}
-function chipHtml(c){const d=defFor(c);return `<span class="chip" data-thai="${esc(c)}" onclick="event.stopPropagation();speak('${js(c)}',this)"><b>${esc(c)}</b>${d.english?`<span class="chip-en">${esc(d.english)}</span>`:''}</span>`}
+function defFor(chip){
+  const direct=SONG.vocabDefs[chip];
+  if(direct){
+    if(Array.isArray(direct)) return {thai:chip,roman:direct[0],english:direct[1],chinese:direct[2]};
+    return direct;
+  }
+  const pat=SONG.patterns.find(p=>p.id===chip || p.thai===chip);
+  if(pat)return pat;
+  const vocab=SONG.vocab.find(v=>v.id===chip || v.thai===chip);
+  if(vocab)return vocab;
+  return {thai:chip,english:'',chinese:''};
+}
+function chipHtml(c){const d=defFor(c);const thai=d.thai||c;return `<span class="chip" data-thai="${esc(thai)}" onclick="event.stopPropagation();speak('${js(thai)}',this)"><b>${esc(thai)}</b>${d.english?`<span class="chip-en">${esc(d.english)}</span>`:''}</span>`}
 function lineHtml(l,i,secId,secTitle){const id=`line-${secId}-${i}`;return `<div class="line" data-search="${esc([l.thai,l.roman,l.english,l.chinese,l.note,...(l.chips||[])].join(' ').toLowerCase())}" data-id="${id}" data-thai="${esc(l.thai)}" onclick="speak('${js(l.thai)}',this)"><div class="th">${esc(l.thai)}</div><div class="rom">${esc(l.roman)}</div><div class="en">${esc(l.english)}</div><div class="zh">${esc(l.chinese)}</div><div class="vocab">${(l.chips||[]).map(chipHtml).join('')}</div><div class="note">${esc(l.note)}</div><div class="line-actions"><button class="round fav" onclick="event.stopPropagation();toggleFav('line','${js(l.thai)}')" data-type="line" data-thai="${esc(l.thai)}" title="收藏">♥</button><button class="round learned" onclick="event.stopPropagation();toggleLearned('line','${js(l.thai)}')" data-type="line" data-thai="${esc(l.thai)}" title="已學會">✓</button></div></div>`}
 function renderLyrics(){document.getElementById('lyricsList').innerHTML=SONG.sections.map((s,idx)=>`<section class="song-section glass ${idx<2?'open':''}" id="${s.id}"><button class="sec-head" onclick="this.parentElement.classList.toggle('open')"><span><span class="sec-title">${esc(s.title)}</span><span class="sec-sub">${esc(s.sub)}</span></span><span class="arrow">⌄</span></button><div class="sec-body">${s.lines.map((l,i)=>lineHtml(l,i,s.id,s.title)).join('')}</div></section>`).join('')}
 function studyCard(x,type,isReview=false){
@@ -2473,7 +2401,7 @@ function importState(event){
       if(data.schema && data.schema!=='thai-song-lab-song-state')throw new Error('Invalid schema');
       if(incomingSlug && incomingSlug!==SONG.slug)throw new Error('Different song');
       if(!incomingSlug){
-        const proceed=confirm('這份 JSON 沒有歌曲資訊，無法確認是否屬於《ฉันอ้วน》。仍要匯入嗎？');
+        const proceed=confirm('這份 JSON 沒有歌曲資訊，無法確認是否屬於《เดินมาส่ง (BYE)》。仍要匯入嗎？');
         if(!proceed){
           event.target.value='';
           return;
@@ -2516,13 +2444,24 @@ function filterStudy(id,q){q=(q||'').toLowerCase();document.querySelectorAll(`#$
 function showPage(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('.top .btn').forEach(b=>b.classList.remove('active-tab'));if(btn)btn.classList.add('active-tab');if(id==='favorites')renderFavorites(document.getElementById('favSearch').value||'');if(id==='review')renderReview('all');window.scrollTo({top:0,behavior:'smooth'})}
 function setMode(mode,btn){const app=document.getElementById('app');app.className='wrap';if(mode!=='normal')app.classList.add(mode);state.mode=mode;document.querySelectorAll('.toolbar .btn').forEach(b=>b.classList.remove('mode-on'));if(btn)btn.classList.add('mode-on');save()}
 function expandAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.add('open'))}function collapseAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.remove('open'))}
+function prepareThaiTTS(text){
+  return String(text || '')
+    .replace(/\+/g, ' ')
+    .replace(/\b(?:V|N|verb|noun|person|place|clause|state)\b/gi, ' ')
+    .replace(/動詞|名詞|子句|狀態/g, ' ')
+    .replace(/人/g, 'คน')
+    .replace(/地方/g, 'ที่')
+    .replace(/／/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 let queueToken=0;function speak(text,btn){
   if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');
   queueToken++;
   speechSynthesis.cancel();
   document.querySelectorAll('.playing').forEach(el=>el.classList.remove('playing'));
   const card = btn && btn.classList ? (btn.classList.contains('line')||btn.classList.contains('study-card') ? btn : btn.closest('.line,.study-card')) : null;
-  const u=new SpeechSynthesisUtterance(text);
+  const u=new SpeechSynthesisUtterance(prepareThaiTTS(text));
   u.lang='th-TH';
   u.rate=.86;
   if(card)card.classList.add('playing');
@@ -2532,7 +2471,7 @@ let queueToken=0;function speak(text,btn){
   u.onerror=clear;
   speechSynthesis.speak(u);
 }
-function speakQueue(lines){if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');queueToken++;const token=queueToken;speechSynthesis.cancel();let i=0;function next(){if(token!==queueToken||i>=lines.length)return;const u=new SpeechSynthesisUtterance(lines[i++]);u.lang='th-TH';u.rate=.84;u.onend=()=>setTimeout(next,420);speechSynthesis.speak(u)}next()}
+function speakQueue(lines){if(!('speechSynthesis' in window))return alert('此瀏覽器不支援 TTS');queueToken++;const token=queueToken;speechSynthesis.cancel();let i=0;function next(){if(token!==queueToken||i>=lines.length)return;const u=new SpeechSynthesisUtterance(prepareThaiTTS(lines[i++]));u.lang='th-TH';u.rate=.84;u.onend=()=>setTimeout(next,420);speechSynthesis.speak(u)}next()}
 function playVisibleLyrics(){
   const lines=[...document.querySelectorAll('#lyricsList .song-section.open .line:not(.hidden)')]
     .map(el=>el.dataset.thai)

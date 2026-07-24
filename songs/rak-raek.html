@@ -859,6 +859,11 @@ body{
     linear-gradient(145deg,#14121c 0%,#101018 100%) !important;
 }
 
+/* Chip click feedback */
+.chip.active{
+  transform:translateY(-1px) scale(1.025);
+  box-shadow:0 0 0 2px rgba(233,168,76,.16);
+}
 </style>
 </head>
 <body>
@@ -2466,6 +2471,30 @@ function playVisibleLyrics(){
 function speakAll(){showPage('lyrics');expandAll();const lines=SONG.sections.flatMap(s=>s.lines.map(l=>l.thai).filter(t=>!t.startsWith('Every night')&&!t.startsWith('Tryna')&&!t.startsWith('And I')));speakQueue(lines)}
 function init(){document.getElementById('artist').textContent=SONG.artist;document.getElementById('title').textContent=SONG.title;document.getElementById('subtitle').textContent=`${SONG.romanTitle} · ${SONG.englishTitle}`;load();renderLyrics();renderStudy();setMode(state.mode||'normal');updateAllStatus()}
 init();
+</script>
+<script>
+/* Chip click feedback: visual-only enhancement; existing chip speech behavior is unchanged. */
+(function(){
+  let chipFeedbackTimer = null;
+
+  document.addEventListener("click", function(event){
+    const chip = event.target.closest(".chip");
+    if (!chip) return;
+
+    document.querySelectorAll(".chip.active").forEach(function(item){
+      if (item !== chip) item.classList.remove("active");
+    });
+
+    chip.classList.remove("active");
+    void chip.offsetWidth;
+    chip.classList.add("active");
+
+    window.clearTimeout(chipFeedbackTimer);
+    chipFeedbackTimer = window.setTimeout(function(){
+      chip.classList.remove("active");
+    }, 1100);
+  });
+})();
 </script>
 </body>
 </html>
