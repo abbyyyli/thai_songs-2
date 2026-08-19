@@ -1546,6 +1546,9 @@ function setMode(mode,btn){const app=document.getElementById('app');app.classNam
 function expandAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.add('open'))}function collapseAll(){document.querySelectorAll('.song-section').forEach(s=>s.classList.remove('open'))}
 function prepareThaiTTS(text){
   return String(text || '')
+    .replace(/เอาจริง\s*ๆ/g, 'เอาจริงจริง')
+    .replace(/อยู่ดี\s*ๆ/g, 'อยู่ดีดี')
+    .replace(/เฉย\s*ๆ/g, 'เฉยเฉย')
     .replace(/[+＋]/g, ' ')
     .replace(/\b(?:V|N|Adj|Adv|verb|noun|adjective|adverb|person|place|clause|state)\b/gi, ' ')
     .replace(/動詞|名詞|形容詞|副詞|子句|狀態/g, ' ')
